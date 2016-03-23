@@ -1,0 +1,4 @@
+<map id="de.wirecard.paymentsdk.models.Periodic" name="de.wirecard.paymentsdk.models.Periodic">
+<area shape="rect" id="node3" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_periodic_type.html" title="Indicates how and why a transaction occurs more than once. " alt="" coords="5,55,228,93"/>
+<area shape="rect" id="node4" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_sequence_type.html" title="Indicates the sequence of the recurring transaction. " alt="" coords="5,117,228,156"/>
+</map>

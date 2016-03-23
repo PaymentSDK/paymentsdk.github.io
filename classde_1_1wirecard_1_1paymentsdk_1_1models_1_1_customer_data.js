@@ -1,0 +1,26 @@
+var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data =
+[
+    [ "CustomerData", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a6548e130a1cccdc4364f860421f5cc90", null ],
+    [ "CustomerData", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a35eaf36fa4780c5cf3b01265a3c794b5", null ],
+    [ "getAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a01fa430fe388bab054de430bbb9a39c3", null ],
+    [ "getDateOfBirth", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a398f10f2ffaf4d0e9fc844e09eac7f0f", null ],
+    [ "getEmail", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#adb9addd529db4872d637e5b0da0a9162", null ],
+    [ "getFirstName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a93f19491da9ff3d26cf203d019dc062c", null ],
+    [ "getGender", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a575a426a235de81388c3ad3c98392058", null ],
+    [ "getLastName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a2a7ea952acf5c4280da2baa4a090f318", null ],
+    [ "getPhone", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a4dcd273519217a9334ef8660a1df05b5", null ],
+    [ "setAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a6e5a91d6f1d32d767343991401d18496", null ],
+    [ "setDateOfBirth", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a85da413e90898e74091c42e6b05c3478", null ],
+    [ "setEmail", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a5cd5cb56cac48a925af05d217ab44333", null ],
+    [ "setFirstName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a7b423b1badb5b52433f00f3fe9e42964", null ],
+    [ "setGender", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#ae62aa889d1cd66959930299e32b2b4f8", null ],
+    [ "setLastName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a58bd731e839441437bea33866f165b3d", null ],
+    [ "setPhone", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a3748dfb3ed86945f30fd1e6289b847f2", null ],
+    [ "address", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#aa1689b0d1a72253d58ee457ecb7b6d51", null ],
+    [ "dateOfBirth", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a72728497d77106c92fc7b84a298018cd", null ],
+    [ "email", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a876efa02186481ac48a547082e4fa248", null ],
+    [ "firstName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#ad72e63b58ca4f9da460a16ce8e1e7a06", null ],
+    [ "gender", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a567942a2f3b74933d5104cde9bc61f74", null ],
+    [ "lastName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a47c802dd4f1c1c40feea1c88df3b2bf1", null ],
+    [ "phone", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a447510d51f5b30e86f8afbb289cb2f84", null ]
+];

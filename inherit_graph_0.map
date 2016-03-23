@@ -1,0 +1,24 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="260,228,338,253"/>
+<area shape="rect" id="node3" href="$interface_w_d_address.html" title="Address data. " alt="" coords="405,5,497,31"/>
+<area shape="rect" id="node4" href="$interface_w_d_card_token.html" title="Tokenized card data. " alt="" coords="397,55,505,80"/>
+<area shape="rect" id="node5" href="$interface_w_d_client.html" title="Payment processing client. " alt="" coords="412,104,490,129"/>
+<area shape="rect" id="node6" href="$interface_w_d_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="386,153,516,179"/>
+<area shape="rect" id="node7" href="$interface_w_d_notification.html" title="Transaction notification. " alt="" coords="396,203,506,228"/>
+<area shape="rect" id="node8" href="$interface_w_d_order.html" title="Order data. " alt="" coords="412,252,490,277"/>
+<area shape="rect" id="node9" href="$interface_w_d_order_item.html" title="Order item data. " alt="" coords="399,301,503,327"/>
+<area shape="rect" id="node10" href="$interface_w_d_payment.html" title="Base class of all Payment Methods. " alt="" coords="403,351,499,376"/>
+<area shape="rect" id="node17" href="$interface_w_d_periodic.html" title="Describes how the recurring transaction is related to previous/following transaction(s) ..." alt="" coords="405,400,497,425"/>
+<area shape="rect" id="node18" href="$interface_w_d_style.html" title="Base class of all payment methods styles. " alt="" coords="414,449,487,475"/>
+<area shape="rect" id="node11" href="$interface_w_d_apple_pay_payment.html" title="Defines ApplePay payment method. " alt="" coords="565,227,718,252"/>
+<area shape="rect" id="node13" href="$interface_w_d_card_payment.html" title="Defines Card payment method. " alt="" coords="579,276,704,301"/>
+<area shape="rect" id="node14" href="$interface_w_d_payment_response.html" title="Payment response from ElasticEngine. " alt="" coords="564,325,720,351"/>
+<area shape="rect" id="node15" href="$interface_w_d_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="573,375,711,400"/>
+<area shape="rect" id="node16" href="$interface_w_d_s_e_p_a_payment.html" title="Defines SEPA payment method. " alt="" coords="576,424,707,449"/>
+<area shape="rect" id="node12" href="$interface_w_d_apple_pay_managed_payment.html" title="Defines ApplePay payment method. " alt="" coords="768,227,977,252"/>
+<area shape="rect" id="node19" href="$interface_w_d_base_style.html" title="Base class for formulars. " alt="" coords="590,473,694,499"/>
+<area shape="rect" id="node20" href="$interface_w_d_native_style.html" title="Base class for native UI formulars. " alt="" coords="817,473,928,499"/>
+<area shape="rect" id="node21" href="$interface_w_d_card_style.html" title="Style class for WDCardPayment method. " alt="" coords="1028,448,1130,473"/>
+<area shape="rect" id="node22" href="$interface_w_d_s_e_p_a_style.html" title="Style class for WDSEPAPayment method. " alt="" coords="1025,497,1132,523"/>
+<area shape="rect" id="node23" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="62,252,156,277"/>
+</map>
