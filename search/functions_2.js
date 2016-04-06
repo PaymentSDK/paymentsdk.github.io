@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cardtoken',['CardToken',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#acae3055746948eb57787e6692c65ad8c',1,'de.wirecard.paymentsdk.models.CardToken.CardToken()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#a468e21f31dcb8cfb3ddfa3e2057cd072',1,'de.wirecard.paymentsdk.models.CardToken.CardToken(String tokenId, String maskedAccountNumber)']]],
+  ['checkpayment',['checkPayment',['../interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#a0621a424fde34dc747089f0ae11610f1',1,'de::wirecard::paymentsdk::WirecardClient']]],
   ['class',['class',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html#//apple_ref/occ/clm/NSObject/class',1,'NSObject']]],
   ['classforcoder',['classForCoder',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html#//apple_ref/occ/instm/NSObject/classForCoder',1,'NSObject']]],
   ['containspoint_3a',['containsPoint:',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instm/CALayer/containsPoint:',1,'CALayer']]],

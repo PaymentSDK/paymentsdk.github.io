@@ -1,7 +1,6 @@
 var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment =
 [
     [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a61c40751cae0cf860e76507614375d4a", null ],
-    [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad49f3762fca248007493009e006397aa", null ],
     [ "getAccountHolder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a2f63feac8f92d4e5dc97bfb621e91c55", null ],
     [ "getAmount", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#acc79aa039ed2048de408aeb4e2cddde1", null ],
     [ "getCurrency", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a6304998715518470411455aa77e08ca1", null ],

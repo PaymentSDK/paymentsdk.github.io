@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"p_2_2_signature.html#sec_secret_key":[0,1,1,1],
 "p_2_2_signature.html#sec_signature_generation":[0,1,1,3],
 "p_2_integration.html":[0,1],
 "p_3_1_system_requirements.html":[0,2,0],

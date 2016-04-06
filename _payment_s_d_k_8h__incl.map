@@ -1,4 +1,4 @@
-<map id="output/PaymentSDK.framework/Headers/PaymentSDK.h" name="output/PaymentSDK.framework/Headers/PaymentSDK.h">
+<map id="output/Release/PaymentSDK.framework/Headers/PaymentSDK.h" name="output/Release/PaymentSDK.framework/Headers/PaymentSDK.h">
 <area shape="rect" id="node3" href="$_n_s_error_09_w_d_utils_8h.html" title="NSError+WDUtils.h" alt="" coords="1594,459,1730,484"/>
 <area shape="rect" id="node5" href="$_w_d_client_8h.html" title="WDClient.h" alt="" coords="496,92,585,117"/>
 <area shape="rect" id="node22" href="$_w_d_apple_pay_managed_payment_8h.html" title="WDApplePayManagedPayment.h" alt="" coords="252,92,472,117"/>

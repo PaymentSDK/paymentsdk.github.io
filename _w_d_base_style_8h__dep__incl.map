@@ -1,6 +1,6 @@
-<map id="output/PaymentSDK.framework/Headers/WDBaseStyle.h" name="output/PaymentSDK.framework/Headers/WDBaseStyle.h">
-<area shape="rect" id="node2" href="$_w_d_native_style_8h.html" title="output/PaymentSDK.framework\l/Headers/WDNativeStyle.h" alt="" coords="121,92,329,131"/>
-<area shape="rect" id="node3" href="$_w_d_card_style_8h.html" title="output/PaymentSDK.framework\l/Headers/WDCardStyle.h" alt="" coords="5,179,213,217"/>
-<area shape="rect" id="node5" href="$_w_d_s_e_p_a_style_8h.html" title="output/PaymentSDK.framework\l/Headers/WDSEPAStyle.h" alt="" coords="237,179,445,217"/>
-<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="121,265,329,304"/>
+<map id="output/Release/PaymentSDK.framework/Headers/WDBaseStyle.h" name="output/Release/PaymentSDK.framework/Headers/WDBaseStyle.h">
+<area shape="rect" id="node2" href="$_w_d_native_style_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDNativeStyle.h" alt="" coords="148,92,409,131"/>
+<area shape="rect" id="node3" href="$_w_d_card_style_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDCardStyle.h" alt="" coords="5,179,266,217"/>
+<area shape="rect" id="node5" href="$_w_d_s_e_p_a_style_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDSEPAStyle.h" alt="" coords="291,179,551,217"/>
+<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="148,265,409,304"/>
 </map>

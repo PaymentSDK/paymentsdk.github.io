@@ -2,6 +2,7 @@ var searchData=
 [
   ['mobile_20sdks',['Mobile SDKs',['../index.html',1,'']]],
   ['mainviewstyled',['mainViewStyled',['../interface_w_d_base_style.html#aaa02ac0f2b12e2c9d579548c76fe1f32',1,'WDBaseStyle']]],
+  ['makepayment',['makePayment',['../interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#ada786c731e647a0462d1eb0897f295cc',1,'de::wirecard::paymentsdk::WirecardClient']]],
   ['makepayment_3awithcompletion_3a',['makePayment:withCompletion:',['../interface_w_d_client.html#aea064006b61194a2d716f34f929502fd',1,'WDClient']]],
   ['makepayment_3awithstyle_3awithcompletion_3a',['makePayment:withStyle:withCompletion:',['../interface_w_d_client.html#aeaa695b5c52a0d3a47fb36dd89e7e7bc',1,'WDClient']]],
   ['mandateid',['mandateId',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#ab8fa1becd30e4b2a38b406c871dafd0e',1,'de.wirecard.paymentsdk.models.WirecardSepaPayment.mandateId()'],['../interface_w_d_s_e_p_a_payment.html#aa49e241763ffd94d924571811c23c3be',1,'WDSEPAPayment::mandateID()']]],

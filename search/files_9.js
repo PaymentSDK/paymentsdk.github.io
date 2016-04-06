@@ -30,6 +30,7 @@ var searchData=
   ['wdtransactionstate_2eh',['WDTransactionState.h',['../_w_d_transaction_state_8h.html',1,'']]],
   ['wdtransactiontype_2eh',['WDTransactionType.h',['../_w_d_transaction_type_8h.html',1,'']]],
   ['wirecardcardpayment_2ejava',['WirecardCardPayment.java',['../_wirecard_card_payment_8java.html',1,'']]],
+  ['wirecardclient_2ejava',['WirecardClient.java',['../_wirecard_client_8java.html',1,'']]],
   ['wirecardclientbuilder_2ejava',['WirecardClientBuilder.java',['../_wirecard_client_builder_8java.html',1,'']]],
   ['wirecardclientimpl_2ejava',['WirecardClientImpl.java',['../_wirecard_client_impl_8java.html',1,'']]],
   ['wirecardenvironment_2ejava',['WirecardEnvironment.java',['../_wirecard_environment_8java.html',1,'']]],
@@ -39,7 +40,7 @@ var searchData=
   ['wirecardpaypalpayment_2ejava',['WirecardPayPalPayment.java',['../_wirecard_pay_pal_payment_8java.html',1,'']]],
   ['wirecardperiodictype_2ejava',['WirecardPeriodicType.java',['../_wirecard_periodic_type_8java.html',1,'']]],
   ['wirecardresponselistener_2ejava',['WirecardResponseListener.java',['../_wirecard_response_listener_8java.html',1,'']]],
-  ['wirecardsepapayment_2ejava',['WirecardSepaPayment.java',['../_wirecard_sepa_payment_8java.html',1,'']]],
+  ['wirecardsepapayment_2ejava',['WireCardSepaPayment.java',['../_wire_card_sepa_payment_8java.html',1,'']]],
   ['wirecardsequencetype_2ejava',['WirecardSequenceType.java',['../_wirecard_sequence_type_8java.html',1,'']]],
   ['wirecardtransactionstate_2ejava',['WirecardTransactionState.java',['../_wirecard_transaction_state_8java.html',1,'']]],
   ['wirecardtransactiontype_2ejava',['WirecardTransactionType.java',['../_wirecard_transaction_type_8java.html',1,'']]]

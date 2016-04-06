@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94aa77b3e2b52ef93de694cd397bdba30b7":[1,1,22,74],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94aae191dcdcfeda764d55f2ad381356944":[1,1,22,120],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94aae38fdd497581728ad4a761e002f59b1":[1,1,22,208],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94aae9dabd0c55550488cbdba2fbf6be0d6":[1,1,22,61],
 "group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94aaedfd905cab8b4b97f22f6d1db2da7cf":[1,1,22,228],
 "group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94ab0b2b68c5a1fab6c727578dae092ace3":[1,1,22,38],
 "group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94ab33db60eea7ac3714614dfa79eeb9fd3":[1,1,22,116],
@@ -229,9 +225,12 @@ var NAVTREEINDEX3 =
 "interface_w_d_s_e_p_a_style.html#ac01b9f9fa0beb9f7151950959dffcec5":[1,1,19,2],
 "interface_w_d_style.html":[1,1,20],
 "interface_w_d_style.html#aad00269c317072c3d9faac2d914c523f":[1,1,20,0],
-"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html":[1,0,17],
-"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a81462269f939004ea35480263be18311":[1,0,17,1],
-"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a9562569a021c9ea79fff791c0c714059":[1,0,17,0],
+"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html":[1,0,12],
+"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#a0621a424fde34dc747089f0ae11610f1":[1,0,12,0],
+"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#ada786c731e647a0462d1eb0897f295cc":[1,0,12,1],
+"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html":[1,0,18],
+"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a81462269f939004ea35480263be18311":[1,0,18,1],
+"interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a9562569a021c9ea79fff791c0c714059":[1,0,18,0],
 "modules.html":[1],
 "namespacede.html":[2,0,0],
 "namespacede_1_1wirecard.html":[2,0,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "p_2_1_credentials.html":[0,1,0],
 "p_2_2_signature.html":[0,1,1],
 "p_2_2_signature.html#sec_authentication":[0,1,1,0],
-"p_2_2_signature.html#sec_request_signature":[0,1,1,2]
+"p_2_2_signature.html#sec_request_signature":[0,1,1,2],
+"p_2_2_signature.html#sec_secret_key":[0,1,1,1]
 };

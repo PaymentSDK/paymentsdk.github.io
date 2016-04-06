@@ -155,7 +155,6 @@ var group__android__sdk =
     ] ],
     [ "WirecardCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html", [
       [ "WirecardCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#abe6173d0f3021e7226ee8eeff997733c", null ],
-      [ "WirecardCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#adfcd625fe1701e5008251c27b60c1e4a", null ],
       [ "getCardToken", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#a67879c9bf44f30c711f22b41841796e6", null ],
       [ "isAttempt3d", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#a4fe724c8edbef06a84b329afa886fba8", null ],
       [ "isRecurring", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#a8e6627ec815565b1cc0d1673cba3e98d", null ],
@@ -171,7 +170,6 @@ var group__android__sdk =
     ] ],
     [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html", [
       [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a61c40751cae0cf860e76507614375d4a", null ],
-      [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad49f3762fca248007493009e006397aa", null ],
       [ "getAccountHolder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a2f63feac8f92d4e5dc97bfb621e91c55", null ],
       [ "getAmount", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#acc79aa039ed2048de408aeb4e2cddde1", null ],
       [ "getCurrency", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a6304998715518470411455aa77e08ca1", null ],
@@ -217,14 +215,12 @@ var group__android__sdk =
     ] ],
     [ "WirecardPayPalPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html", [
       [ "WirecardPayPalPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html#a62b3c86b156c60870383b2d9617416ce", null ],
-      [ "WirecardPayPalPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html#aa59a475f50140f8f8eda88b7b2b77d66", null ],
       [ "getPeriodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html#abffbd0e2cd132fad5945234db7d9012a", null ],
       [ "setPeriodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html#af671ea3bb49b7ebfc97f0b64f8a7241a", null ],
       [ "periodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html#ae8800df17757962f9bde6ec3d0a1a391", null ]
     ] ],
     [ "WirecardSepaPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html", [
       [ "WirecardSepaPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a3112593571c2207492cdf87ae6e33c89", null ],
-      [ "WirecardSepaPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a1983b9bd3f32a9452173be40584fe727", null ],
       [ "getCreditorId", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#ae28af53d2a3ed1b0b43034b5397a021e", null ],
       [ "getDueDate", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a0759dfa6ca5e635ac96bcdf816de2349", null ],
       [ "getMandateId", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a78ee6ad09e2137cd242825a8a024a7ce", null ],
@@ -243,6 +239,10 @@ var group__android__sdk =
       [ "mandateSignedDate", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a656c3a832de18dffb1fbcc9be23d520c", null ],
       [ "merchantName", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#ac8ef81103ca432b3fde6e650db998219", null ],
       [ "periodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#abdb6bab78bd0d4dbcdb808b3e9de3d16", null ]
+    ] ],
+    [ "WirecardClient", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html", [
+      [ "checkPayment", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#a0621a424fde34dc747089f0ae11610f1", null ],
+      [ "makePayment", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#ada786c731e647a0462d1eb0897f295cc", null ]
     ] ],
     [ "WirecardClientBuilder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html", [
       [ "WirecardClientBuilder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html#afc912d026188bc10af110ae6ba6519e9", null ],

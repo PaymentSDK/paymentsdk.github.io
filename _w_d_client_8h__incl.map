@@ -1,4 +1,4 @@
-<map id="output/PaymentSDK.framework/Headers/WDClient.h" name="output/PaymentSDK.framework/Headers/WDClient.h">
+<map id="output/Release/PaymentSDK.framework/Headers/WDClient.h" name="output/Release/PaymentSDK.framework/Headers/WDClient.h">
 <area shape="rect" id="node3" href="$_w_d_environment_8h.html" title="WDEnvironment.h" alt="" coords="427,92,556,117"/>
 <area shape="rect" id="node5" href="$_w_d_payment_response_8h.html" title="WDPaymentResponse.h" alt="" coords="828,92,995,117"/>
 <area shape="rect" id="node6" href="$_w_d_payment_8h.html" title="WDPayment.h" alt="" coords="634,165,741,191"/>

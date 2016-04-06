@@ -1,4 +1,4 @@
-<map id="output/PaymentSDK.framework/Headers/WDPayment.h" name="output/PaymentSDK.framework/Headers/WDPayment.h">
+<map id="output/Release/PaymentSDK.framework/Headers/WDPayment.h" name="output/Release/PaymentSDK.framework/Headers/WDPayment.h">
 <area shape="rect" id="node3" href="$_w_d_currency_8h.html" title="WDCurrency.h" alt="" coords="21,239,129,264"/>
 <area shape="rect" id="node4" href="$_w_d_customer_data_8h.html" title="WDCustomerData.h" alt="" coords="286,92,426,117"/>
 <area shape="rect" id="node9" href="$_w_d_locale_8h.html" title="WDLocale.h" alt="" coords="784,165,878,191"/>

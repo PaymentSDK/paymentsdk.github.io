@@ -21,6 +21,7 @@ var searchData=
   ['wdsepastyle',['WDSEPAStyle',['../interface_w_d_s_e_p_a_style.html',1,'']]],
   ['wdstyle',['WDStyle',['../interface_w_d_style.html',1,'']]],
   ['wirecardcardpayment',['WirecardCardPayment',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html',1,'de::wirecard::paymentsdk::models']]],
+  ['wirecardclient',['WirecardClient',['../interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html',1,'de::wirecard::paymentsdk']]],
   ['wirecardclientbuilder',['WirecardClientBuilder',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html',1,'de::wirecard::paymentsdk']]],
   ['wirecardenvironment',['WirecardEnvironment',['../enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_environment.html',1,'de::wirecard::paymentsdk']]],
   ['wirecardexception',['WirecardException',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html',1,'de::wirecard::paymentsdk']]],

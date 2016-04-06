@@ -38,6 +38,7 @@ var hierarchy =
       [ "de.wirecard.paymentsdk.WirecardException", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html", null ]
     ] ],
     [ "de.wirecard.paymentsdk.RootChecker.SHELL_CMD", "enumde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1_s_h_e_l_l___c_m_d.html", null ],
+    [ "de.wirecard.paymentsdk.WirecardClient", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html", null ],
     [ "de.wirecard.paymentsdk.WirecardClientBuilder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html", null ],
     [ "de.wirecard.paymentsdk.WirecardEnvironment", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_environment.html", null ],
     [ "de.wirecard.paymentsdk.WirecardPaymentType", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_type.html", null ],
