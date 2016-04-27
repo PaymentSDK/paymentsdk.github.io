@@ -4,6 +4,7 @@ var searchData=
   ['paybuttonbackgroundresourceid',['payButtonBackgroundResourceId',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a8405c868d63b98541c830bcb77ce659f',1,'de::wirecard::paymentsdk::models::PaymentPageStyle']]],
   ['paybuttontext',['payButtonText',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a9194720aeffc46f0485eb5737b9e71ff',1,'de::wirecard::paymentsdk::models::PaymentPageStyle']]],
   ['paybuttontextcolor',['payButtonTextColor',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aab3efc6eff3b587b7751a1c4f7152719',1,'de::wirecard::paymentsdk::models::PaymentPageStyle']]],
+  ['paymentsdkversion',['PaymentSDKVersion',['../_payment_s_d_k_version_8h.html#a0901a245a87056fe8e3e2dcaa8e0cf77',1,'PaymentSDKVersion.h']]],
   ['paymentsdkversionnumber',['PaymentSDKVersionNumber',['../group__ios__sdk.html#gacf15caa582c8ce703875596feac50e65',1,'PaymentSDK.h']]],
   ['paymentsdkversionstring',['PaymentSDKVersionString',['../group__ios__sdk.html#ga7392d24f71d92884d9927b927b4efc9c',1,'PaymentSDK.h']]],
   ['paypal',['PAYPAL',['../enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_type.html#af47c788756e7c805e57483a2244a4539',1,'de::wirecard::paymentsdk::WirecardPaymentType']]],

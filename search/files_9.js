@@ -4,6 +4,8 @@ var searchData=
   ['wdapplepaymanagedpayment_2eh',['WDApplePayManagedPayment.h',['../_w_d_apple_pay_managed_payment_8h.html',1,'']]],
   ['wdapplepaypayment_2eh',['WDApplePayPayment.h',['../_w_d_apple_pay_payment_8h.html',1,'']]],
   ['wdbasestyle_2eh',['WDBaseStyle.h',['../_w_d_base_style_8h.html',1,'']]],
+  ['wdcardbrand_2eh',['WDCardBrand.h',['../_w_d_card_brand_8h.html',1,'']]],
+  ['wdcardfield_2eh',['WDCardField.h',['../_w_d_card_field_8h.html',1,'']]],
   ['wdcardpayment_2eh',['WDCardPayment.h',['../_w_d_card_payment_8h.html',1,'']]],
   ['wdcardstyle_2eh',['WDCardStyle.h',['../_w_d_card_style_8h.html',1,'']]],
   ['wdcardtoken_2eh',['WDCardToken.h',['../_w_d_card_token_8h.html',1,'']]],
@@ -40,7 +42,7 @@ var searchData=
   ['wirecardpaypalpayment_2ejava',['WirecardPayPalPayment.java',['../_wirecard_pay_pal_payment_8java.html',1,'']]],
   ['wirecardperiodictype_2ejava',['WirecardPeriodicType.java',['../_wirecard_periodic_type_8java.html',1,'']]],
   ['wirecardresponselistener_2ejava',['WirecardResponseListener.java',['../_wirecard_response_listener_8java.html',1,'']]],
-  ['wirecardsepapayment_2ejava',['WireCardSepaPayment.java',['../_wire_card_sepa_payment_8java.html',1,'']]],
+  ['wirecardsepapayment_2ejava',['WirecardSepaPayment.java',['../_wirecard_sepa_payment_8java.html',1,'']]],
   ['wirecardsequencetype_2ejava',['WirecardSequenceType.java',['../_wirecard_sequence_type_8java.html',1,'']]],
   ['wirecardtransactionstate_2ejava',['WirecardTransactionState.java',['../_wirecard_transaction_state_8java.html',1,'']]],
   ['wirecardtransactiontype_2ejava',['WirecardTransactionType.java',['../_wirecard_transaction_type_8java.html',1,'']]]

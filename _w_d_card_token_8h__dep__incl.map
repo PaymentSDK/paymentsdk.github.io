@@ -1,6 +1,6 @@
-<map id="output/Release/PaymentSDK.framework/Headers/WDCardToken.h" name="output/Release/PaymentSDK.framework/Headers/WDCardToken.h">
-<area shape="rect" id="node2" href="$_w_d_payment_response_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDPaymentResponse.h" alt="" coords="35,92,295,131"/>
-<area shape="rect" id="node5" href="$_w_d_card_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="291,179,551,217"/>
-<area shape="rect" id="node3" href="$_w_d_client_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDClient.h" alt="" coords="5,179,266,217"/>
-<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="148,265,409,304"/>
+<map id="output/Debug/PaymentSDK.framework/Headers/WDCardToken.h" name="output/Debug/PaymentSDK.framework/Headers/WDCardToken.h">
+<area shape="rect" id="node2" href="$_w_d_payment_response_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDPaymentResponse.h" alt="" coords="33,92,284,131"/>
+<area shape="rect" id="node5" href="$_w_d_card_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="280,179,531,217"/>
+<area shape="rect" id="node3" href="$_w_d_client_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDClient.h" alt="" coords="5,179,256,217"/>
+<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="143,265,394,304"/>
 </map>

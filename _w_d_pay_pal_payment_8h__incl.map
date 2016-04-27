@@ -1,4 +1,4 @@
-<map id="output/Release/PaymentSDK.framework/Headers/WDPayPalPayment.h" name="output/Release/PaymentSDK.framework/Headers/WDPayPalPayment.h">
+<map id="output/Debug/PaymentSDK.framework/Headers/WDPayPalPayment.h" name="output/Debug/PaymentSDK.framework/Headers/WDPayPalPayment.h">
 <area shape="rect" id="node2" href="$_w_d_payment_8h.html" title="WDPayment.h" alt="" coords="507,92,614,117"/>
 <area shape="rect" id="node16" href="$_w_d_periodic_8h.html" title="WDPeriodic.h" alt="" coords="1025,165,1128,191"/>
 <area shape="rect" id="node4" href="$_w_d_currency_8h.html" title="WDCurrency.h" alt="" coords="5,312,113,337"/>

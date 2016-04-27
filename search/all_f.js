@@ -13,6 +13,7 @@ var searchData=
   ['requiredbillingaddress',['requiredBillingAddress',['../interface_w_d_apple_pay_managed_payment.html#a193288216cbe6430505477f0890eb1a0',1,'WDApplePayManagedPayment']]],
   ['requiredshippingaddress',['requiredShippingAddress',['../interface_w_d_apple_pay_managed_payment.html#a66d97c5c6c9f8641a8f08e077b1c632c',1,'WDApplePayManagedPayment']]],
   ['requiresecuritycode',['requireSecurityCode',['../interface_w_d_card_payment.html#abc80ac39445fe82207291920c9a37475',1,'WDCardPayment::requireSecurityCode()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#a753ed533606f7e985ac470697b508b98',1,'de.wirecard.paymentsdk.models.WirecardCardPayment.requireSecurityCode()']]],
+  ['resignfirstresponder',['resignFirstResponder',['../interface_w_d_card_field.html#ac37a2525bcb74713f137274b82eaea4e',1,'WDCardField']]],
   ['rootchecker_2ejava',['RootChecker.java',['../_root_checker_8java.html',1,'']]],
   ['rootcheckerholder',['RootCheckerHolder',['../classde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1_root_checker_holder.html',1,'de::wirecard::paymentsdk::RootChecker']]]
 ];

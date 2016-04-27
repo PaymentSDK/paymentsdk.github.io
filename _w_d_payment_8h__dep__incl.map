@@ -1,10 +1,10 @@
-<map id="output/Release/PaymentSDK.framework/Headers/WDPayment.h" name="output/Release/PaymentSDK.framework/Headers/WDPayment.h">
-<area shape="rect" id="node2" href="$_w_d_payment_response_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDPaymentResponse.h" alt="" coords="35,92,295,131"/>
-<area shape="rect" id="node5" href="$_w_d_apple_pay_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDApplePayPayment.h" alt="" coords="349,92,610,131"/>
-<area shape="rect" id="node7" href="$_w_d_card_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="643,179,903,217"/>
-<area shape="rect" id="node8" href="$_w_d_pay_pal_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDPayPalPayment.h" alt="" coords="928,179,1189,217"/>
-<area shape="rect" id="node9" href="$_w_d_s_e_p_a_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDSEPAPayment.h" alt="" coords="1037,92,1298,131"/>
-<area shape="rect" id="node3" href="$_w_d_client_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDClient.h" alt="" coords="5,179,266,217"/>
-<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="496,265,757,304"/>
-<area shape="rect" id="node6" href="$_w_d_apple_pay_managed_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDApplePayManagedPayment.h" alt="" coords="341,179,619,217"/>
+<map id="output/Debug/PaymentSDK.framework/Headers/WDPayment.h" name="output/Debug/PaymentSDK.framework/Headers/WDPayment.h">
+<area shape="rect" id="node2" href="$_w_d_payment_response_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDPaymentResponse.h" alt="" coords="37,92,288,131"/>
+<area shape="rect" id="node5" href="$_w_d_apple_pay_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDApplePayPayment.h" alt="" coords="344,92,595,131"/>
+<area shape="rect" id="node7" href="$_w_d_card_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="632,179,883,217"/>
+<area shape="rect" id="node8" href="$_w_d_pay_pal_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDPayPalPayment.h" alt="" coords="907,179,1158,217"/>
+<area shape="rect" id="node9" href="$_w_d_s_e_p_a_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDSEPAPayment.h" alt="" coords="1013,92,1264,131"/>
+<area shape="rect" id="node3" href="$_w_d_client_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDClient.h" alt="" coords="5,179,256,217"/>
+<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="488,265,739,304"/>
+<area shape="rect" id="node6" href="$_w_d_apple_pay_managed_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDApplePayManagedPayment.h" alt="" coords="331,179,608,217"/>
 </map>

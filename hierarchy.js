@@ -31,13 +31,17 @@ var hierarchy =
       ] ]
     ] ],
     [ "<NSObject>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
-      [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", null ]
+      [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", null ],
+      [ "<WDCardFieldDelegate>", "protocol_w_d_card_field_delegate-p.html", null ]
     ] ],
     [ "de.wirecard.paymentsdk.RootChecker.RootCheckerHolder", "classde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1_root_checker_holder.html", null ],
     [ "RuntimeException", null, [
       [ "de.wirecard.paymentsdk.WirecardException", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html", null ]
     ] ],
     [ "de.wirecard.paymentsdk.RootChecker.SHELL_CMD", "enumde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1_s_h_e_l_l___c_m_d.html", null ],
+    [ "UIControl", null, [
+      [ "WDCardField", "interface_w_d_card_field.html", null ]
+    ] ],
     [ "de.wirecard.paymentsdk.WirecardClient", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html", null ],
     [ "de.wirecard.paymentsdk.WirecardClientBuilder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html", null ],
     [ "de.wirecard.paymentsdk.WirecardEnvironment", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_environment.html", null ],

@@ -1,7 +1,7 @@
-<map id="output/Release/PaymentSDK.framework/Headers/WDSequenceType.h" name="output/Release/PaymentSDK.framework/Headers/WDSequenceType.h">
-<area shape="rect" id="node2" href="$_w_d_periodic_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDPeriodic.h" alt="" coords="291,92,551,131"/>
-<area shape="rect" id="node3" href="$_w_d_card_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="5,179,266,217"/>
-<area shape="rect" id="node5" href="$_w_d_pay_pal_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDPayPalPayment.h" alt="" coords="291,179,551,217"/>
-<area shape="rect" id="node6" href="$_w_d_s_e_p_a_payment_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/WDSEPAPayment.h" alt="" coords="576,179,837,217"/>
-<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Release/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="291,265,551,304"/>
+<map id="output/Debug/PaymentSDK.framework/Headers/WDSequenceType.h" name="output/Debug/PaymentSDK.framework/Headers/WDSequenceType.h">
+<area shape="rect" id="node2" href="$_w_d_periodic_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDPeriodic.h" alt="" coords="280,92,531,131"/>
+<area shape="rect" id="node3" href="$_w_d_card_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="5,179,256,217"/>
+<area shape="rect" id="node5" href="$_w_d_pay_pal_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDPayPalPayment.h" alt="" coords="280,179,531,217"/>
+<area shape="rect" id="node6" href="$_w_d_s_e_p_a_payment_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDSEPAPayment.h" alt="" coords="555,179,806,217"/>
+<area shape="rect" id="node4" href="$_payment_s_d_k_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="280,265,531,304"/>
 </map>

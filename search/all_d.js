@@ -60,6 +60,8 @@ var searchData=
   ['paymentpagestyle',['PaymentPageStyle',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html',1,'de::wirecard::paymentsdk::models']]],
   ['paymentpagestyle_2ejava',['PaymentPageStyle.java',['../_payment_page_style_8java.html',1,'']]],
   ['paymentsdk_2eh',['PaymentSDK.h',['../_payment_s_d_k_8h.html',1,'']]],
+  ['paymentsdkversion',['PaymentSDKVersion',['../_payment_s_d_k_version_8h.html#a0901a245a87056fe8e3e2dcaa8e0cf77',1,'PaymentSDKVersion.h']]],
+  ['paymentsdkversion_2eh',['PaymentSDKVersion.h',['../_payment_s_d_k_version_8h.html',1,'']]],
   ['paymentsdkversionnumber',['PaymentSDKVersionNumber',['../group__ios__sdk.html#gacf15caa582c8ce703875596feac50e65',1,'PaymentSDK.h']]],
   ['paymentsdkversionstring',['PaymentSDKVersionString',['../group__ios__sdk.html#ga7392d24f71d92884d9927b927b4efc9c',1,'PaymentSDK.h']]],
   ['paypal',['PAYPAL',['../enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_type.html#af47c788756e7c805e57483a2244a4539',1,'de::wirecard::paymentsdk::WirecardPaymentType']]],

@@ -127,6 +127,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_base_style.html">WDBaseStyle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for formulars.  <a href="interface_w_d_base_style.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">protocol &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocol_w_d_card_field_delegate-p.html">&lt;WDCardFieldDelegate&gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This protocol allows a delegate to be notified when a payment text field's contents change.  <a href="protocol_w_d_card_field_delegate-p.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_field.html">WDCardField</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Field for collecting card data.  <a href="interface_w_d_card_field.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_payment.html">WDCardPayment</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines Card payment method.  <a href="interface_w_d_card_payment.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +201,55 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:gae52aa8d6f08d686e28f36a96100b90eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5dadb1a71db3102708c8f8c02e330400"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ios__sdk.html#ga5dadb1a71db3102708c8f8c02e330400">WDCardBrand</a> : NSUInteger { <br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400aa038c8b3bcdae41fcc37990376402299">WDCardBrandUndefined</a> = 0, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a6e77a6f67cb4d896899a6fa7b4ac09b8">WDCardBrandAmex</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400ac9955064bb74c15fa398771411863fbe">WDCardBrandAura</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400af432d2fc4486b88416af7ca96081f812">WDCardBrandCarteBancaire</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a2a63e4a734da065e05ae3e698c894793">WDCardBrandCarteBleue</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a1da0dba7b91f87e2872e87ecf0391ff7">WDCardBrandCUP</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a1952173117032b71abed49572dada305">WDCardBrandDiners</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a816750dc8160cd59e156389f775ef983">WDCardBrandDiscover</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a771cb776aff8393d97aa54817dfc3a34">WDCardBrandExpressCheckout</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a6f2e89e9bf019ed621e4ae1c44d5a885">WDCardBrandHipercard</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a110b42bc1a7f88b86fb4c120fbbc3748">WDCardBrandJCB</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a23d5241e591fecd7497a0bed05e0db48">WDCardBrandMaestro</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a17156ab9e43c69405fa85d9c83b7dc69">WDCardBrandMaestroUK</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a529265ffc92fd64411a57ed926eb8a53">WDCardBrandMasterCard</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400aee7849861c7b51da58d557130ab128fc">WDCardBrandSorocred</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a9bfbfde1b5f91e63db50253c7e718ad8">WDCardBrandUATP</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a366e494e567ba3678205fc03c50150e7">WDCardBrandVisa</a>, 
+<a class="el" href="group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a15dedd6a33b55b79d43162d7d1c4389d">WDCardBrandTotalNumber</a>
+<br />
+ }</td></tr>
+<tr class="separator:ga5dadb1a71db3102708c8f8c02e330400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3062ed27f5e9bd7f94e6531e310ac810"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ios__sdk.html#ga3062ed27f5e9bd7f94e6531e310ac810">WDCardFieldState</a> : NSUInteger { <br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a5c0496201bb066edfe826c35713bbb3a">WDCardFieldStateCardInitial</a> = 0, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a442b2473e0cee5c782030ddd8368a5ad">WDCardFieldStateCardValid</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810aa74ce66c792db773fb62aa8476697d04">WDCardFieldStateCardUnsupported</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a11c823b275b81f895df85c55a6d0e349">WDCardFieldStateNumberEditting</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a4b2a2abf33433cd093c87976c074cb54">WDCardFieldStateNumberIncomplete</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a20998b9b51c313ccc55cfba25bb48bfb">WDCardFieldStateNumberInvalid</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a21726c5b7db7a3287a3631c092478ad5">WDCardFieldStateNumberValid</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a6faa296757074412b76505bee178ff54">WDCardFieldStateMonthEditting</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ad20629e1a7af079ac6e00ac2f9fc95d2">WDCardFieldStateYearEditting</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ae239e7e24226f148d15af0a0ddb6e956">WDCardFieldStateExpirationDateIncomplete</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a5b52e21799dd0d2805f3bdffd0cc0c36">WDCardFieldStateExpirationDateInvalid</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810af0c08f1994747eeb6e38e6feabc81da2">WDCardFieldStateExpirationDateValid</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a7e570ab574424dc1ee59bbdb4a0cd042">WDCardFieldStateSecurityCodeEditting</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a7fd0b487a08d8c4946de67fd4da6dab4">WDCardFieldStateSecurityCodeIncomplete</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810add354db36670655fca2229078db1e8e5">WDCardFieldStateSecurityCodeInvalid</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ac7933f8b7ebf132ec521751d313d9b52">WDCardFieldStateSecurityCodeValid</a>
+<br />
+ }</td></tr>
+<tr class="separator:ga3062ed27f5e9bd7f94e6531e310ac810"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga91812197ae210caa36e11d4d18122d94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ios__sdk.html#ga91812197ae210caa36e11d4d18122d94">WDCountry</a> : NSUInteger { <br />
 &#160;&#160;<a class="el" href="group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94ae583db304a7ebf98d93fedb6154fbb52">WDCountryUndefined</a> = 0, 
 <a class="el" href="group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a18b152984ceee14c28f1c712ad396801">WDCountryAD</a>, 
@@ -941,6 +996,119 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga5dadb1a71db3102708c8f8c02e330400"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__ios__sdk.html#ga5dadb1a71db3102708c8f8c02e330400">WDCardBrand</a> : <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400aa038c8b3bcdae41fcc37990376402299"></a>WDCardBrandUndefined&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a6e77a6f67cb4d896899a6fa7b4ac09b8"></a>WDCardBrandAmex&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400ac9955064bb74c15fa398771411863fbe"></a>WDCardBrandAura&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400af432d2fc4486b88416af7ca96081f812"></a>WDCardBrandCarteBancaire&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a2a63e4a734da065e05ae3e698c894793"></a>WDCardBrandCarteBleue&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a1da0dba7b91f87e2872e87ecf0391ff7"></a>WDCardBrandCUP&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a1952173117032b71abed49572dada305"></a>WDCardBrandDiners&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a816750dc8160cd59e156389f775ef983"></a>WDCardBrandDiscover&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a771cb776aff8393d97aa54817dfc3a34"></a>WDCardBrandExpressCheckout&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a6f2e89e9bf019ed621e4ae1c44d5a885"></a>WDCardBrandHipercard&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a110b42bc1a7f88b86fb4c120fbbc3748"></a>WDCardBrandJCB&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a23d5241e591fecd7497a0bed05e0db48"></a>WDCardBrandMaestro&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a17156ab9e43c69405fa85d9c83b7dc69"></a>WDCardBrandMaestroUK&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a529265ffc92fd64411a57ed926eb8a53"></a>WDCardBrandMasterCard&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400aee7849861c7b51da58d557130ab128fc"></a>WDCardBrandSorocred&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a9bfbfde1b5f91e63db50253c7e718ad8"></a>WDCardBrandUATP&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a366e494e567ba3678205fc03c50150e7"></a>WDCardBrandVisa&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga5dadb1a71db3102708c8f8c02e330400a15dedd6a33b55b79d43162d7d1c4389d"></a>WDCardBrandTotalNumber&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga3062ed27f5e9bd7f94e6531e310ac810"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__ios__sdk.html#ga3062ed27f5e9bd7f94e6531e310ac810">WDCardFieldState</a> : <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="interface_w_d_card_field.html" title="Field for collecting card data. ">WDCardField</a> states emitted during user interacion </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a5c0496201bb066edfe826c35713bbb3a"></a>WDCardFieldStateCardInitial&#160;</td><td class="fielddoc">
+<p>Initial state and state after <a class="el" href="interface_w_d_card_field.html#ad841cd61a398c42700ace283e02e4d3d">-[WDCardField clear]</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a442b2473e0cee5c782030ddd8368a5ad"></a>WDCardFieldStateCardValid&#160;</td><td class="fielddoc">
+<p>User entered valid card data </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810aa74ce66c792db773fb62aa8476697d04"></a>WDCardFieldStateCardUnsupported&#160;</td><td class="fielddoc">
+<p>User is trying to type unsupported card type </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a11c823b275b81f895df85c55a6d0e349"></a>WDCardFieldStateNumberEditting&#160;</td><td class="fielddoc">
+<p>Card number UITextField is first responder </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a4b2a2abf33433cd093c87976c074cb54"></a>WDCardFieldStateNumberIncomplete&#160;</td><td class="fielddoc">
+<p>Card number is incomplete </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a20998b9b51c313ccc55cfba25bb48bfb"></a>WDCardFieldStateNumberInvalid&#160;</td><td class="fielddoc">
+<p>Card number is invalid </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a21726c5b7db7a3287a3631c092478ad5"></a>WDCardFieldStateNumberValid&#160;</td><td class="fielddoc">
+<p>User entered valid card number </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a6faa296757074412b76505bee178ff54"></a>WDCardFieldStateMonthEditting&#160;</td><td class="fielddoc">
+<p>Expiration month UITextField is first responder </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810ad20629e1a7af079ac6e00ac2f9fc95d2"></a>WDCardFieldStateYearEditting&#160;</td><td class="fielddoc">
+<p>Expiration year UITextField is first responder </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810ae239e7e24226f148d15af0a0ddb6e956"></a>WDCardFieldStateExpirationDateIncomplete&#160;</td><td class="fielddoc">
+<p>Expiration date is incomplete </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a5b52e21799dd0d2805f3bdffd0cc0c36"></a>WDCardFieldStateExpirationDateInvalid&#160;</td><td class="fielddoc">
+<p>Expiration date is invalid </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810af0c08f1994747eeb6e38e6feabc81da2"></a>WDCardFieldStateExpirationDateValid&#160;</td><td class="fielddoc">
+<p>User entered valid expiration date </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a7e570ab574424dc1ee59bbdb4a0cd042"></a>WDCardFieldStateSecurityCodeEditting&#160;</td><td class="fielddoc">
+<p>Security code UITextField became first responder </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a7fd0b487a08d8c4946de67fd4da6dab4"></a>WDCardFieldStateSecurityCodeIncomplete&#160;</td><td class="fielddoc">
+<p>Security code is incomplete </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810add354db36670655fca2229078db1e8e5"></a>WDCardFieldStateSecurityCodeInvalid&#160;</td><td class="fielddoc">
+<p>Security code is invalid </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810ac7933f8b7ebf132ec521751d313d9b52"></a>WDCardFieldStateSecurityCodeValid&#160;</td><td class="fielddoc">
+<p>Security code is valid </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="ga91812197ae210caa36e11d4d18122d94"></a>
 <div class="memitem">
 <div class="memproto">
