@@ -1,0 +1,4 @@
+<map id="de.wirecard.paymentsdk.models.WirecardExtendedCardPayment" name="de.wirecard.paymentsdk.models.WirecardExtendedCardPayment">
+<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="5,165,222,204"/>
+<area shape="rect" id="node3" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="5,79,222,117"/>
+</map>

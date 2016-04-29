@@ -119,25 +119,25 @@ $(document).ready(function(){initNavTree('interfacede_1_1wirecard_1_1paymentsdk_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
-<tr class="memitem:a81462269f939004ea35480263be18311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a81462269f939004ea35480263be18311">onSuccess</a> (PaymentResponse paymentResponse)</td></tr>
-<tr class="memdesc:a81462269f939004ea35480263be18311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when transaction was processed on server side and no error during transaction occurred.  <a href="#a81462269f939004ea35480263be18311">More...</a><br /></td></tr>
-<tr class="separator:a81462269f939004ea35480263be18311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9562569a021c9ea79fff791c0c714059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a9562569a021c9ea79fff791c0c714059">onError</a> (ResponseError responseError)</td></tr>
-<tr class="memdesc:a9562569a021c9ea79fff791c0c714059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when error occurs during transaction process.  <a href="#a9562569a021c9ea79fff791c0c714059">More...</a><br /></td></tr>
-<tr class="separator:a9562569a021c9ea79fff791c0c714059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a92f0c91daeb98315253774d307c58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a63a92f0c91daeb98315253774d307c58">onSuccess</a> (<a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html">WirecardPaymentResponse</a> wirecardPaymentResponse)</td></tr>
+<tr class="memdesc:a63a92f0c91daeb98315253774d307c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when transaction was processed on server side and no error during transaction occurred.  <a href="#a63a92f0c91daeb98315253774d307c58">More...</a><br /></td></tr>
+<tr class="separator:a63a92f0c91daeb98315253774d307c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3af7d338cd3df9c9078fbe1207f7d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html#a8e3af7d338cd3df9c9078fbe1207f7d2">onError</a> (<a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_error.html">WirecardResponseError</a> wirecardResponseError)</td></tr>
+<tr class="memdesc:a8e3af7d338cd3df9c9078fbe1207f7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when error occurs during transaction process.  <a href="#a8e3af7d338cd3df9c9078fbe1207f7d2">More...</a><br /></td></tr>
+<tr class="separator:a8e3af7d338cd3df9c9078fbe1207f7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides callback methods which will provide transaction result. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a class="anchor" id="a9562569a021c9ea79fff791c0c714059"></a>
+<a class="anchor" id="a8e3af7d338cd3df9c9078fbe1207f7d2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void de.wirecard.paymentsdk.WirecardResponseListener.onError </td>
           <td>(</td>
-          <td class="paramtype">ResponseError&#160;</td>
-          <td class="paramname"><em>responseError</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_error.html">WirecardResponseError</a>&#160;</td>
+          <td class="paramname"><em>wirecardResponseError</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -146,22 +146,22 @@ Public Instance Methods</h2></td></tr>
 <p>Called when error occurs during transaction process. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">responseError</td><td>response error object which contains error information. </td></tr>
+    <tr><td class="paramname">wirecardResponseError</td><td>response error object which contains error information. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a81462269f939004ea35480263be18311"></a>
+<a class="anchor" id="a63a92f0c91daeb98315253774d307c58"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void de.wirecard.paymentsdk.WirecardResponseListener.onSuccess </td>
           <td>(</td>
-          <td class="paramtype">PaymentResponse&#160;</td>
-          <td class="paramname"><em>paymentResponse</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html">WirecardPaymentResponse</a>&#160;</td>
+          <td class="paramname"><em>wirecardPaymentResponse</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -170,7 +170,7 @@ Public Instance Methods</h2></td></tr>
 <p>Called when transaction was processed on server side and no error during transaction occurred. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">paymentResponse</td><td>payment response object which contains transaction data. Including transaction status, type etc. </td></tr>
+    <tr><td class="paramname">wirecardPaymentResponse</td><td>payment response object which contains transaction data. Including transaction status, type etc. </td></tr>
   </table>
   </dd>
 </dl>
