@@ -14,10 +14,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#a65b703fcf38dfb2198c53f431fc03565",
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ae18fb074512b6b6f970a638efa3a4fc3",
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a29923afdaedeb52eadf52aaa72a9ecf5",
-"interface_w_d_apple_pay_managed_payment.html"
+"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aea010473bcacd0530f3ed1f797a2a12f",
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad7461cbc53b33ebf3c21380ac042a2f5",
+"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a268e80aec8f00719e6c998091e77cda8",
+"interface_w_d_address.html#a34e78e910446d05c39475b25bba2e449"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

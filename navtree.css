@@ -1,18 +1,21 @@
 #nav-tree .children_ul {
   margin:0;
   padding:4px;
+  
 }
 
 #nav-tree ul {
   list-style:none outside none;
   margin:0px;
   padding:0px;
+  
 }
 
 #nav-tree li {
   white-space:nowrap;
   margin:0px;
   padding:0px;
+  
 }
 
 #nav-tree .plus {
@@ -20,8 +23,6 @@
 }
 
 #nav-tree .selected {
-  background-image: url('tab_a.png');
-  background-repeat:repeat-x;
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 }
@@ -44,15 +45,18 @@
   margin:0px;
   padding:0px;
   font: 12px 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
+  
+  
 }
 
 #nav-tree .label a {
   padding:2px;
+  color: white;
 }
 
 #nav-tree .selected a {
   text-decoration:none;
-  color:#fff;
+  color:#E30000;
 }
 
 #nav-tree .children_ul {
@@ -63,13 +67,15 @@
 #nav-tree .item {
   margin:0px;
   padding:0px;
+  
 }
 
 #nav-tree {
   padding: 0px 0px;
-  background-color: #FAFAFF; 
+  background-color: #000E1B;
   font-size:14px;
   overflow:auto;
+  
 }
 
 #doc-content {
@@ -94,7 +100,7 @@
 }
 
 .ui-resizable-e {
-  background:url("splitbar.png") repeat scroll right center transparent;
+  background-color: white;
   cursor:e-resize;
   height:100%;
   right:0;
@@ -114,9 +120,9 @@
 }
 
 #nav-tree {
-  background-image:url('nav_h.png');
+  
   background-repeat:repeat-x;
-  background-color: #F9FAFC;
+  background-color: #000E1Bd;
   -webkit-overflow-scrolling : touch; /* iOS 5+ */
 }
 
@@ -128,7 +134,7 @@
 }
 
 #nav-sync img {
-  opacity:0.3;
+  opacity:0.6;
 }
 
 #nav-sync img:hover {

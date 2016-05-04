@@ -8,5 +8,6 @@ var searchData=
   ['mcreditcardform',['mCreditCardForm',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ad10c5a65782d41ddc15856e463c6e042',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
   ['merchantaccountid',['merchantAccountID',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a539ecf50bbdbdba0ef5d1d1d8cd3fd03',1,'de.wirecard.paymentsdk.models.WirecardPayment.merchantAccountID()'],['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html#a67f7c0ec415fbbf6afee9a778fd43e16',1,'de.wirecard.paymentsdk.WirecardPaymentResponse.merchantAccountId()']]],
   ['merchantname',['merchantName',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#ac8ef81103ca432b3fde6e650db998219',1,'de::wirecard::paymentsdk::models::WirecardSepaPayment']]],
+  ['mlocale',['mLocale',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a688893df7d9c59bba883ad165b2bdec7',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
   ['mwirecardinputformsstatechangedlistener',['mWirecardInputFormsStateChangedListener',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_manager.html#a723b035179fb9130f9c051de6589807b',1,'de::wirecard::paymentsdk::WirecardInputFormsStateManager']]]
 ];

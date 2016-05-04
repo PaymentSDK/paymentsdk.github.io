@@ -185,11 +185,14 @@ Properties</h2></td></tr>
 <tr class="memitem:a2b60ba546dbc8f59a4ed06c2cb5719a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ios__sdk.html#ga5dadb1a71db3102708c8f8c02e330400">WDCardBrand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_field.html#a2b60ba546dbc8f59a4ed06c2cb5719a9">brand</a></td></tr>
 <tr class="memdesc:a2b60ba546dbc8f59a4ed06c2cb5719a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card brand.  <a href="#a2b60ba546dbc8f59a4ed06c2cb5719a9">More...</a><br /></td></tr>
 <tr class="separator:a2b60ba546dbc8f59a4ed06c2cb5719a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae666109de8e2a3dedfd611e88f6335e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ios__sdk.html#ga5af9f83740c8d2362c4c0ec3acdda7f7">WDLocale</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_field.html#ae666109de8e2a3dedfd611e88f6335e8">locale</a></td></tr>
+<tr class="memdesc:ae666109de8e2a3dedfd611e88f6335e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">WDLocale enum used to localize.  <a href="#ae666109de8e2a3dedfd611e88f6335e8">More...</a><br /></td></tr>
+<tr class="separator:ae666109de8e2a3dedfd611e88f6335e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe93bd54bb51503100a15a83867a6416"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_field.html#afe93bd54bb51503100a15a83867a6416">enabled</a></td></tr>
 <tr class="memdesc:afe93bd54bb51503100a15a83867a6416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable selecting or editing the field.  <a href="#afe93bd54bb51503100a15a83867a6416">More...</a><br /></td></tr>
 <tr class="separator:afe93bd54bb51503100a15a83867a6416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2805d5a76c03ac599e76ebfb13baefd1"><td class="memItemLeft" align="right" valign="top">UIFont *font&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_field.html#a2805d5a76c03ac599e76ebfb13baefd1">UI_APPEARANCE_SELECTOR</a></td></tr>
-<tr class="memdesc:a2805d5a76c03ac599e76ebfb13baefd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The font used in each UITextField.  <a href="#a2805d5a76c03ac599e76ebfb13baefd1">More...</a><br /></td></tr>
+<tr class="memdesc:a2805d5a76c03ac599e76ebfb13baefd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The font used in each UITextField and number format UILabel.  <a href="#a2805d5a76c03ac599e76ebfb13baefd1">More...</a><br /></td></tr>
 <tr class="separator:a2805d5a76c03ac599e76ebfb13baefd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cd0baae5b8ebcb6f498091356e9e190"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIColor_Class/Reference/Reference.html">UIColor</a> *textColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_w_d_card_field.html#a8cd0baae5b8ebcb6f498091356e9e190">UI_APPEARANCE_SELECTOR</a></td></tr>
 <tr class="memdesc:a8cd0baae5b8ebcb6f498091356e9e190"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text color to be used when entering valid text.  <a href="#a8cd0baae5b8ebcb6f498091356e9e190">More...</a><br /></td></tr>
@@ -440,6 +443,35 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae666109de8e2a3dedfd611e88f6335e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="group__ios__sdk.html#ga5af9f83740c8d2362c4c0ec3acdda7f7">WDLocale</a>) locale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WDLocale enum used to localize. </p>
+<p>Localization of <a class="el" href="interface_w_d_card_field.html" title="Field for collecting card data. ">WDCardField</a> happens in following order:</p>
+<ul>
+<li>overriden <a class="el" href="interface_w_d_card_field.html" title="Field for collecting card data. ">WDCardField</a> value (e.g. [<a class="el" href="interface_w_d_card_field.html" title="Field for collecting card data. ">WDCardField</a> numberPlaceholder], etc.)</li>
+<li>localized default value by [<a class="el" href="interface_w_d_card_field.html" title="Field for collecting card data. ">WDCardField</a> locale]</li>
+<li>localized default value by [NSLocale preferredLanguages]</li>
+<li>if locale is not set or localization files are missing default english value is used. </li>
+</ul>
+
+</div>
+</div>
 <a class="anchor" id="ad30f4eef18582a2ee8fa12ccd195d079"></a>
 <div class="memitem">
 <div class="memproto">
@@ -459,7 +491,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The placeholder for the card number field. </p>
-<p>Default is localized "Card number". </p>
+<p>Default is localized "Credit Card number". </p>
 
 </div>
 </div>
@@ -504,8 +536,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The font used in each UITextField. </p>
-<p>Default is [UIFont systemFontOfSize:18]. Set this property to nil to reset to the default. </p>
+<p>The font used in each UITextField and number format UILabel. </p>
+<p>Default is [UIFont fontWithName:"Menlo-Regular" size:15.0]. Set this property to nil to reset to the default. Monospace fonts are preferred as during number typing number format does not change width. </p>
 
 </div>
 </div>

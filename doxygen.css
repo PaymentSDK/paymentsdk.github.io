@@ -1,13 +1,14 @@
 /* The standard CSS for doxygen 1.8.11 */
 
 body, table, div, p, dl {
-	font: 400 14px/22px Roboto,sans-serif;
+	font: 400 14px/22px Arial,sans-serif;
+	
 }
 
 /* @group Heading Levels */
 
 h1.groupheader {
-	font-size: 150%;
+	font-size: 50%;
 }
 
 .title {
@@ -100,7 +101,8 @@ div.qindex, div.navtab{
 
 div.qindex, div.navpath {
 	width: 100%;
-	line-height: 140%;
+	line-height: 1%;
+	
 }
 
 div.navtab {
@@ -110,7 +112,7 @@ div.navtab {
 /* @group Link Styling */
 
 a {
-	color: #3D578C;
+	
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -125,6 +127,7 @@ a:hover {
 
 a.qindex {
 	font-weight: bold;
+	color: black;
 }
 
 a.qindexHL {
@@ -140,6 +143,7 @@ a.qindexHL {
 
 a.el {
 	font-weight: bold;
+	color: black !important;
 }
 
 a.elRef {
@@ -329,11 +333,13 @@ div.center img {
 address.footer {
 	text-align: right;
 	padding-right: 12px;
+	visibility: hidden;
 }
 
 img.footer {
 	border: 0px;
 	vertical-align: middle;
+	visibility: hidden;
 }
 
 /* @group Code Colorization */
@@ -383,7 +389,7 @@ span.vhdllogic {
 }
 
 blockquote {
-        background-color: #F7F8FB;
+        
         border-left: 2px solid #9CAFD4;
         margin: 0 24px 0 4px;
         padding: 0 12px 0 16px;
@@ -433,6 +439,7 @@ hr {
 
 hr.footer {
 	height: 1px;
+	visibility: hidden;
 }
 
 /* @group Member Descriptions */
@@ -939,11 +946,8 @@ table.fieldtable {
 	font-size: 11px;
 	background-image:url('tab_b.png');
 	background-repeat:repeat-x;
-	background-position: 0 -5px;
-	height:30px;
 	line-height:30px;
 	color:#8AA0CC;
-	border:solid 1px #C2CDE4;
 	overflow:hidden;
 	margin:0px;
 	padding:0px;
@@ -967,15 +971,14 @@ table.fieldtable {
 	display:block;
 	text-decoration: none;
 	outline: none;
-	color: #283A5D;
+	color: white !important;
 	font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
-	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 	text-decoration: none;        
 }
 
 .navpath li.navelem a:hover
 {
-	color:#6884BD;
+	color:white;
 }
 
 .navpath li.footer
@@ -989,6 +992,7 @@ table.fieldtable {
         background-position:right;
         color:#364D7C;
         font-size: 8pt;
+		visibility: hidden;
 }
 
 
@@ -1004,6 +1008,7 @@ div.summary
 div.summary a
 {
 	white-space: nowrap;
+	color: black;
 }
 
 table.classindex
@@ -1034,7 +1039,7 @@ div.header
 {
         background-image:url('nav_h.png');
         background-repeat:repeat-x;
-	background-color: #F9FAFC;
+	background-color: #000E1B;
 	margin:  0px;
 	border-bottom: 1px solid #C4CFE5;
 }
@@ -1042,6 +1047,7 @@ div.header
 div.headertitle
 {
 	padding: 5px 5px 5px 10px;
+	background-color: white;
 }
 
 dl
@@ -1119,14 +1125,17 @@ dl.section dd {
 
 #projectlogo
 {
-	text-align: center;
-	vertical-align: bottom;
+	text-align: left;
+	vertical-align: middle;
 	border-collapse: separate;
+	padding-left: 25px;
 }
  
 #projectlogo img
 { 
 	border: 0px none;
+	width: 50%;
+	height: 50%;
 }
  
 #projectalign
@@ -1160,7 +1169,8 @@ dl.section dd {
 	padding: 0px;
 	margin: 0px;
 	width: 100%;
-	border-bottom: 1px solid #5373B4;
+	border-bottom: 1px solid white;
+	background-color: #000E1B;
 }
 
 .image
@@ -1354,7 +1364,8 @@ tr.heading h2 {
 #powerTip.w:after,  #powerTip.e:after,
 #powerTip.nw:after, #powerTip.ne:after,
 #powerTip.sw:after, #powerTip.se:after {
-	border-color: rgba(255, 255, 255, 0);
+	border-
+: rgba(255, 255, 255, 0);
 }
 
 #powerTip.n:before,  #powerTip.s:before,

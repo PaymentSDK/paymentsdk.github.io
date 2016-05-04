@@ -1,5 +1,10 @@
 var NAVTREEINDEX1 =
 {
+"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aea010473bcacd0530f3ed1f797a2a12f":[1,0,6,0],
+"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#afb1c080d64f79f58a2c7d88ea766ca80":[1,0,6,23],
+"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html":[1,0,7],
+"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#a0128890f6334998369af77383abaa61b":[1,0,7,4],
+"classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#a1b26a84f9d3e1a2543a83b58f0679f67":[1,0,7,0],
 "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#a65b703fcf38dfb2198c53f431fc03565":[1,0,7,1],
 "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#a895e3b9a1d0efe64c26ea9ae2e322ae4":[1,0,7,6],
 "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#abf860e88ad7776686db72ed99418809f":[1,0,7,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX1 =
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7acc35889b93fedea95813714c8325973b":[1,1,31,30],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7acf30e6dc447df57796d2b1c97558b209":[1,1,31,8],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad30ac75c68f41ac68fcf423d5c5e5ac0":[1,1,31,31],
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad64c1f0bf4dd93abb5da57178d906616":[1,1,31,21],
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad7461cbc53b33ebf3c21380ac042a2f5":[1,1,31,50],
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad999a816c97f180e815e743bd421b82b":[1,1,31,53],
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad99e23de57940e31b240cf6dd61d81fe":[1,1,31,26],
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7adfc4d2e6c5b01aec26f9b8f4610a358c":[1,1,31,29],
-"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ae16cd0703b3c673cfb7e9c76c9129ceb":[1,1,31,58]
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad64c1f0bf4dd93abb5da57178d906616":[1,1,31,21]
 };

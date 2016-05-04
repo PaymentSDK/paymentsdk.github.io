@@ -10,6 +10,7 @@ var interface_w_d_card_field =
     [ "expirationMonthPlaceholder", "interface_w_d_card_field.html#a933ae63a5a6e33179fba7c911d01d6d2", null ],
     [ "expirationYearPlaceholder", "interface_w_d_card_field.html#ad78d43004c377df550ed7279111daac5", null ],
     [ "inputAccessoryView", "interface_w_d_card_field.html#a2182f82939e667eda5bcab0089873492", null ],
+    [ "locale", "interface_w_d_card_field.html#ae666109de8e2a3dedfd611e88f6335e8", null ],
     [ "numberPlaceholder", "interface_w_d_card_field.html#ad30f4eef18582a2ee8fa12ccd195d079", null ],
     [ "securityCodePlaceholder", "interface_w_d_card_field.html#ab7fb41dc55a05347dc44227b13a207b9", null ],
     [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#a2805d5a76c03ac599e76ebfb13baefd1", null ],

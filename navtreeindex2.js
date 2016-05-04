@@ -1,5 +1,10 @@
 var NAVTREEINDEX2 =
 {
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad7461cbc53b33ebf3c21380ac042a2f5":[1,1,31,50],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad999a816c97f180e815e743bd421b82b":[1,1,31,53],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ad99e23de57940e31b240cf6dd61d81fe":[1,1,31,26],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7adfc4d2e6c5b01aec26f9b8f4610a358c":[1,1,31,29],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ae16cd0703b3c673cfb7e9c76c9129ceb":[1,1,31,58],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ae18fb074512b6b6f970a638efa3a4fc3":[1,1,31,44],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ae1b8674128a696b158d02f6d0108f19b":[1,1,31,9],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7ae3b2fa3200b9974ef0c7018fbf2b9ca6":[1,1,31,36],
@@ -244,10 +249,5 @@ var NAVTREEINDEX2 =
 "group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a21ab0734cd08df6b7052279c051a5a2e":[1,1,26,44],
 "group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a23c3a5d92de54fb51fddd4cc23405135":[1,1,26,231],
 "group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a2487c206f4f17905aedb15aea4d40cc8":[1,1,26,108],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a250e2caf73b7fe9123acd91eac950ae5":[1,1,26,136],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a268e80aec8f00719e6c998091e77cda8":[1,1,26,201],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a27ca9d72853a9ea0814f4d3b8010fb99":[1,1,26,99],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a27e7fce776ac0c690aa1b4254d366396":[1,1,26,39],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a286fb6fab1116ca8e2e0239c0ef2271f":[1,1,26,139],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a292e5ce823e0f6e0db589c24e4f85d56":[1,1,26,123]
+"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a250e2caf73b7fe9123acd91eac950ae5":[1,1,26,136]
 };
