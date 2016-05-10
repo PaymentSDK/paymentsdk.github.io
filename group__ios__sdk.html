@@ -940,7 +940,11 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0afc936a82a3c39053969e26dd3b90b05a">WDTransactionTypeReferencedAuthorization</a>, 
 <br />
 &#160;&#160;<a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0aa0901217e4fdc5ae2b9fe957520a2f9b">WDTransactionTypeReferencedPurchase</a>, 
-<a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a991ee5b4e0252384e15ab83f23e9fcd7">WDTransactionTypeTotalNumber</a>
+<a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a31ad482552d1ecc0f855f23228a2db14">WDTransactionTypeRefundCapture</a>, 
+<a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0ac7eb1c35c751a90be9b8aacf082d498b">WDTransactionTypeRefundPurchase</a>, 
+<a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a2064a47ae3028b322b09d6e7bdd3b313">WDTransactionTypeVoidAuthorization</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a991ee5b4e0252384e15ab83f23e9fcd7">WDTransactionTypeTotalNumber</a>
 <br />
  }</td></tr>
 <tr class="separator:ga07fb73b8fad219dafd8dd277579e68d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2882,6 +2886,18 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga07fb73b8fad219dafd8dd277579e68d0aa0901217e4fdc5ae2b9fe957520a2f9b"></a>WDTransactionTypeReferencedPurchase&#160;</td><td class="fielddoc">
 <p>Takes funds from the [Card Holder]'s account. Identical to a WDTransactionTypePurchase except for the fact that it refers to a previous WDTransactionTypePurchase transaction.</p>
 <p>String representation: referenced-purchase </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga07fb73b8fad219dafd8dd277579e68d0a31ad482552d1ecc0f855f23228a2db14"></a>WDTransactionTypeRefundCapture&#160;</td><td class="fielddoc">
+<p>Gives funds to the [Card Holder]'s account, referring to an eligible [Capture].</p>
+<p>String representation: refund-capture </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga07fb73b8fad219dafd8dd277579e68d0ac7eb1c35c751a90be9b8aacf082d498b"></a>WDTransactionTypeRefundPurchase&#160;</td><td class="fielddoc">
+<p>Gives funds to the [Card Holder]'s account, referring to an eligible [Purchase].</p>
+<p>String representation: refund-purchase </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga07fb73b8fad219dafd8dd277579e68d0a2064a47ae3028b322b09d6e7bdd3b313"></a>WDTransactionTypeVoidAuthorization&#160;</td><td class="fielddoc">
+<p>Frees reserved funds from the [Card Holder]'s account due to an [Authorization].</p>
+<p>String representation: void-authorization </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga07fb73b8fad219dafd8dd277579e68d0a991ee5b4e0252384e15ab83f23e9fcd7"></a>WDTransactionTypeTotalNumber&#160;</td><td class="fielddoc">
 <p>Total number of values. It is used for validation and handled as invalid value </p>

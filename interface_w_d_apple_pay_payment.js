@@ -1,4 +1,4 @@
 var interface_w_d_apple_pay_payment =
 [
-    [ "initWithPayment:summaryItems:currency:", "interface_w_d_apple_pay_payment.html#a767b582e1f990b780327d168c9e82b1b", null ]
+    [ "initWithPayment:summaryItems:transactionType:", "interface_w_d_apple_pay_payment.html#add1786b1167ebb65e7f59cdb3d3ad167", null ]
 ];

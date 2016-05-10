@@ -14,14 +14,14 @@ var group__ios__sdk =
     ] ],
     [ "WDApplePayManagedPayment", "interface_w_d_apple_pay_managed_payment.html", [
       [ "initWithMerchant:andCountry:", "interface_w_d_apple_pay_managed_payment.html#ad0474304fe772f2d75a0a26db6f2b036", null ],
-      [ "initWithPayment:summaryItems:currency:", "interface_w_d_apple_pay_managed_payment.html#aa5d561baa7054a60dd53bcbbb48fc990", null ],
+      [ "initWithPayment:summaryItems:transactionType:", "interface_w_d_apple_pay_managed_payment.html#af588d24ab512200217ebaf56b6c7d851", null ],
       [ "appleMerchantID", "interface_w_d_apple_pay_managed_payment.html#a7cc4bc20823f6e806f0131d80fb2a305", null ],
       [ "merchantCountry", "interface_w_d_apple_pay_managed_payment.html#a58683d0ccf133d8b0a3682ab00c78786", null ],
       [ "requiredBillingAddress", "interface_w_d_apple_pay_managed_payment.html#a193288216cbe6430505477f0890eb1a0", null ],
       [ "requiredShippingAddress", "interface_w_d_apple_pay_managed_payment.html#a66d97c5c6c9f8641a8f08e077b1c632c", null ]
     ] ],
     [ "WDApplePayPayment", "interface_w_d_apple_pay_payment.html", [
-      [ "initWithPayment:summaryItems:currency:", "interface_w_d_apple_pay_payment.html#a767b582e1f990b780327d168c9e82b1b", null ]
+      [ "initWithPayment:summaryItems:transactionType:", "interface_w_d_apple_pay_payment.html#add1786b1167ebb65e7f59cdb3d3ad167", null ]
     ] ],
     [ "WDBaseStyle", "interface_w_d_base_style.html", [
       [ "cancelButtonStyled", "interface_w_d_base_style.html#a5344ab06e9f11053e04bf79f3f453c92", null ],
@@ -766,6 +766,9 @@ var group__ios__sdk =
       [ "WDTransactionTypePurchase", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a6e3f15dce8bfc3f2f223e6c4e328fac2", null ],
       [ "WDTransactionTypeReferencedAuthorization", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0afc936a82a3c39053969e26dd3b90b05a", null ],
       [ "WDTransactionTypeReferencedPurchase", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0aa0901217e4fdc5ae2b9fe957520a2f9b", null ],
+      [ "WDTransactionTypeRefundCapture", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a31ad482552d1ecc0f855f23228a2db14", null ],
+      [ "WDTransactionTypeRefundPurchase", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0ac7eb1c35c751a90be9b8aacf082d498b", null ],
+      [ "WDTransactionTypeVoidAuthorization", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a2064a47ae3028b322b09d6e7bdd3b313", null ],
       [ "WDTransactionTypeTotalNumber", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a991ee5b4e0252384e15ab83f23e9fcd7", null ]
     ] ],
     [ "WDCountryFromISOCode", "group__ios__sdk.html#ga996dbaebd0850306914945e6ef0850ad", null ],

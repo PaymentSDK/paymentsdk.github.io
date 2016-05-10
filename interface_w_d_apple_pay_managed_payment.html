@@ -164,9 +164,9 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:ad0474304fe772f2d75a0a26db6f2b036"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_apple_pay_managed_payment.html#ad0474304fe772f2d75a0a26db6f2b036">initWithMerchant:andCountry:</a></td></tr>
 <tr class="memdesc:ad0474304fe772f2d75a0a26db6f2b036"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize object  <a href="#ad0474304fe772f2d75a0a26db6f2b036">More...</a><br /></td></tr>
 <tr class="separator:ad0474304fe772f2d75a0a26db6f2b036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5d561baa7054a60dd53bcbbb48fc990"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_apple_pay_managed_payment.html#aa5d561baa7054a60dd53bcbbb48fc990">initWithPayment:summaryItems:currency:</a></td></tr>
-<tr class="memdesc:aa5d561baa7054a60dd53bcbbb48fc990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes payment object with parameters gathered via PKPaymentAuthorizationViewController.  <a href="#aa5d561baa7054a60dd53bcbbb48fc990">More...</a><br /></td></tr>
-<tr class="separator:aa5d561baa7054a60dd53bcbbb48fc990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af588d24ab512200217ebaf56b6c7d851"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_apple_pay_managed_payment.html#af588d24ab512200217ebaf56b6c7d851">initWithPayment:summaryItems:transactionType:</a></td></tr>
+<tr class="memdesc:af588d24ab512200217ebaf56b6c7d851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes payment object with parameters gathered via PKPaymentAuthorizationViewController.  <a href="#af588d24ab512200217ebaf56b6c7d851">More...</a><br /></td></tr>
+<tr class="separator:af588d24ab512200217ebaf56b6c7d851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interface_w_d_payment"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_w_d_payment')"><img src="closed.png" alt="-"/>&#160;Public Instance Methods inherited from <a class="el" href="interface_w_d_payment.html">WDPayment</a></td></tr>
 <tr class="memitem:ad1cdc3a445cb0a3e26d6a8d755316c35 inherit pub_methods_interface_w_d_payment"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_payment.html#ad1cdc3a445cb0a3e26d6a8d755316c35">NS_UNAVAILABLE</a></td></tr>
 <tr class="separator:ad1cdc3a445cb0a3e26d6a8d755316c35 inherit pub_methods_interface_w_d_payment"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -303,7 +303,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa5d561baa7054a60dd53bcbbb48fc990"></a>
+<a class="anchor" id="af588d24ab512200217ebaf56b6c7d851"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -320,9 +320,9 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramname"><em>summaryItems</em></td>
         </tr>
         <tr>
-          <td class="paramkey">currency:</td>
+          <td class="paramkey">transactionType:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="group__ios__sdk.html#ga847858037c3b7d84d8d59ebea4b6aa80">WDCurrency</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="group__ios__sdk.html#ga07fb73b8fad219dafd8dd277579e68d0">WDTransactionType</a>)&#160;</td>
           <td class="paramname"><em>NS_DESIGNATED_INITIALIZER</em>&#160;</td>
         </tr>
         <tr>
@@ -338,13 +338,13 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">payment</td><td>PKPayment object gathered via PKPaymentAuthorizationViewController </td></tr>
     <tr><td class="paramname">summaryItems</td><td>summaryItems gathered via PKPaymentAuthorizationViewController </td></tr>
-    <tr><td class="paramname">currency</td><td>currency code. Supported codes: "EUR", @"USD"</td></tr>
+    <tr><td class="paramname">currency</td><td>currency code. Supported codes: "GBP", @"USD"</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>initialized object with payment data </dd></dl>
 
-<p>Implements <a class="el" href="interface_w_d_apple_pay_payment.html#a767b582e1f990b780327d168c9e82b1b">WDApplePayPayment</a>.</p>
+<p>Implements <a class="el" href="interface_w_d_apple_pay_payment.html#add1786b1167ebb65e7f59cdb3d3ad167">WDApplePayPayment</a>.</p>
 
 </div>
 </div>
@@ -362,7 +362,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">strong</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

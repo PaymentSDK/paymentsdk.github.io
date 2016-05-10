@@ -573,6 +573,9 @@ var searchData=
   ['wdtransactiontypepurchase',['WDTransactionTypePurchase',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a6e3f15dce8bfc3f2f223e6c4e328fac2',1,'WDTransactionType.h']]],
   ['wdtransactiontypereferencedauthorization',['WDTransactionTypeReferencedAuthorization',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0afc936a82a3c39053969e26dd3b90b05a',1,'WDTransactionType.h']]],
   ['wdtransactiontypereferencedpurchase',['WDTransactionTypeReferencedPurchase',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0aa0901217e4fdc5ae2b9fe957520a2f9b',1,'WDTransactionType.h']]],
+  ['wdtransactiontyperefundcapture',['WDTransactionTypeRefundCapture',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a31ad482552d1ecc0f855f23228a2db14',1,'WDTransactionType.h']]],
+  ['wdtransactiontyperefundpurchase',['WDTransactionTypeRefundPurchase',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0ac7eb1c35c751a90be9b8aacf082d498b',1,'WDTransactionType.h']]],
   ['wdtransactiontypetotalnumber',['WDTransactionTypeTotalNumber',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a991ee5b4e0252384e15ab83f23e9fcd7',1,'WDTransactionType.h']]],
-  ['wdtransactiontypeundefined',['WDTransactionTypeUndefined',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a8b71468f18d3026a8fab06ed4dff8d0d',1,'WDTransactionType.h']]]
+  ['wdtransactiontypeundefined',['WDTransactionTypeUndefined',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a8b71468f18d3026a8fab06ed4dff8d0d',1,'WDTransactionType.h']]],
+  ['wdtransactiontypevoidauthorization',['WDTransactionTypeVoidAuthorization',['../group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a2064a47ae3028b322b09d6e7bdd3b313',1,'WDTransactionType.h']]]
 ];
