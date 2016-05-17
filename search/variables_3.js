@@ -7,5 +7,7 @@ var searchData=
   ['description',['description',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order_item.html#aeae3c01fb2866345e71d498d87eb2d63',1,'de::wirecard::paymentsdk::models::OrderItem']]],
   ['descriptor',['descriptor',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html#ad3597565df32cbd854a98072a3c5cff1',1,'de::wirecard::paymentsdk::models::Order']]],
   ['detail',['detail',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html#a3b5ce51827720273930d79835e19169b',1,'de::wirecard::paymentsdk::models::Order']]],
+  ['diners',['DINERS',['../enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#ac3ed1f6b8e1f07d123356d750628d4fe',1,'de::wirecard::paymentsdk::Card']]],
+  ['discover',['DISCOVER',['../enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#ac3d30b151914beaf99cb430ac3aefeed',1,'de::wirecard::paymentsdk::Card']]],
   ['duedate',['dueDate',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#afa3ec597f19b1230d3d472750e4dcf19',1,'de::wirecard::paymentsdk::models::WirecardSepaPayment']]]
 ];

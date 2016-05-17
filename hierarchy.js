@@ -1,9 +1,12 @@
 var hierarchy =
 [
+    [ "de.wirecard.paymentsdk.WirecardCardFormFragment.Builder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html", null ],
+    [ "de.wirecard.paymentsdk.Card", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html", null ],
     [ "NSError(WDUtils)", "category_n_s_error_07_w_d_utils_08.html", null ],
     [ "<NSKeyValueBindingCreation>", null, [
       [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
         [ "WDAddress", "interface_w_d_address.html", null ],
+        [ "WDCard", "interface_w_d_card.html", null ],
         [ "WDCardToken", "interface_w_d_card_token.html", null ],
         [ "WDClient", "interface_w_d_client.html", null ],
         [ "WDCustomerData", "interface_w_d_customer_data.html", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order_item.html#ae2582535651e1247cfaff9bc42d8f0f0',1,'de::wirecard::paymentsdk::models::OrderItem']]],
+  ['name',['name',['../enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#a967a97a2d4e3b5b5a1fb6b6d7548f14a',1,'de.wirecard.paymentsdk.Card.name()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order_item.html#ae2582535651e1247cfaff9bc42d8f0f0',1,'de.wirecard.paymentsdk.models.OrderItem.name()']]],
   ['no_5finternet_5fconnection',['NO_INTERNET_CONNECTION',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_error.html#abda9f6d78b0784f6ff0991045ed0550e',1,'de::wirecard::paymentsdk::WirecardResponseError']]],
   ['not_5fset',['NOT_SET',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a1283249c863730ddc19e1287856536d3',1,'de::wirecard::paymentsdk::models::PaymentPageStyle']]],
   ['notifications',['notifications',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a40e4f5a3debe254778afd22792096ecc',1,'de.wirecard.paymentsdk.models.WirecardPayment.notifications()'],['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html#a5578f432e8390ffaba4f73e00ccaef8f',1,'de.wirecard.paymentsdk.WirecardPaymentResponse.notifications()']]],

@@ -1,13 +1,13 @@
-<map id="output/Debug/PaymentSDK.framework/Headers/WDPayment.h" name="output/Debug/PaymentSDK.framework/Headers/WDPayment.h">
-<area shape="rect" id="node3" href="$_w_d_currency_8h.html" title="WDCurrency.h" alt="" coords="21,239,129,264"/>
-<area shape="rect" id="node4" href="$_w_d_customer_data_8h.html" title="WDCustomerData.h" alt="" coords="286,92,426,117"/>
-<area shape="rect" id="node9" href="$_w_d_locale_8h.html" title="WDLocale.h" alt="" coords="784,165,878,191"/>
-<area shape="rect" id="node10" href="$_w_d_notification_8h.html" title="WDNotification.h" alt="" coords="508,92,628,117"/>
-<area shape="rect" id="node12" href="$_w_d_order_8h.html" title="WDOrder.h" alt="" coords="172,92,260,117"/>
-<area shape="rect" id="node14" href="$_w_d_transaction_type_8h.html" title="WDTransactionType.h" alt="" coords="804,92,956,117"/>
-<area shape="rect" id="node5" href="$_w_d_address_8h.html" title="WDAddress.h" alt="" coords="304,165,408,191"/>
-<area shape="rect" id="node7" href="$_w_d_gender_8h.html" title="WDGender.h" alt="" coords="432,165,531,191"/>
-<area shape="rect" id="node6" href="$_w_d_country_8h.html" title="WDCountry.h" alt="" coords="305,239,405,264"/>
-<area shape="rect" id="node11" href="$_w_d_transaction_state_8h.html" title="WDTransactionState.h" alt="" coords="605,165,760,191"/>
-<area shape="rect" id="node13" href="$_w_d_order_item_8h.html" title="WDOrderItem.h" alt="" coords="64,165,179,191"/>
+<map id="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/output/universal/PaymentSDK.framework/Headers/WDPayment.h" name="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/output/universal/PaymentSDK.framework/Headers/WDPayment.h">
+<area shape="rect" id="node3" href="$_w_d_currency_8h.html" title="WDCurrency.h" alt="" coords="21,279,129,304"/>
+<area shape="rect" id="node4" href="$_w_d_customer_data_8h.html" title="WDCustomerData.h" alt="" coords="286,132,426,157"/>
+<area shape="rect" id="node9" href="$_w_d_locale_8h.html" title="WDLocale.h" alt="" coords="784,205,878,231"/>
+<area shape="rect" id="node10" href="$_w_d_notification_8h.html" title="WDNotification.h" alt="" coords="508,132,628,157"/>
+<area shape="rect" id="node12" href="$_w_d_order_8h.html" title="WDOrder.h" alt="" coords="172,132,260,157"/>
+<area shape="rect" id="node14" href="$_w_d_transaction_type_8h.html" title="WDTransactionType.h" alt="" coords="804,132,956,157"/>
+<area shape="rect" id="node5" href="$_w_d_address_8h.html" title="WDAddress.h" alt="" coords="304,205,408,231"/>
+<area shape="rect" id="node7" href="$_w_d_gender_8h.html" title="WDGender.h" alt="" coords="432,205,531,231"/>
+<area shape="rect" id="node6" href="$_w_d_country_8h.html" title="WDCountry.h" alt="" coords="305,279,405,304"/>
+<area shape="rect" id="node11" href="$_w_d_transaction_state_8h.html" title="WDTransactionState.h" alt="" coords="605,205,760,231"/>
+<area shape="rect" id="node13" href="$_w_d_order_item_8h.html" title="WDOrderItem.h" alt="" coords="64,205,179,231"/>
 </map>

@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['integration',['Integration',['../p_2_integration.html',1,'index']]],
-  ['integration',['Integration',['../p_3_2_integration.html',1,'p_3_android_sdk']]],
-  ['integration',['Integration',['../p_4_2_integration.html',1,'p_4_ios_sdk']]],
-  ['ios_20sdk',['iOS SDK',['../p_4_ios_sdk.html',1,'index']]]
+  ['embedded_20form_20example',['Embedded Form Example',['../p_3_3_1_3_embedded_form_example.html',1,'p_3_3_1_card_payment']]],
+  ['example',['Example',['../p_3_3_2_2_example.html',1,'p_3_3_2_paypal']]],
+  ['example',['Example',['../p_3_3_3_2_example.html',1,'p_3_3_3_sepa_direct_debit']]],
+  ['example',['Example',['../p_4_3_1_3_example.html',1,'p_4_3_1_applepay']]],
+  ['example',['Example',['../p_4_3_2_2_example.html',1,'p_4_3_2_card_payment']]],
+  ['example',['Example',['../p_4_3_3_2_example.html',1,'p_4_3_3_paypal']]],
+  ['example',['Example',['../p_4_3_4_2_example.html',1,'p_4_3_4_sepa_direct_debit']]]
 ];

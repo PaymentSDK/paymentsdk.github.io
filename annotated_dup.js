@@ -6,6 +6,7 @@ var annotated_dup =
     [ "WDApplePayManagedPayment", "interface_w_d_apple_pay_managed_payment.html", "interface_w_d_apple_pay_managed_payment" ],
     [ "WDApplePayPayment", "interface_w_d_apple_pay_payment.html", "interface_w_d_apple_pay_payment" ],
     [ "WDBaseStyle", "interface_w_d_base_style.html", "interface_w_d_base_style" ],
+    [ "WDCard", "interface_w_d_card.html", "interface_w_d_card" ],
     [ "WDCardField", "interface_w_d_card_field.html", "interface_w_d_card_field" ],
     [ "<WDCardFieldDelegate>", "protocol_w_d_card_field_delegate-p.html", "protocol_w_d_card_field_delegate-p" ],
     [ "WDCardPayment", "interface_w_d_card_payment.html", "interface_w_d_card_payment" ],

@@ -1,7 +1,7 @@
-<map id="output/Debug/PaymentSDK.framework/Headers/WDStyle.h" name="output/Debug/PaymentSDK.framework/Headers/WDStyle.h">
-<area shape="rect" id="node2" href="$_w_d_base_style_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDBaseStyle.h" alt="" coords="143,92,394,131"/>
-<area shape="rect" id="node3" href="$_w_d_native_style_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDNativeStyle.h" alt="" coords="143,179,394,217"/>
-<area shape="rect" id="node4" href="$_w_d_card_style_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDCardStyle.h" alt="" coords="5,265,256,304"/>
-<area shape="rect" id="node6" href="$_w_d_s_e_p_a_style_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/WDSEPAStyle.h" alt="" coords="280,265,531,304"/>
-<area shape="rect" id="node5" href="$_payment_s_d_k_8h.html" title="output/Debug/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="143,352,394,391"/>
+<map id="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/output/universal/PaymentSDK.framework/Headers/WDStyle.h" name="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/output/universal/PaymentSDK.framework/Headers/WDStyle.h">
+<area shape="rect" id="node2" href="$_w_d_base_style_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDBaseStyle.h" alt="" coords="152,132,421,211"/>
+<area shape="rect" id="node3" href="$_w_d_native_style_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDNativeStyle.h" alt="" coords="152,259,421,337"/>
+<area shape="rect" id="node4" href="$_w_d_card_style_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDCardStyle.h" alt="" coords="5,385,274,464"/>
+<area shape="rect" id="node6" href="$_w_d_s_e_p_a_style_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDSEPAStyle.h" alt="" coords="299,385,568,464"/>
+<area shape="rect" id="node5" href="$_payment_s_d_k_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="152,512,421,591"/>
 </map>

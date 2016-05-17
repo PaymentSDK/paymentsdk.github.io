@@ -3,7 +3,7 @@ var interface_w_d_card_field =
     [ "becomeFirstResponder", "interface_w_d_card_field.html#ac3abbd10cd7eb026ece0e87c7c95b9ae", null ],
     [ "clear", "interface_w_d_card_field.html#ad841cd61a398c42700ace283e02e4d3d", null ],
     [ "resignFirstResponder", "interface_w_d_card_field.html#ac37a2525bcb74713f137274b82eaea4e", null ],
-    [ "brand", "interface_w_d_card_field.html#a2b60ba546dbc8f59a4ed06c2cb5719a9", null ],
+    [ "card", "interface_w_d_card_field.html#a7329e09064f97752e0cd84581567cc76", null ],
     [ "cardPayment", "interface_w_d_card_field.html#a352b1956b1a16a8cd76d88280a529c87", null ],
     [ "delegate", "interface_w_d_card_field.html#a1f218f40549529aa357e89fe88d39e01", null ],
     [ "enabled", "interface_w_d_card_field.html#afe93bd54bb51503100a15a83867a6416", null ],

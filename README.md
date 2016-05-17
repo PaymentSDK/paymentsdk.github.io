@@ -1,1 +1,0 @@
-# paymentsdk.github.io

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wdcardbrand',['WDCardBrand',['../group__ios__sdk.html#ga5dadb1a71db3102708c8f8c02e330400',1,'WDCardBrand.h']]],
+  ['wdcardbrand',['WDCardBrand',['../_w_d_card_brand_8h.html#a5dadb1a71db3102708c8f8c02e330400',1,'WDCardBrand.h']]],
   ['wdcardfieldstate',['WDCardFieldState',['../group__ios__sdk.html#ga3062ed27f5e9bd7f94e6531e310ac810',1,'WDCardField.h']]],
   ['wdcountry',['WDCountry',['../group__ios__sdk.html#ga91812197ae210caa36e11d4d18122d94',1,'WDCountry.h']]],
   ['wdcurrency',['WDCurrency',['../group__ios__sdk.html#ga847858037c3b7d84d8d59ebea4b6aa80',1,'WDCurrency.h']]],
