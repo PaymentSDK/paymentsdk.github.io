@@ -2,8 +2,8 @@ var searchData=
 [
   ['wd_5ferrorwithcode_3a',['wd_errorWithCode:',['../category_n_s_error_07_w_d_utils_08.html#acd1a7b19256c1a707147160c9d70ddc9',1,'NSError(WDUtils)']]],
   ['wd_5ferrorwithcode_3aandlocalizeddescription_3a',['wd_errorWithCode:andLocalizedDescription:',['../category_n_s_error_07_w_d_utils_08.html#aa2363870ff4f67c19c95605bb1a746aa',1,'NSError(WDUtils)']]],
-  ['wdcardbrandfromcode',['WDCardBrandFromCode',['../_w_d_card_brand_8h.html#a30264d1c5d94463b8156c7233345915f',1,'WDCardBrand.h']]],
-  ['wdcardbrandgetcode',['WDCardBrandGetCode',['../_w_d_card_brand_8h.html#abf2d3c20fba5df0b75623c962ca76899',1,'WDCardBrand.h']]],
+  ['wdcardbrandfromcode',['WDCardBrandFromCode',['../group__ios__sdk.html#ga30264d1c5d94463b8156c7233345915f',1,'WDCardBrand.h']]],
+  ['wdcardbrandgetcode',['WDCardBrandGetCode',['../group__ios__sdk.html#gabf2d3c20fba5df0b75623c962ca76899',1,'WDCardBrand.h']]],
   ['wdcountryfromisocode',['WDCountryFromISOCode',['../group__ios__sdk.html#ga996dbaebd0850306914945e6ef0850ad',1,'WDCountry.h']]],
   ['wdcountrygetisocode',['WDCountryGetISOCode',['../group__ios__sdk.html#ga909bf0adff5e5368eea0ef5cbf45497b',1,'WDCountry.h']]],
   ['wdcurrencyfromisocode',['WDCurrencyFromISOCode',['../group__ios__sdk.html#gab08f5c77f74300262c03f699d93bde70',1,'WDCurrency.h']]],

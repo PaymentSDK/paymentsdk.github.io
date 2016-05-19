@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>PaymentSDK: Example</title>
+<title>PaymentSDK: Simple Example</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -100,11 +100,10 @@ $(document).ready(function(){initNavTree('p_4_3_2_2_example.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Example </div>  </div>
+<div class="title">Simple Example </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="el" href="interface_w_d_card_payment.html" title="Defines Card payment method. ">WDCardPayment</a> example</h1>
-<ol type="1">
+<div class="textblock"><ol type="1">
 <li>Initialize <a class="el" href="interface_w_d_client.html" title="Payment processing client. ">WDClient</a> instance <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;- (void)makeCardPayment</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    // it is better to keep client as property to keep reference</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    WDClient *client = [[WDClient alloc] initWithEnvironment:WDEnvironmentTEST];</div></div><!-- fragment --></li>
 <li>Initialize <a class="el" href="interface_w_d_card_payment.html" title="Defines Card payment method. ">WDCardPayment</a> instance <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;WDCardPayment *payment = [[WDCardPayment alloc] initWithAmount:[NSDecimalNumber decimalNumberWithMantissa:1275 exponent:-2 isNegative:NO]</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;                                                amountCurrency:WDCurrencyEUR</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;                                               transactionType:WDTransactionTypePurchase];</div></div><!-- fragment --></li>
 <li>Generate <a class="el" href="interface_w_d_payment.html#a22fb355fb328ac9ec7fbaa264b22cb2c">requestID</a>, <a class="el" href="interface_w_d_payment.html#a319a4784182059fbbcb8f9e500b97f2a">requestTimestamp</a> and <a class="el" href="interface_w_d_payment.html#a5d04534a60dca1eed3b8e5c9053f26b3">requestSignature</a> on your server and assign them to <a class="el" href="interface_w_d_card_payment.html" title="Defines Card payment method. ">WDCardPayment</a> object <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;payment.merchantAccountID = merchantAccountID;   // provided by support</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;payment.requestID = [[NSUUID UUID] UUIDString];  // generated on server unique to merchant</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;payment.requestTimestamp = [NSDate date];        // generated on server</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;payment.requestSignature = signature;            // generated on server</div></div><!-- fragment --></li>

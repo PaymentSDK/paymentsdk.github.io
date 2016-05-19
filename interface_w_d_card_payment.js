@@ -1,7 +1,7 @@
 var interface_w_d_card_payment =
 [
-    [ "initWithAmount:amountCurrency:transactionType:", "interface_w_d_card_payment.html#a7eeb0baa3de60a9c106e631d0d131249", null ],
-    [ "NS_UNAVAILABLE", "interface_w_d_card_payment.html#a705c6f2f6a805ed8a7cfcfd7e59c46a9", null ],
+    [ "init", "interface_w_d_card_payment.html#a9c8035968734b4ef6a03ab4bc54bf70a", null ],
+    [ "initWithAmount:amountCurrency:transactionType:", "interface_w_d_card_payment.html#a205efcac382e87e348fba449fbf55c8f", null ],
     [ "attemptThreeD", "interface_w_d_card_payment.html#af5ed6e91cd4f8ff5ffdcb93f67d47522", null ],
     [ "recurring", "interface_w_d_card_payment.html#a0dbba2b80e43cfb2d3749c2076f38a67", null ],
     [ "requireSecurityCode", "interface_w_d_card_payment.html#abc80ac39445fe82207291920c9a37475", null ],

@@ -1,6 +1,6 @@
 var interface_w_d_pay_pal_payment =
 [
-    [ "initWithAmount:currency:", "interface_w_d_pay_pal_payment.html#aba16b4b09ce372154b6a903d6626fc1b", null ],
-    [ "NS_UNAVAILABLE", "interface_w_d_pay_pal_payment.html#adc475a4cfb2cf4f15a24727b9a1ddbd3", null ],
+    [ "init", "interface_w_d_pay_pal_payment.html#a262945c12d54bb0391bccc21ca9c44a3", null ],
+    [ "initWithAmount:currency:", "interface_w_d_pay_pal_payment.html#a0300f77a1d8f8e7e5bfa2f95e6a90137", null ],
     [ "periodic", "interface_w_d_pay_pal_payment.html#a461127cc1bebdc3e5fc73578c71ab1d5", null ]
 ];

@@ -10,5 +10,6 @@ var searchData=
   ['contentsscale',['contentsScale',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instp/CALayer/contentsScale',1,'CALayer']]],
   ['cornerradius',['cornerRadius',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instp/CALayer/cornerRadius',1,'CALayer']]],
   ['country',['country',['../interface_w_d_address.html#a824d84bf37a2a50d4f5fb4be11f33372',1,'WDAddress']]],
-  ['creditorid',['creditorID',['../interface_w_d_s_e_p_a_payment.html#a2945847ae8b713a4b6ea1a4d66276954',1,'WDSEPAPayment']]]
+  ['creditorid',['creditorID',['../interface_w_d_s_e_p_a_payment.html#a2945847ae8b713a4b6ea1a4d66276954',1,'WDSEPAPayment']]],
+  ['cursorcolor',['cursorColor',['../interface_w_d_card_field.html#a5cf8d1360a5424085870c6fd9ad86b66',1,'WDCardField']]]
 ];

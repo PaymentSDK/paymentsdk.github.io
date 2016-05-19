@@ -1,7 +1,7 @@
 var interface_w_d_s_e_p_a_payment =
 [
-    [ "initWithCreditor:andMandate:", "interface_w_d_s_e_p_a_payment.html#a67a67fc14f253f235a3f9bfa288f65e8", null ],
-    [ "NS_UNAVAILABLE", "interface_w_d_s_e_p_a_payment.html#a3f67901e60e960a87c096f339ee43402", null ],
+    [ "init", "interface_w_d_s_e_p_a_payment.html#ae05030131f4ceb6ca74584477737bbb0", null ],
+    [ "initWithCreditor:andMandate:", "interface_w_d_s_e_p_a_payment.html#ad06065d55cd922ab0ecd0c3b4289ecb7", null ],
     [ "creditorID", "interface_w_d_s_e_p_a_payment.html#a2945847ae8b713a4b6ea1a4d66276954", null ],
     [ "dueDate", "interface_w_d_s_e_p_a_payment.html#a322381ffd22132ec7eb3d54a543758de", null ],
     [ "mandateID", "interface_w_d_s_e_p_a_payment.html#aa49e241763ffd94d924571811c23c3be", null ],

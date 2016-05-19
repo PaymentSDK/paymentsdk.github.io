@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['mainviewstyled',['mainViewStyled',['../interface_w_d_base_style.html#aaa02ac0f2b12e2c9d579548c76fe1f32',1,'WDBaseStyle']]],
-  ['mandateid',['mandateID',['../interface_w_d_s_e_p_a_payment.html#aa49e241763ffd94d924571811c23c3be',1,'WDSEPAPayment']]],
-  ['mandatesigneddate',['mandateSignedDate',['../interface_w_d_s_e_p_a_payment.html#aecc0d153555c51d83d1301b79f2ffd93',1,'WDSEPAPayment']]],
-  ['maskedaccountnumber',['maskedAccountNumber',['../interface_w_d_card_token.html#a23a7163d8bb12c97bf0e9de02bce9636',1,'WDCardToken']]],
-  ['maskstobounds',['masksToBounds',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instp/CALayer/masksToBounds',1,'CALayer']]],
-  ['merchantaccountid',['merchantAccountID',['../interface_w_d_payment.html#a9113bccb47fb6a56b560d051d0e9e325',1,'WDPayment']]],
-  ['merchantcountry',['merchantCountry',['../interface_w_d_apple_pay_managed_payment.html#a58683d0ccf133d8b0a3682ab00c78786',1,'WDApplePayManagedPayment']]],
-  ['merchantname',['merchantName',['../interface_w_d_s_e_p_a_style.html#a9869598e6511af99aa62c7b018efef9c',1,'WDSEPAStyle']]]
+  ['lastname',['lastName',['../interface_w_d_customer_data.html#ad90fc7594a126faa79c7e9f6dff3db0f',1,'WDCustomerData']]],
+  ['lastnameplaceholder',['lastNamePlaceholder',['../interface_w_d_card_style.html#a2f8b49b603ffeb850f6fc2cf12e870b9',1,'WDCardStyle::lastNamePlaceholder()'],['../interface_w_d_s_e_p_a_style.html#ac01b9f9fa0beb9f7151950959dffcec5',1,'WDSEPAStyle::lastNamePlaceholder()']]],
+  ['locale',['locale',['../interface_w_d_card_field.html#ae666109de8e2a3dedfd611e88f6335e8',1,'WDCardField::locale()'],['../interface_w_d_payment.html#a0260a587af662b962166553e4a1e35c6',1,'WDPayment::locale()'],['../interface_w_d_style.html#aad00269c317072c3d9faac2d914c523f',1,'WDStyle::locale()']]]
 ];

@@ -13,21 +13,25 @@ var group__ios__sdk =
       [ "street2", "interface_w_d_address.html#a34e78e910446d05c39475b25bba2e449", null ]
     ] ],
     [ "WDApplePayManagedPayment", "interface_w_d_apple_pay_managed_payment.html", [
-      [ "initWithMerchant:andCountry:", "interface_w_d_apple_pay_managed_payment.html#ad0474304fe772f2d75a0a26db6f2b036", null ],
-      [ "initWithPayment:summaryItems:currency:transactionType:", "interface_w_d_apple_pay_managed_payment.html#a75fcddefbeb25dfb13c28d1d0c509e77", null ],
-      [ "NS_UNAVAILABLE", "interface_w_d_apple_pay_managed_payment.html#ab549592ebc3c44be04c55cd3be19f126", null ],
+      [ "init", "interface_w_d_apple_pay_managed_payment.html#a338676536a5d20792af038d7fe35c67d", null ],
+      [ "initWithMerchant:andCountry:", "interface_w_d_apple_pay_managed_payment.html#abbd51e19c6bdec540f3b71780709a8be", null ],
+      [ "initWithPayment:summaryItems:currency:transactionType:", "interface_w_d_apple_pay_managed_payment.html#a30c408cd01dcf4e489b7b4176246a10f", null ],
       [ "appleMerchantID", "interface_w_d_apple_pay_managed_payment.html#a7cc4bc20823f6e806f0131d80fb2a305", null ],
       [ "merchantCountry", "interface_w_d_apple_pay_managed_payment.html#a58683d0ccf133d8b0a3682ab00c78786", null ],
       [ "requiredBillingAddress", "interface_w_d_apple_pay_managed_payment.html#a193288216cbe6430505477f0890eb1a0", null ],
       [ "requiredShippingAddress", "interface_w_d_apple_pay_managed_payment.html#a66d97c5c6c9f8641a8f08e077b1c632c", null ]
     ] ],
     [ "WDApplePayPayment", "interface_w_d_apple_pay_payment.html", [
-      [ "initWithPayment:summaryItems:currency:transactionType:", "interface_w_d_apple_pay_payment.html#a80dc7b02f8d18c3b28983814f0e9b387", null ]
+      [ "initWithPayment:summaryItems:currency:transactionType:", "interface_w_d_apple_pay_payment.html#a1e05219f16a5978d1bb6b37167bfd0d0", null ]
     ] ],
     [ "WDBaseStyle", "interface_w_d_base_style.html", [
       [ "cancelButtonStyled", "interface_w_d_base_style.html#a5344ab06e9f11053e04bf79f3f453c92", null ],
       [ "cancelButtonTitle", "interface_w_d_base_style.html#abf2739f4e71014991048eaa87a0fdc22", null ],
       [ "mainViewStyled", "interface_w_d_base_style.html#aaa02ac0f2b12e2c9d579548c76fe1f32", null ]
+    ] ],
+    [ "WDCard", "interface_w_d_card.html", [
+      [ "brand", "interface_w_d_card.html#a2d580d5ddfdeb2dc9aafd917a0e293d2", null ],
+      [ "expiryDate", "interface_w_d_card.html#a2868b3b80447f37ef4bf7ceeb535efca", null ]
     ] ],
     [ "<WDCardFieldDelegate>", "protocol_w_d_card_field_delegate-p.html", [
       [ "cardField:didChangeState:", "protocol_w_d_card_field_delegate-p.html#a6bf55b3ad337b41578d7030c7eb9db09", null ]
@@ -38,25 +42,25 @@ var group__ios__sdk =
       [ "resignFirstResponder", "interface_w_d_card_field.html#ac37a2525bcb74713f137274b82eaea4e", null ],
       [ "card", "interface_w_d_card_field.html#a7329e09064f97752e0cd84581567cc76", null ],
       [ "cardPayment", "interface_w_d_card_field.html#a352b1956b1a16a8cd76d88280a529c87", null ],
+      [ "cursorColor", "interface_w_d_card_field.html#a5cf8d1360a5424085870c6fd9ad86b66", null ],
       [ "delegate", "interface_w_d_card_field.html#a1f218f40549529aa357e89fe88d39e01", null ],
       [ "enabled", "interface_w_d_card_field.html#afe93bd54bb51503100a15a83867a6416", null ],
       [ "expirationMonthPlaceholder", "interface_w_d_card_field.html#a933ae63a5a6e33179fba7c911d01d6d2", null ],
       [ "expirationYearPlaceholder", "interface_w_d_card_field.html#ad78d43004c377df550ed7279111daac5", null ],
+      [ "font", "interface_w_d_card_field.html#a09bcc22d5022008ef8f1ede42f11836f", null ],
       [ "inputAccessoryView", "interface_w_d_card_field.html#a2182f82939e667eda5bcab0089873492", null ],
+      [ "keyboardAppearance", "interface_w_d_card_field.html#a6bb9e30a9473238820df0c37824192e1", null ],
       [ "locale", "interface_w_d_card_field.html#ae666109de8e2a3dedfd611e88f6335e8", null ],
       [ "numberPlaceholder", "interface_w_d_card_field.html#ad30f4eef18582a2ee8fa12ccd195d079", null ],
+      [ "placeholderColor", "interface_w_d_card_field.html#a81142ee64f85d0e395884ca869a28370", null ],
       [ "securityCodePlaceholder", "interface_w_d_card_field.html#ab7fb41dc55a05347dc44227b13a207b9", null ],
-      [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#a2805d5a76c03ac599e76ebfb13baefd1", null ],
-      [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#a8cd0baae5b8ebcb6f498091356e9e190", null ],
-      [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#ac9ab1db325f3c2cda2dd3b4058910a57", null ],
-      [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#a3d1b3d74b432a262d69e500d01855657", null ],
-      [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#aeb4ff9a49988bd3771ca0425aa3f3f92", null ],
-      [ "UI_APPEARANCE_SELECTOR", "interface_w_d_card_field.html#a73f0caa30ed67d707dd978f7808165e3", null ],
+      [ "textColor", "interface_w_d_card_field.html#a0db8b9a307f03d78cc4592c6be0b37ca", null ],
+      [ "textErrorColor", "interface_w_d_card_field.html#a62d368fd07dd565ec83ff8c887482d74", null ],
       [ "valid", "interface_w_d_card_field.html#acc760e08f5a01a80f4072c333c697841", null ]
     ] ],
     [ "WDCardPayment", "interface_w_d_card_payment.html", [
-      [ "initWithAmount:amountCurrency:transactionType:", "interface_w_d_card_payment.html#a7eeb0baa3de60a9c106e631d0d131249", null ],
-      [ "NS_UNAVAILABLE", "interface_w_d_card_payment.html#a705c6f2f6a805ed8a7cfcfd7e59c46a9", null ],
+      [ "init", "interface_w_d_card_payment.html#a9c8035968734b4ef6a03ab4bc54bf70a", null ],
+      [ "initWithAmount:amountCurrency:transactionType:", "interface_w_d_card_payment.html#a205efcac382e87e348fba449fbf55c8f", null ],
       [ "attemptThreeD", "interface_w_d_card_payment.html#af5ed6e91cd4f8ff5ffdcb93f67d47522", null ],
       [ "recurring", "interface_w_d_card_payment.html#a0dbba2b80e43cfb2d3749c2076f38a67", null ],
       [ "requireSecurityCode", "interface_w_d_card_payment.html#abc80ac39445fe82207291920c9a37475", null ],
@@ -75,10 +79,10 @@ var group__ios__sdk =
       [ "tokenID", "interface_w_d_card_token.html#afd606f0ec20cf2e1b075881b640cea04", null ]
     ] ],
     [ "WDClient", "interface_w_d_client.html", [
-      [ "initWithEnvironment:", "interface_w_d_client.html#a4ef46706abb4c0f84c258881ff343daa", null ],
+      [ "init", "interface_w_d_client.html#a90f725025b736f1f1df6f6898e922c4f", null ],
+      [ "initWithEnvironment:", "interface_w_d_client.html#a385ac23b82b9e873bc8ee87e81b29ffd", null ],
       [ "makePayment:withCompletion:", "interface_w_d_client.html#aea064006b61194a2d716f34f929502fd", null ],
-      [ "makePayment:withStyle:withCompletion:", "interface_w_d_client.html#aeaa695b5c52a0d3a47fb36dd89e7e7bc", null ],
-      [ "NS_UNAVAILABLE", "interface_w_d_client.html#a4c2a11e4d8b7b5dc7b2098c72529dc09", null ]
+      [ "makePayment:withStyle:withCompletion:", "interface_w_d_client.html#aeaa695b5c52a0d3a47fb36dd89e7e7bc", null ]
     ] ],
     [ "WDCustomerData", "interface_w_d_customer_data.html", [
       [ "address", "interface_w_d_customer_data.html#a18cbecc44da74d5acb11f22b5f1cdbe3", null ],
@@ -141,8 +145,8 @@ var group__ios__sdk =
       [ "transactionState", "interface_w_d_payment_response.html#a5410adfeb31c8696acc77da4c2cc65ec", null ]
     ] ],
     [ "WDPayPalPayment", "interface_w_d_pay_pal_payment.html", [
-      [ "initWithAmount:currency:", "interface_w_d_pay_pal_payment.html#aba16b4b09ce372154b6a903d6626fc1b", null ],
-      [ "NS_UNAVAILABLE", "interface_w_d_pay_pal_payment.html#adc475a4cfb2cf4f15a24727b9a1ddbd3", null ],
+      [ "init", "interface_w_d_pay_pal_payment.html#a262945c12d54bb0391bccc21ca9c44a3", null ],
+      [ "initWithAmount:currency:", "interface_w_d_pay_pal_payment.html#a0300f77a1d8f8e7e5bfa2f95e6a90137", null ],
       [ "periodic", "interface_w_d_pay_pal_payment.html#a461127cc1bebdc3e5fc73578c71ab1d5", null ]
     ] ],
     [ "WDPeriodic", "interface_w_d_periodic.html", [
@@ -150,8 +154,8 @@ var group__ios__sdk =
       [ "sequenceType", "interface_w_d_periodic.html#a1f12d206f2d4337f39a09809d008e7de", null ]
     ] ],
     [ "WDSEPAPayment", "interface_w_d_s_e_p_a_payment.html", [
-      [ "initWithCreditor:andMandate:", "interface_w_d_s_e_p_a_payment.html#a67a67fc14f253f235a3f9bfa288f65e8", null ],
-      [ "NS_UNAVAILABLE", "interface_w_d_s_e_p_a_payment.html#a3f67901e60e960a87c096f339ee43402", null ],
+      [ "init", "interface_w_d_s_e_p_a_payment.html#ae05030131f4ceb6ca74584477737bbb0", null ],
+      [ "initWithCreditor:andMandate:", "interface_w_d_s_e_p_a_payment.html#ad06065d55cd922ab0ecd0c3b4289ecb7", null ],
       [ "creditorID", "interface_w_d_s_e_p_a_payment.html#a2945847ae8b713a4b6ea1a4d66276954", null ],
       [ "dueDate", "interface_w_d_s_e_p_a_payment.html#a322381ffd22132ec7eb3d54a543758de", null ],
       [ "mandateID", "interface_w_d_s_e_p_a_payment.html#aa49e241763ffd94d924571811c23c3be", null ],
@@ -170,6 +174,26 @@ var group__ios__sdk =
       [ "locale", "interface_w_d_style.html#aad00269c317072c3d9faac2d914c523f", null ]
     ] ],
     [ "WDCompletionBlock", "group__ios__sdk.html#ga614786b3a976c977abed60a78173f4d0", null ],
+    [ "WDCardBrand", "group__ios__sdk.html#ga5dadb1a71db3102708c8f8c02e330400", [
+      [ "WDCardBrandUndefined", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400aa038c8b3bcdae41fcc37990376402299", null ],
+      [ "WDCardBrandAmex", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a6e77a6f67cb4d896899a6fa7b4ac09b8", null ],
+      [ "WDCardBrandAura", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400ac9955064bb74c15fa398771411863fbe", null ],
+      [ "WDCardBrandCarteBancaire", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400af432d2fc4486b88416af7ca96081f812", null ],
+      [ "WDCardBrandCarteBleue", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a2a63e4a734da065e05ae3e698c894793", null ],
+      [ "WDCardBrandCUP", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a1da0dba7b91f87e2872e87ecf0391ff7", null ],
+      [ "WDCardBrandDiners", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a1952173117032b71abed49572dada305", null ],
+      [ "WDCardBrandDiscover", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a816750dc8160cd59e156389f775ef983", null ],
+      [ "WDCardBrandExpressCheckout", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a771cb776aff8393d97aa54817dfc3a34", null ],
+      [ "WDCardBrandHipercard", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a6f2e89e9bf019ed621e4ae1c44d5a885", null ],
+      [ "WDCardBrandJCB", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a110b42bc1a7f88b86fb4c120fbbc3748", null ],
+      [ "WDCardBrandMaestro", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a23d5241e591fecd7497a0bed05e0db48", null ],
+      [ "WDCardBrandMaestroUK", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a17156ab9e43c69405fa85d9c83b7dc69", null ],
+      [ "WDCardBrandMasterCard", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a529265ffc92fd64411a57ed926eb8a53", null ],
+      [ "WDCardBrandSorocred", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400aee7849861c7b51da58d557130ab128fc", null ],
+      [ "WDCardBrandUATP", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a9bfbfde1b5f91e63db50253c7e718ad8", null ],
+      [ "WDCardBrandVisa", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a366e494e567ba3678205fc03c50150e7", null ],
+      [ "WDCardBrandTotalNumber", "group__ios__sdk.html#gga5dadb1a71db3102708c8f8c02e330400a15dedd6a33b55b79d43162d7d1c4389d", null ]
+    ] ],
     [ "WDCardFieldState", "group__ios__sdk.html#ga3062ed27f5e9bd7f94e6531e310ac810", [
       [ "WDCardFieldStateCardInitial", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a5c0496201bb066edfe826c35713bbb3a", null ],
       [ "WDCardFieldStateCardValid", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a442b2473e0cee5c782030ddd8368a5ad", null ],
@@ -752,6 +776,8 @@ var group__ios__sdk =
       [ "WDTransactionTypeVoidAuthorization", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a2064a47ae3028b322b09d6e7bdd3b313", null ],
       [ "WDTransactionTypeTotalNumber", "group__ios__sdk.html#gga07fb73b8fad219dafd8dd277579e68d0a991ee5b4e0252384e15ab83f23e9fcd7", null ]
     ] ],
+    [ "WDCardBrandFromCode", "group__ios__sdk.html#ga30264d1c5d94463b8156c7233345915f", null ],
+    [ "WDCardBrandGetCode", "group__ios__sdk.html#gabf2d3c20fba5df0b75623c962ca76899", null ],
     [ "WDCountryFromISOCode", "group__ios__sdk.html#ga996dbaebd0850306914945e6ef0850ad", null ],
     [ "WDCountryGetISOCode", "group__ios__sdk.html#ga909bf0adff5e5368eea0ef5cbf45497b", null ],
     [ "WDCurrencyFromISOCode", "group__ios__sdk.html#gab08f5c77f74300262c03f699d93bde70", null ],

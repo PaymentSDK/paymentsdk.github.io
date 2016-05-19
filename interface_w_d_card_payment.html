@@ -160,11 +160,11 @@ $(document).ready(function(){initNavTree('interface_w_d_card_payment.html','');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
-<tr class="memitem:a7eeb0baa3de60a9c106e631d0d131249"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_card_payment.html#a7eeb0baa3de60a9c106e631d0d131249">initWithAmount:amountCurrency:transactionType:</a></td></tr>
-<tr class="memdesc:a7eeb0baa3de60a9c106e631d0d131249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Car payment object.  <a href="#a7eeb0baa3de60a9c106e631d0d131249">More...</a><br /></td></tr>
-<tr class="separator:a7eeb0baa3de60a9c106e631d0d131249"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a705c6f2f6a805ed8a7cfcfd7e59c46a9"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_card_payment.html#a705c6f2f6a805ed8a7cfcfd7e59c46a9">NS_UNAVAILABLE</a></td></tr>
-<tr class="separator:a705c6f2f6a805ed8a7cfcfd7e59c46a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205efcac382e87e348fba449fbf55c8f"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_card_payment.html#a205efcac382e87e348fba449fbf55c8f">initWithAmount:amountCurrency:transactionType:</a></td></tr>
+<tr class="memdesc:a205efcac382e87e348fba449fbf55c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Car payment object.  <a href="#a205efcac382e87e348fba449fbf55c8f">More...</a><br /></td></tr>
+<tr class="separator:a205efcac382e87e348fba449fbf55c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8035968734b4ef6a03ab4bc54bf70a"><td class="memItemLeft" align="right" valign="top">(nullable instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_card_payment.html#a9c8035968734b4ef6a03ab4bc54bf70a">init</a></td></tr>
+<tr class="separator:a9c8035968734b4ef6a03ab4bc54bf70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interface_w_d_payment"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_w_d_payment')"><img src="closed.png" alt="-"/>&#160;Public Instance Methods inherited from <a class="el" href="interface_w_d_payment.html">WDPayment</a></td></tr>
 <tr class="memitem:ad104470b34d6cd95e37b900675d7246c inherit pub_methods_interface_w_d_payment"><td class="memItemLeft" align="right" valign="top">(nullable <a class="el" href="interface_w_d_notification.html">WDNotification</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_payment.html#ad104470b34d6cd95e37b900675d7246c">notificationForState:</a></td></tr>
 <tr class="memdesc:ad104470b34d6cd95e37b900675d7246c inherit pub_methods_interface_w_d_payment"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the notification for transaction state.  <a href="#ad104470b34d6cd95e37b900675d7246c">More...</a><br /></td></tr>
@@ -265,7 +265,22 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines Card payment method. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a class="anchor" id="a7eeb0baa3de60a9c106e631d0d131249"></a>
+<a class="anchor" id="a9c8035968734b4ef6a03ab4bc54bf70a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (nullable instancetype) init </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a205efcac382e87e348fba449fbf55c8f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -285,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey">transactionType:</td>
           <td></td>
           <td class="paramtype">(<a class="el" href="group__ios__sdk.html#ga07fb73b8fad219dafd8dd277579e68d0">WDTransactionType</a>)&#160;</td>
-          <td class="paramname"><em>NS_DESIGNATED_INITIALIZER</em>&#160;</td>
+          <td class="paramname"><em>transactionType</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -305,21 +320,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>initialized object or nil </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a705c6f2f6a805ed8a7cfcfd7e59c46a9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (nullable instancetype) NS_UNAVAILABLE </td>
-          <td></td>
-          <td class="paramname"></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

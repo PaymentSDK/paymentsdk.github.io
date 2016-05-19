@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['ui_5fappearance_5fselector',['UI_APPEARANCE_SELECTOR',['../interface_w_d_card_field.html#a2805d5a76c03ac599e76ebfb13baefd1',1,'WDCardField::UI_APPEARANCE_SELECTOR()'],['../interface_w_d_card_field.html#a8cd0baae5b8ebcb6f498091356e9e190',1,'WDCardField::UI_APPEARANCE_SELECTOR()'],['../interface_w_d_card_field.html#ac9ab1db325f3c2cda2dd3b4058910a57',1,'WDCardField::UI_APPEARANCE_SELECTOR()'],['../interface_w_d_card_field.html#a3d1b3d74b432a262d69e500d01855657',1,'WDCardField::UI_APPEARANCE_SELECTOR()'],['../interface_w_d_card_field.html#aeb4ff9a49988bd3771ca0425aa3f3f92',1,'WDCardField::UI_APPEARANCE_SELECTOR()'],['../interface_w_d_card_field.html#a73f0caa30ed67d707dd978f7808165e3',1,'WDCardField::UI_APPEARANCE_SELECTOR()']]],
-  ['url',['URL',['../interface_w_d_notification.html#ab472a18731fa1a272452dd1715d7a429',1,'WDNotification']]]
+  ['taxamount',['taxAmount',['../interface_w_d_order_item.html#a21b3fcc42c2fb6ead642433227f7b3d2',1,'WDOrderItem']]],
+  ['textcolor',['textColor',['../interface_w_d_card_field.html#a0db8b9a307f03d78cc4592c6be0b37ca',1,'WDCardField']]],
+  ['texterrorcolor',['textErrorColor',['../interface_w_d_card_field.html#a62d368fd07dd565ec83ff8c887482d74',1,'WDCardField']]],
+  ['textfieldstyled',['textFieldStyled',['../interface_w_d_native_style.html#aed73be010f545853f0e617a70f651aac',1,'WDNativeStyle']]],
+  ['textviewstyled',['textViewStyled',['../interface_w_d_s_e_p_a_style.html#a62b1437062beec0be6ea7fa3f8847f44',1,'WDSEPAStyle']]],
+  ['timeoffset',['timeOffset',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html#//apple_ref/occ/intfp/CAMediaTiming/timeOffset',1,'CAMediaTiming-p']]],
+  ['token',['token',['../interface_w_d_card_payment.html#a976db1900ddaa9a8bc7ea8b65314d59d',1,'WDCardPayment']]],
+  ['tokenid',['tokenID',['../interface_w_d_card_token.html#afd606f0ec20cf2e1b075881b640cea04',1,'WDCardToken']]],
+  ['transactionidentifier',['transactionIdentifier',['../interface_w_d_payment_response.html#a9bf2e3b54d458708ba0d40aff33f4dc4',1,'WDPaymentResponse']]],
+  ['transactionstate',['transactionState',['../interface_w_d_notification.html#a98a270834d81ff8f1fbf25da1fe2af66',1,'WDNotification::transactionState()'],['../interface_w_d_payment_response.html#a5410adfeb31c8696acc77da4c2cc65ec',1,'WDPaymentResponse::transactionState()']]],
+  ['transactiontype',['transactionType',['../interface_w_d_payment.html#adf536b1169ac44ae16098542cdd56874',1,'WDPayment']]]
 ];
