@@ -11,5 +11,6 @@ var searchData=
   ['street2',['street2',['../interface_w_d_address.html#a34e78e910446d05c39475b25bba2e449',1,'WDAddress']]],
   ['submitbuttonstyled',['submitButtonStyled',['../interface_w_d_native_style.html#ad5542b513c68d20cbd2247ce69533a21',1,'WDNativeStyle']]],
   ['submitbuttontitle',['submitButtonTitle',['../interface_w_d_native_style.html#a945b6d9d244d35386e595b1c37484c8c',1,'WDNativeStyle']]],
+  ['supportedcardbrands',['supportedCardBrands',['../interface_w_d_card_field.html#a618d47c7268536b58492ed7c81c320ea',1,'WDCardField::supportedCardBrands()'],['../interface_w_d_card_style.html#a9982dbaba393bb3e0d0b6cd5ef0eb186',1,'WDCardStyle::supportedCardBrands()']]],
   ['switchstyled',['switchStyled',['../interface_w_d_s_e_p_a_style.html#a2dbee560cc07268722e1bba316648163',1,'WDSEPAStyle']]]
 ];

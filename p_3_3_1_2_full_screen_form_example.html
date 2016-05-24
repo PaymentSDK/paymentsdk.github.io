@@ -113,7 +113,19 @@ $(document).ready(function(){initNavTree('p_3_3_1_2_full_screen_form_example.htm
 </ol>
 <h1>Referenced transaction</h1>
 <p>If you want to perform referenced transaction (using token or parentTransactionID), just set them into <code>wirecardCardPayment</code> object instance. </p><div class="fragment"><div class="line">wirecardPayment.setParentTransactionID(parentTransactionID);</div></div><!-- fragment --><p>or</p>
-<div class="fragment"><div class="line">CardToken cardToken = <span class="keyword">new</span> CardToken(tokenID, maskedAccountNumber);</div><div class="line">wirecardPayment.setCardToken(cardToken);</div></div><!-- fragment --> </div></div><!-- contents -->
+<div class="fragment"><div class="line">CardToken cardToken = <span class="keyword">new</span> CardToken(tokenID, maskedAccountNumber);</div><div class="line">wirecardPayment.setCardToken(cardToken);</div></div><!-- fragment --><h1>Custom form UI</h1>
+<p>It is possible to customize:</p>
+<ul>
+<li>input fields style</li>
+<li>background color / resource</li>
+<li>buttons background color / resource</li>
+<li>labels,hints</li>
+<li>labels,hints colors</li>
+</ul>
+<p>You need to initialize <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html">PaymentPageStyle</a> object.</p>
+<div class="fragment"><div class="line">PaymentPageStyle paymentPageStyle = <span class="keyword">new</span> PaymentPageStyle();</div></div><!-- fragment --><p>Provide customized resources:</p>
+<div class="fragment"><div class="line">paymentPageStyle.cardHolderNameHint = <span class="stringliteral">&quot;Custom name hint&quot;</span>;</div><div class="line">paymentPageStyle.cardNumberHint = <span class="stringliteral">&quot;Custom number hint&quot;</span>;</div><div class="line">paymentPageStyle.cardSecurityCodeHint = <span class="stringliteral">&quot;Custom cvc hint&quot;</span>;</div><div class="line">paymentPageStyle.cardExpiryDateHint = <span class="stringliteral">&quot;Custom date hint&quot;</span>;</div><div class="line">paymentPageStyle.backgroundResourceId = R.color.black;</div><div class="line">paymentPageStyle.cancelButtonBackgroundResourceId = R.color.white; <span class="comment">//R.drawable.cancel_button;</span></div><div class="line">paymentPageStyle.cancelButtonTextColor = getResources().getColor(R.color.black);</div><div class="line">...</div></div><!-- fragment --><p>Call WirecardClient’s method makePayment:</p>
+<div class="fragment"><div class="line">wirecardClient.makePayment(wirecardCardPayment, wirecardResponseListener, paymentPageStyle);</div></div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

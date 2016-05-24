@@ -17,6 +17,7 @@ var interface_w_d_card_field =
     [ "numberPlaceholder", "interface_w_d_card_field.html#ad30f4eef18582a2ee8fa12ccd195d079", null ],
     [ "placeholderColor", "interface_w_d_card_field.html#a81142ee64f85d0e395884ca869a28370", null ],
     [ "securityCodePlaceholder", "interface_w_d_card_field.html#ab7fb41dc55a05347dc44227b13a207b9", null ],
+    [ "supportedCardBrands", "interface_w_d_card_field.html#a618d47c7268536b58492ed7c81c320ea", null ],
     [ "textColor", "interface_w_d_card_field.html#a0db8b9a307f03d78cc4592c6be0b37ca", null ],
     [ "textErrorColor", "interface_w_d_card_field.html#a62d368fd07dd565ec83ff8c887482d74", null ],
     [ "valid", "interface_w_d_card_field.html#acc760e08f5a01a80f4072c333c697841", null ]

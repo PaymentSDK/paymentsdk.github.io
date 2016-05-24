@@ -30,6 +30,7 @@ var searchData=
   ['nsobject_2dp',['NSObject-p',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html',1,'']]],
   ['nsparagraphstyle',['NSParagraphStyle',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ApplicationKit/Classes/NSParagraphStyle_Class/Reference/Reference.html',1,'']]],
   ['nsset',['NSSet',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html',1,'']]],
+  ['nsset_3c_20nsnumber_20_2a_20_3e',['NSSet&lt; NSNumber * &gt;',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html',1,'']]],
   ['nsstring',['NSString',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html',1,'']]],
   ['nsvalue',['NSValue',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSValue_Class/Reference/Reference.html',1,'']]],
   ['nsvaluetransformer',['NSValueTransformer',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSValueTransformer_Class/Reference/Reference.html',1,'']]]
