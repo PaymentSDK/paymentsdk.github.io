@@ -7,6 +7,7 @@ var interface_w_d_payment =
     [ "IPAddress", "interface_w_d_payment.html#aca6dc3a1cc048ea0dec0755dcc46c6db", null ],
     [ "locale", "interface_w_d_payment.html#a0260a587af662b962166553e4a1e35c6", null ],
     [ "merchantAccountID", "interface_w_d_payment.html#a9113bccb47fb6a56b560d051d0e9e325", null ],
+    [ "merchantAccountResolverCategory", "interface_w_d_payment.html#ae8b7854d547ee5f96c86e4760e3bd31b", null ],
     [ "notifications", "interface_w_d_payment.html#a072be1b4e7e6c4cc2045fad0a5efaa9b", null ],
     [ "order", "interface_w_d_payment.html#a7f7d6c7cc696e3e581742dd136761889", null ],
     [ "parentTransactionID", "interface_w_d_payment.html#a81511e4d077c4f9b96bb94a6ddff4673", null ],

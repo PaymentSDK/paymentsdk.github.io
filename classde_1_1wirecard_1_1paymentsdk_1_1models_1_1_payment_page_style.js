@@ -32,5 +32,6 @@ var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style =
     [ "payButtonText", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a9194720aeffc46f0485eb5737b9e71ff", null ],
     [ "payButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aab3efc6eff3b587b7751a1c4f7152719", null ],
     [ "scanButtonText", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a04d6cc2fab048df416b4b0761831b8ae", null ],
-    [ "scanButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aa583362b92c0e3795db4fc34dd6ba741", null ]
+    [ "scanButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aa583362b92c0e3795db4fc34dd6ba741", null ],
+    [ "supportedCardBrands", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a3c8e7a970598be376e1e07fa482758da", null ]
 ];

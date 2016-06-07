@@ -1,6 +1,6 @@
-<map id="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/output/universal/PaymentSDK.framework/Headers/WDPeriodic.h" name="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/output/universal/PaymentSDK.framework/Headers/WDPeriodic.h">
-<area shape="rect" id="node2" href="$_w_d_card_payment_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDCardPayment.h" alt="" coords="5,132,274,211"/>
-<area shape="rect" id="node4" href="$_w_d_pay_pal_payment_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDPayPalPayment.h" alt="" coords="299,132,568,211"/>
-<area shape="rect" id="node5" href="$_w_d_s_e_p_a_payment_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/WDSEPAPayment.h" alt="" coords="592,132,861,211"/>
-<area shape="rect" id="node3" href="$_payment_s_d_k_8h.html" title="/Users/stefan.sedlak\l/Projects/PaymentSDK\l/PaymentSDK/PaymentSDK\l/output/universal/PaymentSDK.framework\l/Headers/PaymentSDK.h" alt="" coords="299,259,568,337"/>
+<map id="output/universal/PaymentSDK.framework/Headers/WDPeriodic.h" name="output/universal/PaymentSDK.framework/Headers/WDPeriodic.h">
+<area shape="rect" id="node2" href="$_w_d_card_payment_8h.html" title="output/universal/Payment\lSDK.framework/Headers\l/WDCardPayment.h" alt="" coords="5,105,177,157"/>
+<area shape="rect" id="node4" href="$_w_d_pay_pal_payment_8h.html" title="output/universal/Payment\lSDK.framework/Headers\l/WDPayPalPayment.h" alt="" coords="201,105,373,157"/>
+<area shape="rect" id="node5" href="$_w_d_s_e_p_a_payment_8h.html" title="output/universal/Payment\lSDK.framework/Headers\l/WDSEPAPayment.h" alt="" coords="397,105,569,157"/>
+<area shape="rect" id="node3" href="$_payment_s_d_k_8h.html" title="output/universal/Payment\lSDK.framework/Headers\l/PaymentSDK.h" alt="" coords="201,205,373,257"/>
 </map>

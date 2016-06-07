@@ -6,6 +6,7 @@ var searchData=
   ['maskedaccountnumber',['maskedAccountNumber',['../interface_w_d_card_token.html#a23a7163d8bb12c97bf0e9de02bce9636',1,'WDCardToken']]],
   ['maskstobounds',['masksToBounds',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instp/CALayer/masksToBounds',1,'CALayer']]],
   ['merchantaccountid',['merchantAccountID',['../interface_w_d_payment.html#a9113bccb47fb6a56b560d051d0e9e325',1,'WDPayment']]],
+  ['merchantaccountresolvercategory',['merchantAccountResolverCategory',['../interface_w_d_payment.html#ae8b7854d547ee5f96c86e4760e3bd31b',1,'WDPayment']]],
   ['merchantcountry',['merchantCountry',['../interface_w_d_apple_pay_managed_payment.html#a58683d0ccf133d8b0a3682ab00c78786',1,'WDApplePayManagedPayment']]],
   ['merchantname',['merchantName',['../interface_w_d_s_e_p_a_style.html#a9869598e6511af99aa62c7b018efef9c',1,'WDSEPAStyle']]]
 ];

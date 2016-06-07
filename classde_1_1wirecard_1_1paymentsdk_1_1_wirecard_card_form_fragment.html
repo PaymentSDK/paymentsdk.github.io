@@ -138,6 +138,14 @@ $(document).ready(function(){initNavTree('classde_1_1wirecard_1_1paymentsdk_1_1_
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment__coll__graph.png" border="0" usemap="#de_8wirecard_8paymentsdk_8_wirecard_card_form_fragment_coll__map" alt="Collaboration graph"/></div>
 <map name="de_8wirecard_8paymentsdk_8_wirecard_card_form_fragment_coll__map" id="de_8wirecard_8paymentsdk_8_wirecard_card_form_fragment_coll__map">
+<area shape="rect" id="node4" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with credit card input form. " alt="" coords="2006,189,2222,228"/>
+<area shape="rect" id="node5" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="1635,155,1851,193"/>
+<area shape="rect" id="node6" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="1369,205,1585,244"/>
+<area shape="rect" id="node9" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,205,1089,244"/>
+<area shape="rect" id="node10" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html" title="Address data. " alt="" coords="369,263,585,301"/>
+<area shape="rect" id="node13" href="enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="609,289,832,328"/>
+<area shape="rect" id="node14" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html" title="Order data. " alt="" coords="369,377,585,416"/>
+<area shape="rect" id="node16" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html" title="Tokenized sensitive card data. " alt="" coords="1129,21,1345,60"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -166,14 +174,18 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a5db7e52057a8579f2f18638a04977c28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a5db7e52057a8579f2f18638a04977c28">setLocale</a> (String locale)</td></tr>
 <tr class="memdesc:a5db7e52057a8579f2f18638a04977c28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set locale for card form fragment.  <a href="#a5db7e52057a8579f2f18638a04977c28">More...</a><br /></td></tr>
 <tr class="separator:a5db7e52057a8579f2f18638a04977c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99eba793cbe1709d6e60581f1cd51089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a99eba793cbe1709d6e60581f1cd51089">appendCardData</a> (<a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a> wirecardExtendedCardPayment)  throws WirecardException </td></tr>
-<tr class="memdesc:a99eba793cbe1709d6e60581f1cd51089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends card data to provided WirecardExtendedCardPayment object.  <a href="#a99eba793cbe1709d6e60581f1cd51089">More...</a><br /></td></tr>
-<tr class="separator:a99eba793cbe1709d6e60581f1cd51089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b9b946461c565ea7245b8909c22afb4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a4b9b946461c565ea7245b8909c22afb4">getCardType</a> ()</td></tr>
 <tr class="memdesc:a4b9b946461c565ea7245b8909c22afb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns type of card entered by user.  <a href="#a4b9b946461c565ea7245b8909c22afb4">More...</a><br /></td></tr>
 <tr class="separator:a4b9b946461c565ea7245b8909c22afb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac896c4b565c947db1fd5370940550e54"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac896c4b565c947db1fd5370940550e54">isCardValid</a> ()</td></tr>
+<tr class="memdesc:ac896c4b565c947db1fd5370940550e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether all card data provided by user are valid.  <a href="#ac896c4b565c947db1fd5370940550e54">More...</a><br /></td></tr>
+<tr class="separator:ac896c4b565c947db1fd5370940550e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7614475f65bda9dbfaa443b292f91e69"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a7614475f65bda9dbfaa443b292f91e69">getLocale</a> ()</td></tr>
+<tr class="memdesc:a7614475f65bda9dbfaa443b292f91e69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get locale for card form fragment.  <a href="#a7614475f65bda9dbfaa443b292f91e69">More...</a><br /></td></tr>
 <tr class="separator:a7614475f65bda9dbfaa443b292f91e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d998fe25d2f0cb48fe2e2e9994f26c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a7d998fe25d2f0cb48fe2e2e9994f26c2">getWirecardExtendedCardPayment</a> ()  throws WirecardException </td></tr>
+<tr class="memdesc:a7d998fe25d2f0cb48fe2e2e9994f26c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns WirecardExtendedCardPayment object with appended card data if provided by user.  <a href="#a7d998fe25d2f0cb48fe2e2e9994f26c2">More...</a><br /></td></tr>
+<tr class="separator:a7d998fe25d2f0cb48fe2e2e9994f26c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -191,9 +203,13 @@ Private Fields</h2></td></tr>
 <tr class="separator:ad10c5a65782d41ddc15856e463c6e042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a688893df7d9c59bba883ad165b2bdec7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a688893df7d9c59bba883ad165b2bdec7">mLocale</a></td></tr>
 <tr class="separator:a688893df7d9c59bba883ad165b2bdec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81fc2375a25b935727400a9a39f2848c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a81fc2375a25b935727400a9a39f2848c">mWirecardExtendedCardPayment</a></td></tr>
+<tr class="separator:a81fc2375a25b935727400a9a39f2848c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
+<tr class="memitem:aacef5c76d7ed347106f600cfb67ed30e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aacef5c76d7ed347106f600cfb67ed30e">KEY_PAYMENT</a> = &quot;KEY_PAYMENT&quot;</td></tr>
+<tr class="separator:aacef5c76d7ed347106f600cfb67ed30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab58a0198f9fda6bc13d885e5a7239cee"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ab58a0198f9fda6bc13d885e5a7239cee">KEY_TEXT_SIZE</a> = &quot;KEY_TEXT_SIZE&quot;</td></tr>
 <tr class="separator:ab58a0198f9fda6bc13d885e5a7239cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f6c36bcd81384ead984289a43c2549"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac7f6c36bcd81384ead984289a43c2549">KEY_TEXT_COLOR</a> = &quot;KEY_TEXT_COLOR&quot;</td></tr>
@@ -202,55 +218,18 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a2e1919ed80ab05935647ae50ff48926b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f72cff05b643487e4348b412ad62ccf"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a4f72cff05b643487e4348b412ad62ccf">KEY_LOCALE</a> = &quot;KEY_LOCALE&quot;</td></tr>
 <tr class="separator:a4f72cff05b643487e4348b412ad62ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d1051a965e34980ac0c827dc5e734d5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2d1051a965e34980ac0c827dc5e734d5">KEY_MASKED_NUMBER</a> = &quot;KEY_MASKED_NUMBER&quot;</td></tr>
-<tr class="separator:a2d1051a965e34980ac0c827dc5e734d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00d7062c6645a9a4b8e22143441c5470"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a00d7062c6645a9a4b8e22143441c5470">KEY_EXP_DATE</a> = &quot;KEY_EXP_DATE&quot;</td></tr>
 <tr class="separator:a00d7062c6645a9a4b8e22143441c5470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a635be69294643d76bf5a58a678753dfd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a635be69294643d76bf5a58a678753dfd">KEY_CARD_TYPE</a> = &quot;KEY_CARD_TYPE&quot;</td></tr>
 <tr class="separator:a635be69294643d76bf5a58a678753dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a58f96b7fbdc65145d786696587e4cd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2a58f96b7fbdc65145d786696587e4cd">KEY_REQUEST_FOCUS</a> = &quot;KEY_REQUEST_FOCUS&quot;</td></tr>
+<tr class="separator:a2a58f96b7fbdc65145d786696587e4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe8cc38f0d2b4b3bd20e62ef21844dd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#abbe8cc38f0d2b4b3bd20e62ef21844dd">KEY_SUPPORTED_CARD_BRANDS</a> = &quot;KEY_SUPPORTED_CARD_BRANDS&quot;</td></tr>
+<tr class="separator:abbe8cc38f0d2b4b3bd20e62ef21844dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains input fields for card data. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a class="anchor" id="a99eba793cbe1709d6e60581f1cd51089"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a> de.wirecard.paymentsdk.WirecardCardFormFragment.appendCardData </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a>&#160;</td>
-          <td class="paramname"><em>wirecardExtendedCardPayment</em></td><td>)</td>
-          <td> throws <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html">WirecardException</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Appends card data to provided WirecardExtendedCardPayment object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">wirecardExtendedCardPayment</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WirecardExtendedCardPayment object with appended card data. </dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html" title="Thrown when exception occurred. ">WirecardException</a></td><td>when card form not initialized yet. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a class="anchor" id="aa911d13b3d5a79b50b73482310fcc842"></a>
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +301,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns type of card entered by user. </p>
-<dl class="section return"><dt>Returns</dt><dd>card type. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Card type. </dd></dl>
 
 </div>
 </div>
@@ -346,6 +325,66 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get locale for card form fragment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7d998fe25d2f0cb48fe2e2e9994f26c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a> de.wirecard.paymentsdk.WirecardCardFormFragment.getWirecardExtendedCardPayment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html">WirecardException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns WirecardExtendedCardPayment object with appended card data if provided by user. </p>
+<dl class="section return"><dt>Returns</dt><dd>WirecardExtendedCardPayment object with appended card data if provided by user. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html" title="Thrown when exception occurred. ">WirecardException</a></td><td>when card form not initialized yet. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac896c4b565c947db1fd5370940550e54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.wirecard.paymentsdk.WirecardCardFormFragment.isCardValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether all card data provided by user are valid. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether all card data provided by user are valid. </dd></dl>
 
 </div>
 </div>
@@ -627,7 +666,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2d1051a965e34980ac0c827dc5e734d5"></a>
+<a class="anchor" id="aacef5c76d7ed347106f600cfb67ed30e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -635,7 +674,47 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String de.wirecard.paymentsdk.WirecardCardFormFragment.KEY_MASKED_NUMBER = &quot;KEY_MASKED_NUMBER&quot;</td>
+          <td class="memname">final String de.wirecard.paymentsdk.WirecardCardFormFragment.KEY_PAYMENT = &quot;KEY_PAYMENT&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2a58f96b7fbdc65145d786696587e4cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.wirecard.paymentsdk.WirecardCardFormFragment.KEY_REQUEST_FOCUS = &quot;KEY_REQUEST_FOCUS&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abbe8cc38f0d2b4b3bd20e62ef21844dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.wirecard.paymentsdk.WirecardCardFormFragment.KEY_SUPPORTED_CARD_BRANDS = &quot;KEY_SUPPORTED_CARD_BRANDS&quot;</td>
         </tr>
       </table>
   </td>
@@ -716,6 +795,26 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">String de.wirecard.paymentsdk.WirecardCardFormFragment.mLocale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a81fc2375a25b935727400a9a39f2848c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html">WirecardExtendedCardPayment</a> de.wirecard.paymentsdk.WirecardCardFormFragment.mWirecardExtendedCardPayment</td>
         </tr>
       </table>
   </td>

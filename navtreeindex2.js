@@ -1,5 +1,17 @@
 var NAVTREEINDEX2 =
 {
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a49c6a2f973e2604290430fc5a653b5fb":[2,1,32,54],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a4a241e941511ad17f7ad009d9814aabe":[2,1,32,17],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a50e2c3817deb8946acdf6bbd04bbb804":[2,1,32,10],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a55e5e8232e4e454b89be499b395c997b":[2,1,32,33],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a575cca99c4c2549778c6ad408d2a1e10":[2,1,32,60],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a6084ee4474f8707e48674207bfdc042d":[2,1,32,24],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a6964d52d29c8d4f7365c171d58c75f2c":[2,1,32,27],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a6b80ed3797f12dea1745deead0b22266":[2,1,32,39],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a7226ba1c4a9aeef529c11898dc5d6ade":[2,1,32,37],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a733d251b8ed08b62b8427e11fed1a9ce":[2,1,32,48],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a76d10aaf8e4fc2071af0a640c3228f27":[2,1,32,46],
+"group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a77cb21b08392107dc963c113122401e7":[2,1,32,14],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a7ef7491ec997757ed1a9b853d3eede2a":[2,1,32,49],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a7f5486c39d1875893b87c288561d09f1":[2,1,32,57],
 "group__ios__sdk.html#gga5af9f83740c8d2362c4c0ec3acdda7f7a84424439d079b8bc8259ab7da2b45405":[2,1,32,40],
@@ -237,17 +249,5 @@ var NAVTREEINDEX2 =
 "group__ios__sdk.html#gga847858037c3b7d84d8d59ebea4b6aa80afb934ffc072623f214c974ecc67bc95f":[2,1,28,12],
 "group__ios__sdk.html#gga847858037c3b7d84d8d59ebea4b6aa80afd6d1931fd0f931210498e94c19535fd":[2,1,28,77],
 "group__ios__sdk.html#gga847858037c3b7d84d8d59ebea4b6aa80afe6cbc6ad13e8cb540b61d3370d740ae":[2,1,28,21],
-"group__ios__sdk.html#gga847858037c3b7d84d8d59ebea4b6aa80aff07cfb08342da74f64dbaa9e472beb9":[2,1,28,125],
-"group__ios__sdk.html#gga847858037c3b7d84d8d59ebea4b6aa80afff684323ec673b3bfc9b9b3b860ff77":[2,1,28,176],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a02247007438670327dc17abc7aa72a1f":[2,1,27,197],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a0388f41fc3c0eee217774e7c90783f03":[2,1,27,211],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a050eddbc6b603ce7088dfe2ebec571b3":[2,1,27,101],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a08166ffafa68fae3aaf4def702227890":[2,1,27,131],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a085b91f92038ba9c3fa5f96cf1b183a9":[2,1,27,179],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a09d329b5687fa442d511c829b9212b8c":[2,1,27,92],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a0d5a79e227da0fa56f25673eb2ab53f4":[2,1,27,183],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a0fe6ea7a59819dd33ae1ea8dde6d996d":[2,1,27,246],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a110afceb8e8cbb4f190c8dca4cb0982b":[2,1,27,168],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a1156eaa748391cbb211af8f3cbdc0981":[2,1,27,117],
-"group__ios__sdk.html#gga91812197ae210caa36e11d4d18122d94a11cb2f1dcba431e310eec4b47b446292":[2,1,27,206]
+"group__ios__sdk.html#gga847858037c3b7d84d8d59ebea4b6aa80aff07cfb08342da74f64dbaa9e472beb9":[2,1,28,125]
 };

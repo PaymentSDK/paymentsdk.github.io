@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['lastname',['lastName',['../interface_w_d_customer_data.html#ad90fc7594a126faa79c7e9f6dff3db0f',1,'WDCustomerData::lastName()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html#a47c802dd4f1c1c40feea1c88df3b2bf1',1,'de.wirecard.paymentsdk.models.CustomerData.lastName()']]],
-  ['lastnamehint',['lastNameHint',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a7fca01ec70488b5225754ab5d6d89ce0',1,'de::wirecard::paymentsdk::models::PaymentPageStyle']]],
-  ['lastnameplaceholder',['lastNamePlaceholder',['../interface_w_d_card_style.html#a2f8b49b603ffeb850f6fc2cf12e870b9',1,'WDCardStyle::lastNamePlaceholder()'],['../interface_w_d_s_e_p_a_style.html#ac01b9f9fa0beb9f7151950959dffcec5',1,'WDSEPAStyle::lastNamePlaceholder()']]],
-  ['layer',['layer',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/clm/CALayer/layer',1,'CALayer']]],
-  ['layoutsublayers',['layoutSublayers',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instm/CALayer/layoutSublayers',1,'CALayer']]],
-  ['load',['load',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html#//apple_ref/occ/clm/NSObject/load',1,'NSObject']]],
-  ['loadingdialogmessagetext',['loadingDialogMessageText',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#afb1c080d64f79f58a2c7d88ea766ca80',1,'de::wirecard::paymentsdk::models::PaymentPageStyle']]],
-  ['locale',['locale',['../interface_w_d_card_field.html#ae666109de8e2a3dedfd611e88f6335e8',1,'WDCardField::locale()'],['../interface_w_d_payment.html#a0260a587af662b962166553e4a1e35c6',1,'WDPayment::locale()'],['../interface_w_d_style.html#aad00269c317072c3d9faac2d914c523f',1,'WDStyle::locale()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a58688cb441edf8468b7024444b52e6f4',1,'de.wirecard.paymentsdk.models.PaymentPageStyle.locale()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ab32e9b65d46bbfccd0d152dcc01a52dc',1,'de.wirecard.paymentsdk.models.WirecardPayment.locale()']]]
+  ['key_5fcard_5ftype',['KEY_CARD_TYPE',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a635be69294643d76bf5a58a678753dfd',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5fexp_5fdate',['KEY_EXP_DATE',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a00d7062c6645a9a4b8e22143441c5470',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5fhint_5fcolor',['KEY_HINT_COLOR',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2e1919ed80ab05935647ae50ff48926b',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5flocale',['KEY_LOCALE',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a4f72cff05b643487e4348b412ad62ccf',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5fpayment',['KEY_PAYMENT',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aacef5c76d7ed347106f600cfb67ed30e',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5frequest_5ffocus',['KEY_REQUEST_FOCUS',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2a58f96b7fbdc65145d786696587e4cd',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5fsupported_5fcard_5fbrands',['KEY_SUPPORTED_CARD_BRANDS',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#abbe8cc38f0d2b4b3bd20e62ef21844dd',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5ftext_5fcolor',['KEY_TEXT_COLOR',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac7f6c36bcd81384ead984289a43c2549',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['key_5ftext_5fsize',['KEY_TEXT_SIZE',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ab58a0198f9fda6bc13d885e5a7239cee',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
+  ['keyboardappearance',['keyboardAppearance',['../interface_w_d_card_field.html#a6bb9e30a9473238820df0c37824192e1',1,'WDCardField']]]
 ];

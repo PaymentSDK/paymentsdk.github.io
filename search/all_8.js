@@ -23,6 +23,7 @@ var searchData=
   ['ios_20sdk',['iOS SDK',['../group__ios__sdk.html',1,'']]],
   ['ipaddress',['ipAddress',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a88e89f4cee46f1b2fd012c916ed9a3f7',1,'de.wirecard.paymentsdk.models.WirecardPayment.ipAddress()'],['../interface_w_d_payment.html#aca6dc3a1cc048ea0dec0755dcc46c6db',1,'WDPayment::IPAddress()']]],
   ['isattempt3d',['isAttempt3d',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#a4fe724c8edbef06a84b329afa886fba8',1,'de::wirecard::paymentsdk::models::WirecardCardPayment']]],
+  ['iscardvalid',['isCardValid',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac896c4b565c947db1fd5370940550e54',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
   ['isequal_3a',['isEqual:',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html#//apple_ref/occ/intfm/NSObject/isEqual:',1,'NSObject-p']]],
   ['isrecurring',['isRecurring',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#a8e6627ec815565b1cc0d1673cba3e98d',1,'de::wirecard::paymentsdk::models::WirecardCardPayment']]],
   ['isrequiresecuritycode',['isRequireSecurityCode',['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html#ac6000106fdd2a3e8f6bc01ebfc947ddc',1,'de::wirecard::paymentsdk::models::WirecardCardPayment']]],

@@ -1,14 +1,17 @@
 var group__android__sdk =
 [
-    [ "Card", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html", [
-      [ "Card", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#a99821cc701550b1a215928bf475351a2", null ],
-      [ "getName", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#af731bf261299d259acb3ba893b7c8ac6", null ],
-      [ "AMEX", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#aaaccb25a27164e66f08a3801337a6f29", null ],
-      [ "DINERS", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#ac3ed1f6b8e1f07d123356d750628d4fe", null ],
-      [ "DISCOVER", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#ac3d30b151914beaf99cb430ac3aefeed", null ],
-      [ "MASTERCARD", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#a6b48ac5ab4680c474c3c37b2eb4388c1", null ],
-      [ "name", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#a967a97a2d4e3b5b5a1fb6b6d7548f14a", null ],
-      [ "VISA", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html#ae395cf8209c54a95e71781299c437cfa", null ]
+    [ "CardBrand", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html", [
+      [ "CardBrand", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a0103321373ba5111d6eb1a7f454c4056", null ],
+      [ "getName", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a12c8f83dac1adfed55520888d8eddf9d", null ],
+      [ "AMEX", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a4e4f7e36391af0bdd15449710148c72b", null ],
+      [ "CUP", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#aa89fe32e4a796e775c9fe9f8cd1af5e8", null ],
+      [ "DINERS", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#aa243ee27f746fbdfc60c52ce3305fc03", null ],
+      [ "DISCOVER", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a7ef315100988f9b9bb4c962ef0db01c2", null ],
+      [ "JCB", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a6b79220919eec48c73899716692fcb95", null ],
+      [ "MASTERCARD", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#ab2cd01c22991a98274dcec158b01aaf7", null ],
+      [ "name", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#aaaffd2ef3bee76961c7defb68aad3841", null ],
+      [ "UATP", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#afb46f28dbc576ad90e2c7f845f6f18a2", null ],
+      [ "VISA", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#abe748dda2c0cf2d1abf95ac8d815a3b5", null ]
     ] ],
     [ "Address", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html", [
       [ "Address", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html#af6c9d9dfc299df36ddc559000ce4d8e5", null ],
@@ -151,7 +154,8 @@ var group__android__sdk =
       [ "payButtonText", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a9194720aeffc46f0485eb5737b9e71ff", null ],
       [ "payButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aab3efc6eff3b587b7751a1c4f7152719", null ],
       [ "scanButtonText", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a04d6cc2fab048df416b4b0761831b8ae", null ],
-      [ "scanButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aa583362b92c0e3795db4fc34dd6ba741", null ]
+      [ "scanButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aa583362b92c0e3795db4fc34dd6ba741", null ],
+      [ "supportedCardBrands", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a3c8e7a970598be376e1e07fa482758da", null ]
     ] ],
     [ "Periodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html", [
       [ "Periodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html#a1b26a84f9d3e1a2543a83b58f0679f67", null ],
@@ -192,6 +196,7 @@ var group__android__sdk =
       [ "getIpAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a03a63759ae1b71cdba13ed0494619595", null ],
       [ "getLocale", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a4ae07208bbaf046c3182ecaf4582ba19", null ],
       [ "getMerchantAccountID", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#adc698f5a805458c5b9961dde959770ec", null ],
+      [ "getMerchantAccountResolverCategory", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a09125ffa2d169877be204d45e0d3d24d", null ],
       [ "getNotifications", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a56c07a52469f9b46e99351c81d4798ee", null ],
       [ "getOrder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#af0147683d28e7bd0fec5d1d13ea2ee39", null ],
       [ "getParentTransactionID", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ac2476aa696759f69423dd8ee7871085a", null ],
@@ -206,6 +211,7 @@ var group__android__sdk =
       [ "setIpAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad13666469aff3ed327abf86450a1fbae", null ],
       [ "setLocale", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a76d2b1093ff49af886df7f688f76348c", null ],
       [ "setMerchantAccountID", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a0a922d9286b8ebdce630e7ff052eea33", null ],
+      [ "setMerchantAccountResolverCategory", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a45078b455e3c2c06d43459cfa7d326e3", null ],
       [ "setNotifications", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a976fafaa982ebd25c2a7301c65de0857", null ],
       [ "setOrder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a9c23002037902d50ec8fb4e0b808c01a", null ],
       [ "setParentTransactionID", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a300ca93bccbedd8b13e2b6736945de97", null ],
@@ -220,6 +226,7 @@ var group__android__sdk =
       [ "ipAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a88e89f4cee46f1b2fd012c916ed9a3f7", null ],
       [ "locale", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ab32e9b65d46bbfccd0d152dcc01a52dc", null ],
       [ "merchantAccountID", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a539ecf50bbdbdba0ef5d1d1d8cd3fd03", null ],
+      [ "merchantAccountResolverCategory", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ae9e63e17f8f9b0988fde923da3bbc1c5", null ],
       [ "notifications", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a40e4f5a3debe254778afd22792096ecc", null ],
       [ "order", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a7968f471e92eafef3740eba99ca3dd3f", null ],
       [ "parentTransactionID", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#aa4db6aa1ecef80ec6e980300af0ba8f2", null ],
@@ -258,22 +265,24 @@ var group__android__sdk =
     ] ],
     [ "WirecardCardFormFragment", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html", [
       [ "Builder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html", [
-        [ "Builder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a60572eecca1344f26a711e90fd2d95cf", null ],
+        [ "Builder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#af6764f33a0228c38670f8c175363a4d5", null ],
         [ "build", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a1ec4fa9ada13e9c56e4dbaf6949ca51f", null ],
-        [ "setCardType", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a25aefeaa6df7055db40611966f2356e6", null ],
+        [ "setCardBrand", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a7b89783e88006ccafa69560d1d40f718", null ],
         [ "setExpirationDate", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a2d0d505d2d5b2b8367dff6aeaacaa318", null ],
         [ "setHintColorID", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#ae5dde8ab3ef9b4bbc12b9a5064a4859a", null ],
         [ "setLocale", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a5e666722584d1bcdd178b55e7d428dd1", null ],
-        [ "setMaskedAccountNumber", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#abc9c824ac8c4a80d943708f1f84af145", null ],
+        [ "setRequestFocus", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a176546e4495e28acdeffe2c665ce842d", null ],
+        [ "setSupportedCardBrands", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a4af3f6cee0f0965edff40025592b33a9", null ],
         [ "setTextColorID", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#add8c2ede4478eb0788113f967c49ca58", null ],
         [ "setTextSize", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a12ab849ce391691f1f5abe429384878e", null ],
         [ "args", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html#a05d1e44a7692d2348ec09b60c6e47121", null ]
       ] ],
-      [ "appendCardData", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a99eba793cbe1709d6e60581f1cd51089", null ],
       [ "appendData", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aa911d13b3d5a79b50b73482310fcc842", null ],
       [ "clearAllFields", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a563476fd98fa6024029d5d925a697610", null ],
       [ "getCardType", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a4b9b946461c565ea7245b8909c22afb4", null ],
       [ "getLocale", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a7614475f65bda9dbfaa443b292f91e69", null ],
+      [ "getWirecardExtendedCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a7d998fe25d2f0cb48fe2e2e9994f26c2", null ],
+      [ "isCardValid", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac896c4b565c947db1fd5370940550e54", null ],
       [ "newInstance", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a630e4c97711a96d768ca8fe322429185", null ],
       [ "onCreateView", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#acb12c34b3978b26b578aaebb4885f789", null ],
       [ "onSaveInstanceState", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a3a4a3c035af35e0e931343e95d1fe3de", null ],
@@ -284,11 +293,14 @@ var group__android__sdk =
       [ "KEY_EXP_DATE", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a00d7062c6645a9a4b8e22143441c5470", null ],
       [ "KEY_HINT_COLOR", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2e1919ed80ab05935647ae50ff48926b", null ],
       [ "KEY_LOCALE", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a4f72cff05b643487e4348b412ad62ccf", null ],
-      [ "KEY_MASKED_NUMBER", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2d1051a965e34980ac0c827dc5e734d5", null ],
+      [ "KEY_PAYMENT", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aacef5c76d7ed347106f600cfb67ed30e", null ],
+      [ "KEY_REQUEST_FOCUS", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2a58f96b7fbdc65145d786696587e4cd", null ],
+      [ "KEY_SUPPORTED_CARD_BRANDS", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#abbe8cc38f0d2b4b3bd20e62ef21844dd", null ],
       [ "KEY_TEXT_COLOR", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac7f6c36bcd81384ead984289a43c2549", null ],
       [ "KEY_TEXT_SIZE", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ab58a0198f9fda6bc13d885e5a7239cee", null ],
       [ "mCreditCardForm", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ad10c5a65782d41ddc15856e463c6e042", null ],
-      [ "mLocale", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a688893df7d9c59bba883ad165b2bdec7", null ]
+      [ "mLocale", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a688893df7d9c59bba883ad165b2bdec7", null ],
+      [ "mWirecardExtendedCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a81fc2375a25b935727400a9a39f2848c", null ]
     ] ],
     [ "WirecardClient", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html", [
       [ "checkPayment", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#a0621a424fde34dc747089f0ae11610f1", null ],

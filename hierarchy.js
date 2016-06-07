@@ -1,7 +1,8 @@
 var hierarchy =
 [
+    [ "de.wirecard.paymentsdk.RootChecker.a", "enumde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1a.html", null ],
     [ "de.wirecard.paymentsdk.WirecardCardFormFragment.Builder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html", null ],
-    [ "de.wirecard.paymentsdk.Card", "enumde_1_1wirecard_1_1paymentsdk_1_1_card.html", null ],
+    [ "de.wirecard.paymentsdk.CardBrand", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html", null ],
     [ "NSError(WDUtils)", "category_n_s_error_07_w_d_utils_08.html", null ],
     [ "<NSKeyValueBindingCreation>", null, [
       [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
@@ -41,7 +42,6 @@ var hierarchy =
     [ "RuntimeException", null, [
       [ "de.wirecard.paymentsdk.WirecardException", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html", null ]
     ] ],
-    [ "de.wirecard.paymentsdk.RootChecker.SHELL_CMD", "enumde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1_s_h_e_l_l___c_m_d.html", null ],
     [ "UIControl", null, [
       [ "WDCardField", "interface_w_d_card_field.html", null ]
     ] ],
@@ -54,7 +54,6 @@ var hierarchy =
     [ "de.wirecard.paymentsdk.WirecardPeriodicType", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_periodic_type.html", null ],
     [ "de.wirecard.paymentsdk.WirecardResponseListener", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_listener.html", null ],
     [ "de.wirecard.paymentsdk.WirecardSequenceType", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_sequence_type.html", null ],
-    [ "de.wirecard.paymentsdk.WirecardTransactionType", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html", null ],
     [ "Fragment", null, [
       [ "de.wirecard.paymentsdk.WirecardCardFormFragment", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html", null ]
     ] ],
@@ -76,6 +75,7 @@ var hierarchy =
       ] ],
       [ "de.wirecard.paymentsdk.WirecardPaymentResponse", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html", null ],
       [ "de.wirecard.paymentsdk.WirecardResponseError", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_error.html", null ],
-      [ "de.wirecard.paymentsdk.WirecardTransactionState", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_state.html", null ]
+      [ "de.wirecard.paymentsdk.WirecardTransactionState", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_state.html", null ],
+      [ "de.wirecard.paymentsdk.WirecardTransactionType", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html", null ]
     ] ]
 ];

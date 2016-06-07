@@ -11,6 +11,7 @@
 <area shape="rect" id="node15" href="$classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html" title="Payment response from ElasticEngine. Contains response data from ElasticEngine. " alt="" coords="144,569,366,608"/>
 <area shape="rect" id="node16" href="$classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_response_error.html" title="Error object returned by WirecardResponseListener. " alt="" coords="144,632,366,671"/>
 <area shape="rect" id="node17" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_state.html" title="List of transaction states. " alt="" coords="144,695,366,733"/>
+<area shape="rect" id="node18" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="144,757,366,796"/>
 <area shape="rect" id="node11" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="414,444,631,483"/>
 <area shape="rect" id="node13" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="414,507,631,545"/>
 <area shape="rect" id="node14" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html" title="Defines SEPA payment method. " alt="" coords="414,569,631,608"/>
