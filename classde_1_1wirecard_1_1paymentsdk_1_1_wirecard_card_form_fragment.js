@@ -22,7 +22,7 @@ var classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment =
     [ "KEY_SUPPORTED_CARD_BRANDS", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#abbe8cc38f0d2b4b3bd20e62ef21844dd", null ],
     [ "KEY_TEXT_COLOR", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ac7f6c36bcd81384ead984289a43c2549", null ],
     [ "KEY_TEXT_SIZE", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ab58a0198f9fda6bc13d885e5a7239cee", null ],
-    [ "mCreditCardForm", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ad10c5a65782d41ddc15856e463c6e042", null ],
+    [ "mCardFormComponent", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aa989a390212c9371db1c57c8bb5617f2", null ],
     [ "mLocale", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a688893df7d9c59bba883ad165b2bdec7", null ],
     [ "mWirecardExtendedCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a81fc2375a25b935727400a9a39f2848c", null ]
 ];

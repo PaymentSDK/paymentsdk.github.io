@@ -156,6 +156,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a9c4afc46972004de07767e9c77a46e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#a9c4afc46972004de07767e9c77a46e04">setMaskedAccountNumber</a> (String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#a91755464b05c51cc9b4c52c24effced0">maskedAccountNumber</a>)</td></tr>
 <tr class="memdesc:a9c4afc46972004de07767e9c77a46e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets masked account number.  <a href="#a9c4afc46972004de07767e9c77a46e04">More...</a><br /></td></tr>
 <tr class="separator:a9c4afc46972004de07767e9c77a46e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b436cf3d22ecc8d8b961aae89cb32a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#ae5b436cf3d22ecc8d8b961aae89cb32a">getCryptogram</a> ()</td></tr>
+<tr class="separator:ae5b436cf3d22ecc8d8b961aae89cb32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af32806fe8e14833094a2885763465462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#af32806fe8e14833094a2885763465462">setCryptogram</a> (String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#aa7aa3db5550bf324fa45fd4cfc9d05ae">cryptogram</a>)</td></tr>
+<tr class="separator:af32806fe8e14833094a2885763465462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Fields</h2></td></tr>
@@ -165,6 +169,9 @@ Private Fields</h2></td></tr>
 <tr class="memitem:a91755464b05c51cc9b4c52c24effced0"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#a91755464b05c51cc9b4c52c24effced0">maskedAccountNumber</a></td></tr>
 <tr class="memdesc:a91755464b05c51cc9b4c52c24effced0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Masked account number.  <a href="#a91755464b05c51cc9b4c52c24effced0">More...</a><br /></td></tr>
 <tr class="separator:a91755464b05c51cc9b4c52c24effced0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7aa3db5550bf324fa45fd4cfc9d05ae"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html#aa7aa3db5550bf324fa45fd4cfc9d05ae">cryptogram</a></td></tr>
+<tr class="memdesc:aa7aa3db5550bf324fa45fd4cfc9d05ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypted payment data. Typically used in place of account-number or token-id.  <a href="#aa7aa3db5550bf324fa45fd4cfc9d05ae">More...</a><br /></td></tr>
+<tr class="separator:aa7aa3db5550bf324fa45fd4cfc9d05ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tokenized sensitive card data. </p>
@@ -238,6 +245,29 @@ Private Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="ae5b436cf3d22ecc8d8b961aae89cb32a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.wirecard.paymentsdk.models.CardToken.getCryptogram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a2e58331510b3cba005759ad8facd9fe9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -287,6 +317,30 @@ Private Fields</h2></td></tr>
 
 <p>Returns tokenized account number. Last 4 digits are equal to card account number. </p>
 <dl class="section return"><dt>Returns</dt><dd>tokenized account number. Last 4 digits are equal to card account number. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af32806fe8e14833094a2885763465462"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.wirecard.paymentsdk.models.CardToken.setCryptogram </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>cryptogram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -355,6 +409,28 @@ Private Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aa7aa3db5550bf324fa45fd4cfc9d05ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.wirecard.paymentsdk.models.CardToken.cryptogram</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Encrypted payment data. Typically used in place of account-number or token-id. </p>
+
+</div>
+</div>
 <a class="anchor" id="a91755464b05c51cc9b4c52c24effced0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -399,9 +475,6 @@ Private Fields</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDKAndroid/paymentsdk/src/main/java/de/wirecard/paymentsdk/models/<a class="el" href="_card_token_8java.html">CardToken.java</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

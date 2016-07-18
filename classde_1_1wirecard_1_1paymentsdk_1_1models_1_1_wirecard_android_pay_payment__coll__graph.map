@@ -1,0 +1,10 @@
+<map id="de.wirecard.paymentsdk.models.WirecardAndroidPayPayment" name="de.wirecard.paymentsdk.models.WirecardAndroidPayPayment">
+<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="1832,73,2048,112"/>
+<area shape="rect" id="node3" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="1369,215,1585,253"/>
+<area shape="rect" id="node6" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,215,1089,253"/>
+<area shape="rect" id="node7" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html" title="Address data. " alt="" coords="369,277,585,316"/>
+<area shape="rect" id="node10" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="609,325,832,364"/>
+<area shape="rect" id="node11" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html" title="Order data. " alt="" coords="369,397,585,436"/>
+<area shape="rect" id="node13" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html" title="Tokenized sensitive card data. " alt="" coords="1129,56,1345,95"/>
+<area shape="rect" id="node14" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html" title="List of supported card brands. " alt="" coords="1609,5,1808,44"/>
+</map>

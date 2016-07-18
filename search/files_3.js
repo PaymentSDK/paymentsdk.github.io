@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['foundation_20constants_20reference',['Foundation Constants Reference',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_Constants/Reference/reference.html.html',1,'']]],
-  ['foundation_20data_20types',['Foundation Data Types',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html.html',1,'']]],
-  ['foundation_20functions_20reference',['Foundation Functions Reference',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_Functions/Reference/reference.html.html',1,'']]]
+  ['nsattributedstring_20uikit_20additions_20reference',['NSAttributedString UIKit Additions Reference',['https://developer.apple.com/library/ios/#documentation/UIKit/reference/NSAttributedString_UIKit_Additions/Reference/Reference.html.html',1,'']]],
+  ['nscalendar_20class_20reference',['NSCalendar Class Reference',['https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSCalendar_Class/Reference/NSCalendar.html.html',1,'']]],
+  ['nsdateformatter_20class_20reference',['NSDateFormatter Class Reference',['https://developer.apple.com/library/iOS/#documentation/Cocoa/Reference/Foundation/Classes/NSDateFormatter_Class/Reference/Reference.html.html',1,'']]]
 ];

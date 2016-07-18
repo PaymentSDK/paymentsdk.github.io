@@ -1,6 +1,8 @@
 var searchData=
 [
   ['mobile_20sdks',['Mobile SDKs',['../index.html',1,'']]],
+  ['maestro',['MAESTRO',['../enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a4b6624b758a98566bfae45c56f06b655',1,'de::wirecard::paymentsdk::CardBrand']]],
+  ['maestro_5fuk',['MAESTRO_UK',['../enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#a40febfcfd4e5c59db748bc93c258e662',1,'de::wirecard::paymentsdk::CardBrand']]],
   ['mainviewstyled',['mainViewStyled',['../interface_w_d_base_style.html#aaa02ac0f2b12e2c9d579548c76fe1f32',1,'WDBaseStyle']]],
   ['makepayment',['makePayment',['../interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html#ada786c731e647a0462d1eb0897f295cc',1,'de::wirecard::paymentsdk::WirecardClient']]],
   ['makepayment_3awithcompletion_3a',['makePayment:withCompletion:',['../interface_w_d_client.html#aea064006b61194a2d716f34f929502fd',1,'WDClient']]],
@@ -11,9 +13,9 @@ var searchData=
   ['maskstobounds',['masksToBounds',['https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html#//apple_ref/occ/instp/CALayer/masksToBounds',1,'CALayer']]],
   ['mastercard',['MASTERCARD',['../enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html#ab2cd01c22991a98274dcec158b01aaf7',1,'de::wirecard::paymentsdk::CardBrand']]],
   ['mbroadcastreceiver',['mBroadcastReceiver',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_manager.html#a9fe72c80229d9b4043c4a320ecb7900b',1,'de::wirecard::paymentsdk::WirecardInputFormsStateManager']]],
+  ['mcardformcomponent',['mCardFormComponent',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aa989a390212c9371db1c57c8bb5617f2',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
   ['mcontext',['mContext',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_manager.html#abb2b3d3220781fd23075137299cae49f',1,'de::wirecard::paymentsdk::WirecardInputFormsStateManager']]],
-  ['mcreditcardform',['mCreditCardForm',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#ad10c5a65782d41ddc15856e463c6e042',1,'de::wirecard::paymentsdk::WirecardCardFormFragment']]],
-  ['merchantaccountid',['merchantAccountID',['../interface_w_d_payment.html#a9113bccb47fb6a56b560d051d0e9e325',1,'WDPayment::merchantAccountID()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a539ecf50bbdbdba0ef5d1d1d8cd3fd03',1,'de.wirecard.paymentsdk.models.WirecardPayment.merchantAccountID()'],['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html#a67f7c0ec415fbbf6afee9a778fd43e16',1,'de.wirecard.paymentsdk.WirecardPaymentResponse.merchantAccountId()']]],
+  ['merchantaccountid',['merchantAccountId',['../classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_payment_response.html#a67f7c0ec415fbbf6afee9a778fd43e16',1,'de.wirecard.paymentsdk.WirecardPaymentResponse.merchantAccountId()'],['../interface_w_d_payment.html#a9113bccb47fb6a56b560d051d0e9e325',1,'WDPayment::merchantAccountID()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a539ecf50bbdbdba0ef5d1d1d8cd3fd03',1,'de.wirecard.paymentsdk.models.WirecardPayment.merchantAccountID()']]],
   ['merchantaccountresolvercategory',['merchantAccountResolverCategory',['../interface_w_d_payment.html#ae8b7854d547ee5f96c86e4760e3bd31b',1,'WDPayment::merchantAccountResolverCategory()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ae9e63e17f8f9b0988fde923da3bbc1c5',1,'de.wirecard.paymentsdk.models.WirecardPayment.merchantAccountResolverCategory()']]],
   ['merchantcountry',['merchantCountry',['../interface_w_d_apple_pay_managed_payment.html#a58683d0ccf133d8b0a3682ab00c78786',1,'WDApplePayManagedPayment']]],
   ['merchantname',['merchantName',['../interface_w_d_s_e_p_a_style.html#a9869598e6511af99aa62c7b018efef9c',1,'WDSEPAStyle::merchantName()'],['../classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#ac8ef81103ca432b3fde6e650db998219',1,'de.wirecard.paymentsdk.models.WirecardSepaPayment.merchantName()']]],

@@ -195,12 +195,15 @@ Enumerations</h2></td></tr>
 <tr class="memitem:gae52aa8d6f08d686e28f36a96100b90eb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ios__sdk.html#gae52aa8d6f08d686e28f36a96100b90eb">WDErrorCode</a> : NSInteger { <br />
 &#160;&#160;<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba957650bb66d99affdca222f8a08e6d2d">WDErrorCodeOK</a> = 0, 
 <a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90ebad0ed6ee8653b4a027f9cd58413dec60b">WDErrorCodeGeneral</a> = -1, 
-<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba28ab0d5cd1f4f1a346305d26c27e44cc">WDErrorCodeUnsupportedPaymentMethod</a> = -2, 
-<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba0255166b3050350c287cc8b025700a2d">WDErrorCodeInvalidPaymentData</a> = -3, 
+<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba769bf38f61702555dc0303fac0478de0">WDErrorCodeNetworkIssue</a> = -2, 
+<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8b3cbe9763517d32454e242647dd6f27">WDErrorCodeTransactionFailure</a> = -3, 
 <br />
-&#160;&#160;<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba93717b534e35db78c110fcef6c4f7fa7">WDErrorCodeUserCanceled</a> = -4, 
-<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8a886eb80966785bd9f8f87ab0696054">WDErrorCodePaymentInProgress</a> = -5, 
-<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8b3cbe9763517d32454e242647dd6f27">WDErrorCodeTransactionFailure</a> = -6
+&#160;&#160;<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba28ab0d5cd1f4f1a346305d26c27e44cc">WDErrorCodeUnsupportedPaymentMethod</a> = -4, 
+<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba0255166b3050350c287cc8b025700a2d">WDErrorCodeInvalidPaymentData</a> = -5, 
+<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba93717b534e35db78c110fcef6c4f7fa7">WDErrorCodeUserCanceled</a> = -6, 
+<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8a886eb80966785bd9f8f87ab0696054">WDErrorCodePaymentInProgress</a> = -7, 
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90ebab7164fc2dd64eea62c4fb767e4c1f1f5">WDErrorCodeJailbrokenDevice</a> = -8
 <br />
  }</td></tr>
 <tr class="separator:gae52aa8d6f08d686e28f36a96100b90eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,24 +235,26 @@ Enumerations</h2></td></tr>
 <tr class="separator:ga5dadb1a71db3102708c8f8c02e330400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3062ed27f5e9bd7f94e6531e310ac810"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ios__sdk.html#ga3062ed27f5e9bd7f94e6531e310ac810">WDCardFieldState</a> : NSUInteger { <br />
 &#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a5c0496201bb066edfe826c35713bbb3a">WDCardFieldStateCardInitial</a> = 0, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ab7b70e24eae878482a7403586632ca75">WDCardFieldStateJailbrokenDevice</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a442b2473e0cee5c782030ddd8368a5ad">WDCardFieldStateCardValid</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810aa74ce66c792db773fb62aa8476697d04">WDCardFieldStateCardUnsupported</a>, 
-<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a11c823b275b81f895df85c55a6d0e349">WDCardFieldStateNumberEditting</a>, 
 <br />
-&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a4b2a2abf33433cd093c87976c074cb54">WDCardFieldStateNumberIncomplete</a>, 
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a11c823b275b81f895df85c55a6d0e349">WDCardFieldStateNumberEditting</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a4b2a2abf33433cd093c87976c074cb54">WDCardFieldStateNumberIncomplete</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a20998b9b51c313ccc55cfba25bb48bfb">WDCardFieldStateNumberInvalid</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a21726c5b7db7a3287a3631c092478ad5">WDCardFieldStateNumberValid</a>, 
-<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a6faa296757074412b76505bee178ff54">WDCardFieldStateMonthEditting</a>, 
 <br />
-&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ad20629e1a7af079ac6e00ac2f9fc95d2">WDCardFieldStateYearEditting</a>, 
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a6faa296757074412b76505bee178ff54">WDCardFieldStateMonthEditting</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ad20629e1a7af079ac6e00ac2f9fc95d2">WDCardFieldStateYearEditting</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ae239e7e24226f148d15af0a0ddb6e956">WDCardFieldStateExpirationDateIncomplete</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a5b52e21799dd0d2805f3bdffd0cc0c36">WDCardFieldStateExpirationDateInvalid</a>, 
-<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810af0c08f1994747eeb6e38e6feabc81da2">WDCardFieldStateExpirationDateValid</a>, 
 <br />
-&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a7e570ab574424dc1ee59bbdb4a0cd042">WDCardFieldStateSecurityCodeEditting</a>, 
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810af0c08f1994747eeb6e38e6feabc81da2">WDCardFieldStateExpirationDateValid</a>, 
+<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a7e570ab574424dc1ee59bbdb4a0cd042">WDCardFieldStateSecurityCodeEditting</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a7fd0b487a08d8c4946de67fd4da6dab4">WDCardFieldStateSecurityCodeIncomplete</a>, 
 <a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810add354db36670655fca2229078db1e8e5">WDCardFieldStateSecurityCodeInvalid</a>, 
-<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ac7933f8b7ebf132ec521751d313d9b52">WDCardFieldStateSecurityCodeValid</a>
+<br />
+&#160;&#160;<a class="el" href="group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ac7933f8b7ebf132ec521751d313d9b52">WDCardFieldStateSecurityCodeValid</a>
 <br />
  }</td></tr>
 <tr class="separator:ga3062ed27f5e9bd7f94e6531e310ac810"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1075,6 +1080,9 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a5c0496201bb066edfe826c35713bbb3a"></a>WDCardFieldStateCardInitial&#160;</td><td class="fielddoc">
 <p>Initial state and state after <a class="el" href="interface_w_d_card_field.html#ad841cd61a398c42700ace283e02e4d3d">-[WDCardField clear]</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810ab7b70e24eae878482a7403586632ca75"></a>WDCardFieldStateJailbrokenDevice&#160;</td><td class="fielddoc">
+<p>User's device is jailbroken </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga3062ed27f5e9bd7f94e6531e310ac810a442b2473e0cee5c782030ddd8368a5ad"></a>WDCardFieldStateCardValid&#160;</td><td class="fielddoc">
 <p>User entered valid card data </p>
@@ -2499,7 +2507,13 @@ Variables</h2></td></tr>
 <p>Uninitialized value or no error </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90ebad0ed6ee8653b4a027f9cd58413dec60b"></a>WDErrorCodeGeneral&#160;</td><td class="fielddoc">
-<p>General Error, always contains localized description </p>
+<p>General Error, always contains english description </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90eba769bf38f61702555dc0303fac0478de0"></a>WDErrorCodeNetworkIssue&#160;</td><td class="fielddoc">
+<p>Network related issue, SSL pinning issue, ATS, ...) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90eba8b3cbe9763517d32454e242647dd6f27"></a>WDErrorCodeTransactionFailure&#160;</td><td class="fielddoc">
+<p>Transaction has failed </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90eba28ab0d5cd1f4f1a346305d26c27e44cc"></a>WDErrorCodeUnsupportedPaymentMethod&#160;</td><td class="fielddoc">
 <p>Payment method is not supported </p>
@@ -2513,8 +2527,8 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90eba8a886eb80966785bd9f8f87ab0696054"></a>WDErrorCodePaymentInProgress&#160;</td><td class="fielddoc">
 <p>Another payment is in progress </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90eba8b3cbe9763517d32454e242647dd6f27"></a>WDErrorCodeTransactionFailure&#160;</td><td class="fielddoc">
-<p>Transaction has failed </p>
+<tr><td class="fieldname"><a class="anchor" id="ggae52aa8d6f08d686e28f36a96100b90ebab7164fc2dd64eea62c4fb767e4c1f1f5"></a>WDErrorCodeJailbrokenDevice&#160;</td><td class="fielddoc">
+<p>Device is jailbroken </p>
 </td></tr>
 </table>
 

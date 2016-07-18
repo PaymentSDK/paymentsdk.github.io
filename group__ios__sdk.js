@@ -1,7 +1,7 @@
 var group__ios__sdk =
 [
     [ "NSError(WDUtils)", "category_n_s_error_07_w_d_utils_08.html", [
-      [ "wd_errorWithCode:", "category_n_s_error_07_w_d_utils_08.html#acd1a7b19256c1a707147160c9d70ddc9", null ],
+      [ "wd_errorWithCode:andLocale:", "category_n_s_error_07_w_d_utils_08.html#a87f2bd55490d85442adeba313215f993", null ],
       [ "wd_errorWithCode:andLocalizedDescription:", "category_n_s_error_07_w_d_utils_08.html#aa2363870ff4f67c19c95605bb1a746aa", null ]
     ] ],
     [ "WDAddress", "interface_w_d_address.html", [
@@ -199,6 +199,7 @@ var group__ios__sdk =
     ] ],
     [ "WDCardFieldState", "group__ios__sdk.html#ga3062ed27f5e9bd7f94e6531e310ac810", [
       [ "WDCardFieldStateCardInitial", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a5c0496201bb066edfe826c35713bbb3a", null ],
+      [ "WDCardFieldStateJailbrokenDevice", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810ab7b70e24eae878482a7403586632ca75", null ],
       [ "WDCardFieldStateCardValid", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a442b2473e0cee5c782030ddd8368a5ad", null ],
       [ "WDCardFieldStateCardUnsupported", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810aa74ce66c792db773fb62aa8476697d04", null ],
       [ "WDCardFieldStateNumberEditting", "group__ios__sdk.html#gga3062ed27f5e9bd7f94e6531e310ac810a11c823b275b81f895df85c55a6d0e349", null ],
@@ -662,11 +663,13 @@ var group__ios__sdk =
     [ "WDErrorCode", "group__ios__sdk.html#gae52aa8d6f08d686e28f36a96100b90eb", [
       [ "WDErrorCodeOK", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba957650bb66d99affdca222f8a08e6d2d", null ],
       [ "WDErrorCodeGeneral", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90ebad0ed6ee8653b4a027f9cd58413dec60b", null ],
+      [ "WDErrorCodeNetworkIssue", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba769bf38f61702555dc0303fac0478de0", null ],
+      [ "WDErrorCodeTransactionFailure", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8b3cbe9763517d32454e242647dd6f27", null ],
       [ "WDErrorCodeUnsupportedPaymentMethod", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba28ab0d5cd1f4f1a346305d26c27e44cc", null ],
       [ "WDErrorCodeInvalidPaymentData", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba0255166b3050350c287cc8b025700a2d", null ],
       [ "WDErrorCodeUserCanceled", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba93717b534e35db78c110fcef6c4f7fa7", null ],
       [ "WDErrorCodePaymentInProgress", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8a886eb80966785bd9f8f87ab0696054", null ],
-      [ "WDErrorCodeTransactionFailure", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90eba8b3cbe9763517d32454e242647dd6f27", null ]
+      [ "WDErrorCodeJailbrokenDevice", "group__ios__sdk.html#ggae52aa8d6f08d686e28f36a96100b90ebab7164fc2dd64eea62c4fb767e4c1f1f5", null ]
     ] ],
     [ "WDGender", "group__ios__sdk.html#ga12d002ce9a97f17842ace284d17772d4", [
       [ "WDGenderUndefined", "group__ios__sdk.html#gga12d002ce9a97f17842ace284d17772d4a5af9da8c45d1466bca3de0639a981b1f", null ],

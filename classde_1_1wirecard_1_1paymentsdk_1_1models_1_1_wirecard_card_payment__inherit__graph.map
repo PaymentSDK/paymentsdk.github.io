@@ -1,4 +1,5 @@
 <map id="de.wirecard.paymentsdk.models.WirecardCardPayment" name="de.wirecard.paymentsdk.models.WirecardCardPayment">
-<area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with credit card input form. " alt="" coords="5,252,222,291"/>
-<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="5,79,222,117"/>
+<area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html" title="Defines Android Pay payment method. " alt="" coords="672,5,888,44"/>
+<area shape="rect" id="node5" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with credit card input form. " alt="" coords="672,68,888,107"/>
+<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="144,37,360,76"/>
 </map>

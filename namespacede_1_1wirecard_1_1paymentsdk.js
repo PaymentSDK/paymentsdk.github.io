@@ -6,6 +6,7 @@ var namespacede_1_1wirecard_1_1paymentsdk =
     [ "WirecardClient", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client" ],
     [ "WirecardClientBuilder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder" ],
     [ "WirecardEnvironment", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_environment.html", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_environment" ],
+    [ "WirecardErrorCode", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_error_code.html", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_error_code" ],
     [ "WirecardException", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception.html", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_exception" ],
     [ "WirecardInputFormsStateChangedListener", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener" ],
     [ "WirecardInputFormsStateManager", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_manager.html", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_manager" ],
