@@ -82,11 +82,26 @@ $(document).ready(function(){initNavTree('p_3_3_1_2_full_screen_form_example.htm
 <li>buttons background color / resource</li>
 <li>labels,hints</li>
 <li>labels,hints colors</li>
+<li>supported card brands</li>
 </ul>
 <p>You need to initialize <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html">PaymentPageStyle</a> object.</p>
-<div class="fragment"><div class="line">PaymentPageStyle paymentPageStyle = <span class="keyword">new</span> PaymentPageStyle();</div></div><!-- fragment --><p>Provide customized resources:</p>
-<div class="fragment"><div class="line">paymentPageStyle.cardHolderNameHint = <span class="stringliteral">&quot;Custom name hint&quot;</span>;</div><div class="line">paymentPageStyle.cardNumberHint = <span class="stringliteral">&quot;Custom number hint&quot;</span>;</div><div class="line">paymentPageStyle.cardSecurityCodeHint = <span class="stringliteral">&quot;Custom cvc hint&quot;</span>;</div><div class="line">paymentPageStyle.cardExpiryDateHint = <span class="stringliteral">&quot;Custom date hint&quot;</span>;</div><div class="line">paymentPageStyle.backgroundResourceId = R.color.black;</div><div class="line">paymentPageStyle.cancelButtonBackgroundResourceId = R.color.white; <span class="comment">//R.drawable.cancel_button;</span></div><div class="line">paymentPageStyle.cancelButtonTextColor = getResources().getColor(R.color.black);</div><div class="line">...</div></div><!-- fragment --><p>Call <a class="el" href="interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html">WirecardClient</a>’s method makePayment:</p>
-<div class="fragment"><div class="line">wirecardClient.makePayment(wirecardCardPayment, wirecardResponseListener, paymentPageStyle);</div></div><!-- fragment --> </div></div><!-- contents -->
+<div class="fragment"><div class="line">PaymentPageStyle style = <span class="keyword">new</span> PaymentPageStyle();</div></div><!-- fragment --><p>Provide customized resources:</p>
+<div class="fragment"><div class="line">PaymentPageStyle style = <span class="keyword">new</span> PaymentPageStyle();</div><div class="line">           style.backgroundResourceId = R.color.yellow;</div><div class="line">           style.inputTextColor = context.getResources().getColor(R.color.red);</div><div class="line">           style.inputFieldColor = context.getResources().getColor(R.color.red);</div><div class="line">           style.inputHintTextColor = context.getResources().getColor(R.color.red_transparent);</div><div class="line">           style.payButtonBackgroundResourceId = R.color.blue;</div><div class="line">           style.toolbarResourceId = R.color.red;</div><div class="line">           style.inputLabelTextColor = context.getResources().getColor(R.color.blue);</div><div class="line">           style.scanButtonTextColor = context.getResources().getColor(R.color.red);</div><div class="line">           style.toolbarTextColor = context.getResources().getColor(R.color.yellow);</div><div class="line">           style.payButtonTextColor = context.getResources().getColor(R.color.yellow);</div><div class="line"></div><div class="line">           <span class="comment">//if not set, all card brands are supported</span></div><div class="line">           Set&lt;CardBrand&gt; supportedCardBrands = <span class="keyword">new</span> HashSet&lt;&gt;();</div><div class="line">           supportedCardBrands.add(CardBrand.MASTERCARD);</div><div class="line">           supportedCardBrands.add(CardBrand.AMEX);</div><div class="line">           style.supportedCardBrands = supportedCardBrands;</div><div class="line"></div><div class="line">           ...</div></div><!-- fragment --><p>Call <a class="el" href="interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html">WirecardClient</a>’s method makePayment:</p>
+<div class="fragment"><div class="line">wirecardClient.makePayment(wirecardCardPayment, wirecardResponseListener, paymentPageStyle);</div></div><!-- fragment --><p> <br />
+</p><div class="image">
+<img src="android_card_payment_custom_style_guide.png" alt="android_card_payment_custom_style_guide.png"/>
+<div class="caption">
+Card payment form guide</div></div>
+<center> 1 - backgroundResourceId<br />
+2 - inputTextColor<br />
+3 - inputFieldColor<br />
+4 - payButtonBackgroundResourceId<br />
+5 - toolbarResourceId<br />
+6 - inputLabelTextColor<br />
+7 - toolbarTextColor<br />
+8 - payButtonTextColor<br />
+9 - scanButtonTextColor<br />
+</center> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
