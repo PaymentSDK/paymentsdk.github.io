@@ -70,6 +70,7 @@ var group__ios__sdk =
     [ "WDCardStyle", "interface_w_d_card_style.html", [
       [ "cardNumberPlaceholder", "interface_w_d_card_style.html#a8f05f00d599db0a9047cea0450d0ece9", null ],
       [ "expiryDatePlaceholder", "interface_w_d_card_style.html#a11c4a2e04d25b8638ade32a867a3e9bf", null ],
+      [ "firstNameAndLastNamePlaceholder", "interface_w_d_card_style.html#a853b578d1f1497e44ea7cbcf932cf962", null ],
       [ "firstNamePlaceholder", "interface_w_d_card_style.html#a45b2ff0da1894ed7504b07da55fcbffd", null ],
       [ "lastNamePlaceholder", "interface_w_d_card_style.html#a2f8b49b603ffeb850f6fc2cf12e870b9", null ],
       [ "scanTitle", "interface_w_d_card_style.html#a4c050ae4997d0d56afb9285195cf5d61", null ],
@@ -83,6 +84,7 @@ var group__ios__sdk =
     [ "WDClient", "interface_w_d_client.html", [
       [ "init", "interface_w_d_client.html#a90f725025b736f1f1df6f6898e922c4f", null ],
       [ "initWithEnvironment:", "interface_w_d_client.html#a385ac23b82b9e873bc8ee87e81b29ffd", null ],
+      [ "initWithEnvironment:error:", "interface_w_d_client.html#afd1b5197f32f6fe3e07bb4be2a299e65", null ],
       [ "makePayment:withCompletion:", "interface_w_d_client.html#aea064006b61194a2d716f34f929502fd", null ],
       [ "makePayment:withStyle:withCompletion:", "interface_w_d_client.html#aeaa695b5c52a0d3a47fb36dd89e7e7bc", null ]
     ] ],
@@ -142,6 +144,7 @@ var group__ios__sdk =
       [ "transactionType", "interface_w_d_payment.html#adf536b1169ac44ae16098542cdd56874", null ]
     ] ],
     [ "WDPaymentResponse", "interface_w_d_payment_response.html", [
+      [ "card", "interface_w_d_payment_response.html#af6cb42e9f798e90f50384003fc244f94", null ],
       [ "cardToken", "interface_w_d_payment_response.html#ac2472c1529b1eebce4cdb5ed1c1264c1", null ],
       [ "statusMessage", "interface_w_d_payment_response.html#a10cb741087eec73e9b247d941138699c", null ],
       [ "transactionIdentifier", "interface_w_d_payment_response.html#a9bf2e3b54d458708ba0d40aff33f4dc4", null ],
@@ -656,8 +659,10 @@ var group__ios__sdk =
       [ "WDEnvironmentUndefined", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a874a5b57fe61153f4e4efcd533a007b1", null ],
       [ "WDEnvironmentPROD", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a787afec1887df2e802b35f9ae4a2a8d9", null ],
       [ "WDEnvironmentSingaporePROD", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a55d1f4da2a56dfad32aaeff4205ce662", null ],
+      [ "WDEnvironmentTorontoPROD", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696aead419d06f9363e8320d3d4786638bef", null ],
       [ "WDEnvironmentTEST", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a5d2a052a0464489086592dc80744534a", null ],
       [ "WDEnvironmentSingaporeTEST", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a869ed49bbf627ca8be6278a20cc645fa", null ],
+      [ "WDEnvironmentTorontoTEST", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a4fbae8a64896536d74179c55aa50b950", null ],
       [ "WDEnvironmentTotalNumber", "group__ios__sdk.html#ggac89c6cd7f7a113555ffa562700738696a147149dcb0d9bf3737c56d9d3b8ada46", null ]
     ] ],
     [ "WDErrorCode", "group__ios__sdk.html#gae52aa8d6f08d686e28f36a96100b90eb", [

@@ -3,5 +3,5 @@
 <area shape="rect" id="node6" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="408,99,624,137"/>
 <area shape="rect" id="node7" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html" title="Defines SEPA payment method. " alt="" coords="408,161,624,200"/>
 <area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html" title="Defines Android Pay payment method. " alt="" coords="672,5,888,44"/>
-<area shape="rect" id="node5" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with credit card input form. " alt="" coords="672,68,888,107"/>
+<area shape="rect" id="node5" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with embedded card input form. " alt="" coords="672,68,888,107"/>
 </map>

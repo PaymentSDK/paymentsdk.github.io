@@ -60,6 +60,7 @@ var hierarchy =
       [ "de.wirecard.paymentsdk.CardBrand", "enumde_1_1wirecard_1_1paymentsdk_1_1_card_brand.html", null ],
       [ "de.wirecard.paymentsdk.models.Address", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html", null ],
       [ "de.wirecard.paymentsdk.models.CardToken", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_card_token.html", null ],
+      [ "de.wirecard.paymentsdk.models.Cryptogram", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_cryptogram.html", null ],
       [ "de.wirecard.paymentsdk.models.CustomerData", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html", null ],
       [ "de.wirecard.paymentsdk.models.Notification", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_notification.html", null ],
       [ "de.wirecard.paymentsdk.models.Order", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html", null ],

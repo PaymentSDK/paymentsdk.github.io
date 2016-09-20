@@ -1,5 +1,5 @@
 <map id="de.wirecard.paymentsdk.WirecardCardFormFragment" name="de.wirecard.paymentsdk.WirecardCardFormFragment">
-<area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with credit card input form. " alt="" coords="2006,189,2222,228"/>
+<area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with embedded card input form. " alt="" coords="1970,189,2186,228"/>
 <area shape="rect" id="node5" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="1635,155,1851,193"/>
 <area shape="rect" id="node6" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="1369,205,1585,244"/>
 <area shape="rect" id="node9" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,205,1089,244"/>

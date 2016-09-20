@@ -1,12 +1,12 @@
 var interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener =
 [
     [ "onStateChanged", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#ab8407d0a5566f76123bd0cfa0cf283fc", null ],
+    [ "CARD_BRAND_UNSUPPORTED", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#aee5ff498baadf21b887a01bdbcb75fd3", null ],
     [ "CARD_NUMBER_FORM_FOCUS_GAINED", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a862d47d86e09caaac2879e15bad74db5", null ],
     [ "CARD_NUMBER_FORM_FOCUS_LOST", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a023c323c38e9391fc06d4ab5c3efeef8", null ],
     [ "CARD_NUMBER_INCOMPLETE", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a2c213df4c874ebc6e50f00acacb17686", null ],
     [ "CARD_NUMBER_INVALID", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a0457af8152c7801665a87a6c9cf17c33", null ],
     [ "CARD_NUMBER_VALID", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a31a9db48fd4baf147436b06b798498d7", null ],
-    [ "CARD_TYPE_UNSUPPORTED", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a9c7140735a7c4eb8249b6dbc6fc6ad97", null ],
     [ "CARD_VALID", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#ad045e9cb5c5b497744e07812daf55743", null ],
     [ "EXPIRATION_MONTH_FORM_FOCUS_GAINED", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#a4d2b17bbe0a196a492a9a30c5eba653e", null ],
     [ "EXPIRATION_MONTH_FORM_FOCUS_LOST", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_input_forms_state_changed_listener.html#adc76eb3e0b502caed6a648f074c719f0", null ],

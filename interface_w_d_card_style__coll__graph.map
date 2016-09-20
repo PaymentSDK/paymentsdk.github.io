@@ -1,5 +1,5 @@
 <map id="WDCardStyle" name="WDCardStyle">
-<area shape="rect" id="node2" href="$interface_w_d_native_style.html" title="Base class for native UI formulars. " alt="" coords="242,495,353,520"/>
+<area shape="rect" id="node2" href="$interface_w_d_native_style.html" title="Base class for native UI formulars. " alt="" coords="242,508,353,533"/>
 <area shape="rect" id="node3" href="$interface_w_d_base_style.html" title="Base class for formulars. " alt="" coords="63,341,167,366"/>
 <area shape="rect" id="node4" href="$interface_w_d_style.html" title="Base class of all payment methods styles. " alt="" coords="18,204,92,229"/>
 <area shape="rect" id="node5" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="100,80,178,105"/>
@@ -10,5 +10,5 @@
 <area shape="rect" id="node11" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference" title="\&lt;NSCoding\&gt;" alt="" coords="439,155,537,180"/>
 <area shape="rect" id="node12" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference" title="\&lt;NSCopying\&gt;" alt="" coords="561,155,666,180"/>
 <area shape="rect" id="node13" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference" title="\&lt;NSMutableCopying\&gt;" alt="" coords="212,155,364,180"/>
-<area shape="rect" id="node14" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference" title="NSSet\&lt; NSNumber * \&gt;" alt="" coords="588,495,746,520"/>
+<area shape="rect" id="node14" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference" title="NSSet\&lt; NSNumber * \&gt;" alt="" coords="588,508,746,533"/>
 </map>
