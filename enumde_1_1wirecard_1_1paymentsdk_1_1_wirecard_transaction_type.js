@@ -10,5 +10,6 @@ var enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type =
     [ "PURCHASE", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html#a4d90aab2e76a87b2477b6a799c6220b3", null ],
     [ "REFERENCED_AUTHORIZATION", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html#a04161049b0d17a428df3e1d3634e66ee", null ],
     [ "REFERENCED_PURCHASE", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html#af730424330b19372ded7772e1aeb4f0f", null ],
+    [ "REFUND_DEBIT", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html#a77fb62dfd334e10ae92b861d0f3895af", null ],
     [ "value", "enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html#a3790a7a7151299302c8cf9b61feaaaad", null ]
 ];

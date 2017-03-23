@@ -2,6 +2,9 @@ var hierarchy =
 [
     [ "de.wirecard.paymentsdk.RootChecker.a", "enumde_1_1wirecard_1_1paymentsdk_1_1_root_checker_1_1a.html", null ],
     [ "de.wirecard.paymentsdk.WirecardCardFormFragment.Builder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment_1_1_builder.html", null ],
+    [ "<NSCopying>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html", [
+      [ "WDCard", "interface_w_d_card.html", null ]
+    ] ],
     [ "NSError(WDUtils)", "category_n_s_error_07_w_d_utils_08.html", null ],
     [ "<NSKeyValueBindingCreation>", null, [
       [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
@@ -14,6 +17,7 @@ var hierarchy =
         [ "WDOrder", "interface_w_d_order.html", null ],
         [ "WDOrderItem", "interface_w_d_order_item.html", null ],
         [ "WDPayment", "interface_w_d_payment.html", [
+          [ "WDAlipayPayment", "interface_w_d_alipay_payment.html", null ],
           [ "WDApplePayPayment", "interface_w_d_apple_pay_payment.html", [
             [ "WDApplePayManagedPayment", "interface_w_d_apple_pay_managed_payment.html", null ]
           ] ],
@@ -30,7 +34,8 @@ var hierarchy =
               [ "WDSEPAStyle", "interface_w_d_s_e_p_a_style.html", null ]
             ] ]
           ] ]
-        ] ]
+        ] ],
+        [ "WDSubMerchantInfo", "interface_w_d_sub_merchant_info.html", null ]
       ] ]
     ] ],
     [ "<NSObject>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
@@ -43,6 +48,10 @@ var hierarchy =
     ] ],
     [ "UIControl", null, [
       [ "WDCardField", "interface_w_d_card_field.html", null ]
+    ] ],
+    [ "de.wirecard.paymentsdk.models.WebViewable", "interfacede_1_1wirecard_1_1paymentsdk_1_1models_1_1_web_viewable.html", [
+      [ "de.wirecard.paymentsdk.models.WirecardAlipayPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_alipay_payment.html", null ],
+      [ "de.wirecard.paymentsdk.models.WirecardPayPalPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html", null ]
     ] ],
     [ "de.wirecard.paymentsdk.WirecardClient", "interfacede_1_1wirecard_1_1paymentsdk_1_1_wirecard_client.html", null ],
     [ "de.wirecard.paymentsdk.WirecardClientBuilder", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_client_builder.html", null ],
@@ -67,7 +76,9 @@ var hierarchy =
       [ "de.wirecard.paymentsdk.models.OrderItem", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order_item.html", null ],
       [ "de.wirecard.paymentsdk.models.PaymentPageStyle", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html", null ],
       [ "de.wirecard.paymentsdk.models.Periodic", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_periodic.html", null ],
+      [ "de.wirecard.paymentsdk.models.SubMerchantInfo", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_sub_merchant_info.html", null ],
       [ "de.wirecard.paymentsdk.models.WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html", [
+        [ "de.wirecard.paymentsdk.models.WirecardAlipayPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_alipay_payment.html", null ],
         [ "de.wirecard.paymentsdk.models.WirecardCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html", [
           [ "de.wirecard.paymentsdk.models.WirecardAndroidPayPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html", null ],
           [ "de.wirecard.paymentsdk.models.WirecardExtendedCardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html", null ]

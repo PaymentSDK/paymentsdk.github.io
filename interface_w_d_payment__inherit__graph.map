@@ -1,10 +1,11 @@
 <map id="WDPayment" name="WDPayment">
-<area shape="rect" id="node5" href="$interface_w_d_apple_pay_payment.html" title="Defines ApplePay payment method. " alt="" coords="33,225,186,251"/>
-<area shape="rect" id="node7" href="$interface_w_d_card_payment.html" title="Defines Card payment method. " alt="" coords="210,225,335,251"/>
-<area shape="rect" id="node8" href="$interface_w_d_payment_response.html" title="Payment response from ElasticEngine. " alt="" coords="358,225,515,251"/>
-<area shape="rect" id="node9" href="$interface_w_d_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="538,225,676,251"/>
-<area shape="rect" id="node10" href="$interface_w_d_s_e_p_a_payment.html" title="Defines SEPA payment method. " alt="" coords="700,225,831,251"/>
-<area shape="rect" id="node2" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="397,79,476,104"/>
-<area shape="rect" id="node3" href="/Users/stefan.sedlak/Projects/PaymentSDK/PaymentSDK/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="303,5,397,31"/>
-<area shape="rect" id="node6" href="$interface_w_d_apple_pay_managed_payment.html" title="Defines ApplePay payment method. " alt="" coords="5,299,214,324"/>
+<area shape="rect" id="node5" href="$interface_w_d_alipay_payment.html" title="WDAlipayPayment" alt="" coords="542,5,675,31"/>
+<area shape="rect" id="node6" href="$interface_w_d_apple_pay_payment.html" title="Defines ApplePay payment method. " alt="" coords="532,55,685,80"/>
+<area shape="rect" id="node8" href="$interface_w_d_card_payment.html" title="Defines Card payment method. " alt="" coords="546,104,671,129"/>
+<area shape="rect" id="node9" href="$interface_w_d_payment_response.html" title="Payment response from ElasticEngine. " alt="" coords="530,153,686,179"/>
+<area shape="rect" id="node10" href="$interface_w_d_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="539,203,678,228"/>
+<area shape="rect" id="node11" href="$interface_w_d_s_e_p_a_payment.html" title="Defines SEPA payment method. " alt="" coords="543,252,674,277"/>
+<area shape="rect" id="node2" href="/Users/stefan.sedlak/Projects/PaymentSDK/Internal/paymentSDK-iOS/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="260,129,338,155"/>
+<area shape="rect" id="node3" href="/Users/stefan.sedlak/Projects/PaymentSDK/Internal/paymentSDK-iOS/PaymentSDK/doc/doxygen/tags-ios.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="62,104,156,129"/>
+<area shape="rect" id="node7" href="$interface_w_d_apple_pay_managed_payment.html" title="Defines ApplePay payment method. " alt="" coords="734,55,943,80"/>
 </map>

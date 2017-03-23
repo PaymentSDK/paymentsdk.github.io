@@ -1,3 +1,4 @@
 <map id="de.wirecard.paymentsdk.models.WirecardPayPalPayment" name="de.wirecard.paymentsdk.models.WirecardPayPalPayment">
-<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="5,79,222,117"/>
+<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html" title="Base class of all Payment Methods. " alt="" coords="144,5,360,44"/>
+<area shape="rect" id="node4" href="$interfacede_1_1wirecard_1_1paymentsdk_1_1models_1_1_web_viewable.html" title="de.wirecard.paymentsdk.models.\lWebViewable" alt="" coords="144,68,360,107"/>
 </map>

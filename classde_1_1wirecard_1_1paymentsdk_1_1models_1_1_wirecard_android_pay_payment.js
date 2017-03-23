@@ -1,6 +1,7 @@
 var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment =
 [
     [ "WirecardAndroidPayPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html#ac31fc54430a8b2152726510ccfd89d41", null ],
+    [ "WirecardAndroidPayPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html#a874fcf5da2dc4f14001b32a47111ca1a", null ],
     [ "getCardBrand", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html#a02eb9761ccf0b19fa89e4cadc8738734", null ],
     [ "getCryptogram", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html#aac9dac578f07d76c858a079d354e57a3", null ],
     [ "setCardBrand", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html#ab52918fe35482dc48d76609ccf8451ae", null ],

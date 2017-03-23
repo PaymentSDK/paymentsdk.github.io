@@ -86,11 +86,12 @@ $(document).ready(function(){initNavTree('classde_1_1wirecard_1_1paymentsdk_1_1m
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment__inherit__graph.png" border="0" usemap="#de_8wirecard_8paymentsdk_8models_8_wirecard_payment_inherit__map" alt="Inheritance graph"/></div>
 <map name="de_8wirecard_8paymentsdk_8models_8_wirecard_payment_inherit__map" id="de_8wirecard_8paymentsdk_8models_8_wirecard_payment_inherit__map">
-<area shape="rect" id="node3" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="408,36,624,75"/>
-<area shape="rect" id="node6" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="408,99,624,137"/>
-<area shape="rect" id="node7" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html" title="Defines SEPA payment method. " alt="" coords="408,161,624,200"/>
-<area shape="rect" id="node4" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html" title="Defines Android Pay payment method. " alt="" coords="672,5,888,44"/>
-<area shape="rect" id="node5" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with embedded card input form. " alt="" coords="672,68,888,107"/>
+<area shape="rect" id="node3" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_alipay_payment.html" title="Defines AliPay payment method. " alt="" coords="408,5,624,44"/>
+<area shape="rect" id="node4" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_card_payment.html" title="Defines Card payment method. " alt="" coords="408,68,624,107"/>
+<area shape="rect" id="node7" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="408,131,624,169"/>
+<area shape="rect" id="node8" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html" title="Defines SEPA payment method. " alt="" coords="408,193,624,232"/>
+<area shape="rect" id="node5" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_android_pay_payment.html" title="Defines Android Pay payment method. " alt="" coords="672,37,888,76"/>
+<area shape="rect" id="node6" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_extended_card_payment.html" title="Defines Card payment method. Used with embedded card input form. " alt="" coords="672,100,888,139"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -100,10 +101,10 @@ $(document).ready(function(){initNavTree('classde_1_1wirecard_1_1paymentsdk_1_1m
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment__coll__graph.png" border="0" usemap="#de_8wirecard_8paymentsdk_8models_8_wirecard_payment_coll__map" alt="Collaboration graph"/></div>
 <map name="de_8wirecard_8paymentsdk_8models_8_wirecard_payment_coll__map" id="de_8wirecard_8paymentsdk_8models_8_wirecard_payment_coll__map">
-<area shape="rect" id="node4" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,80,1089,118"/>
+<area shape="rect" id="node4" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,81,1089,119"/>
 <area shape="rect" id="node5" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html" title="Address data. " alt="" coords="369,82,585,121"/>
-<area shape="rect" id="node8" href="enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="609,194,832,233"/>
-<area shape="rect" id="node9" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html" title="Order data. " alt="" coords="369,260,585,298"/>
+<area shape="rect" id="node8" href="enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="609,195,832,234"/>
+<area shape="rect" id="node9" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html" title="Order data. " alt="" coords="369,261,585,299"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -199,11 +200,19 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a45078b455e3c2c06d43459cfa7d326e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a45078b455e3c2c06d43459cfa7d326e3">setMerchantAccountResolverCategory</a> (String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ae9e63e17f8f9b0988fde923da3bbc1c5">merchantAccountResolverCategory</a>)</td></tr>
 <tr class="memdesc:a45078b455e3c2c06d43459cfa7d326e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets merchant account resolver category - category used by frontend merchant to resolve internal merchant for processing payment.  <a href="#a45078b455e3c2c06d43459cfa7d326e3">More...</a><br /></td></tr>
 <tr class="separator:a45078b455e3c2c06d43459cfa7d326e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b65b422bda1fe647ae6df204e0b7c8d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a5b65b422bda1fe647ae6df204e0b7c8d">getSignature</a> ()</td></tr>
+<tr class="memdesc:a5b65b422bda1fe647ae6df204e0b7c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns signature - authorize client to process the transaction.  <a href="#a5b65b422bda1fe647ae6df204e0b7c8d">More...</a><br /></td></tr>
+<tr class="separator:a5b65b422bda1fe647ae6df204e0b7c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b0fafcbd3e14faf3aea68b34220fed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad9b0fafcbd3e14faf3aea68b34220fed">setSignature</a> (String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a470f09c3bf43ff00f270b478cc3d3478">signature</a>)</td></tr>
+<tr class="memdesc:ad9b0fafcbd3e14faf3aea68b34220fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets signature - authorize client to process the transaction.  <a href="#ad9b0fafcbd3e14faf3aea68b34220fed">More...</a><br /></td></tr>
+<tr class="separator:ad9b0fafcbd3e14faf3aea68b34220fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Instance Methods</h2></td></tr>
 <tr class="memitem:a61c40751cae0cf860e76507614375d4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a61c40751cae0cf860e76507614375d4a">WirecardPayment</a> (String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a587d6320d7e8d6a14752ef529f014777">requestTimeStamp</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a7cecc790026228498f6e23188b97ced5">requestID</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a539ecf50bbdbdba0ef5d1d1d8cd3fd03">merchantAccountID</a>, <a class="el" href="enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html">WirecardTransactionType</a> <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a726ce0ca5935b65f4c31e231fc1736ec">transactionType</a>, BigDecimal <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#abaf5f210620d706554908e74dc1b2183">amount</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a4e0963bdbf9f01fb3516ba062ff9d84e">currency</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a40186224dae3efa8289ef67b3c70bbeb">requestSignature</a>)</td></tr>
 <tr class="separator:a61c40751cae0cf860e76507614375d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205d8f9700669d4f885535111a1254b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a205d8f9700669d4f885535111a1254b9">WirecardPayment</a> (String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a470f09c3bf43ff00f270b478cc3d3478">signature</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a587d6320d7e8d6a14752ef529f014777">requestTimeStamp</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a7cecc790026228498f6e23188b97ced5">requestID</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a539ecf50bbdbdba0ef5d1d1d8cd3fd03">merchantAccountID</a>, <a class="el" href="enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html">WirecardTransactionType</a> <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a726ce0ca5935b65f4c31e231fc1736ec">transactionType</a>, BigDecimal <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#abaf5f210620d706554908e74dc1b2183">amount</a>, String <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a4e0963bdbf9f01fb3516ba062ff9d84e">currency</a>)</td></tr>
+<tr class="separator:a205d8f9700669d4f885535111a1254b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Fields</h2></td></tr>
@@ -252,6 +261,9 @@ Private Fields</h2></td></tr>
 <tr class="memitem:a40e4f5a3debe254778afd22792096ecc"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_notification.html">Notification</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a40e4f5a3debe254778afd22792096ecc">notifications</a></td></tr>
 <tr class="memdesc:a40e4f5a3debe254778afd22792096ecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifications configuration.  <a href="#a40e4f5a3debe254778afd22792096ecc">More...</a><br /></td></tr>
 <tr class="separator:a40e4f5a3debe254778afd22792096ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a470f09c3bf43ff00f270b478cc3d3478"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a470f09c3bf43ff00f270b478cc3d3478">signature</a></td></tr>
+<tr class="memdesc:a470f09c3bf43ff00f270b478cc3d3478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authorize client to process the transaction.  <a href="#a470f09c3bf43ff00f270b478cc3d3478">More...</a><br /></td></tr>
+<tr class="separator:a470f09c3bf43ff00f270b478cc3d3478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class of all Payment Methods. </p>
@@ -304,6 +316,70 @@ Private Fields</h2></td></tr>
           <td></td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>requestSignature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a205d8f9700669d4f885535111a1254b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.wirecard.paymentsdk.models.WirecardPayment.WirecardPayment </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>requestTimeStamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>requestID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>merchantAccountID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html">WirecardTransactionType</a>&#160;</td>
+          <td class="paramname"><em>transactionType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BigDecimal&#160;</td>
+          <td class="paramname"><em>amount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>currency</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -629,6 +705,7 @@ Private Fields</h2></td></tr>
 
 <p>Returns request signature - authorize client to process the transaction. </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000006">Deprecated:</a></b></dt><dd>Use <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a5b65b422bda1fe647ae6df204e0b7c8d" title="Returns signature - authorize client to process the transaction. ">getSignature()</a> method instead. For more information see online documentation. </dd></dl>
 
 </div>
 </div>
@@ -680,6 +757,32 @@ Private Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns customer's shipping information. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5b65b422bda1fe647ae6df204e0b7c8d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.wirecard.paymentsdk.models.WirecardPayment.getSignature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns signature - authorize client to process the transaction. </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -1091,6 +1194,7 @@ Private Fields</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Use <a class="el" href="classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad9b0fafcbd3e14faf3aea68b34220fed" title="Sets signature - authorize client to process the transaction. ">setSignature()</a> method instead. For more information see online documentation. </dd></dl>
 
 </div>
 </div>
@@ -1152,6 +1256,38 @@ Private Fields</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">shippingAddress</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad9b0fafcbd3e14faf3aea68b34220fed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.wirecard.paymentsdk.models.WirecardPayment.setSignature </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>signature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets signature - authorize client to process the transaction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signature</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1453,6 +1589,7 @@ Private Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Authorize client to process the transaction. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>Use signature field only. For more information see online documentation. </dd></dl>
 
 </div>
 </div>
@@ -1497,6 +1634,28 @@ Private Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Customer's shipping information. </p>
+
+</div>
+</div>
+<a class="anchor" id="a470f09c3bf43ff00f270b478cc3d3478"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.wirecard.paymentsdk.models.WirecardPayment.signature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Authorize client to process the transaction. </p>
 
 </div>
 </div>

@@ -3,6 +3,7 @@ var annotated_dup =
     [ "de", "namespacede.html", "namespacede" ],
     [ "NSError(WDUtils)", "category_n_s_error_07_w_d_utils_08.html", "category_n_s_error_07_w_d_utils_08" ],
     [ "WDAddress", "interface_w_d_address.html", "interface_w_d_address" ],
+    [ "WDAlipayPayment", "interface_w_d_alipay_payment.html", "interface_w_d_alipay_payment" ],
     [ "WDApplePayManagedPayment", "interface_w_d_apple_pay_managed_payment.html", "interface_w_d_apple_pay_managed_payment" ],
     [ "WDApplePayPayment", "interface_w_d_apple_pay_payment.html", "interface_w_d_apple_pay_payment" ],
     [ "WDBaseStyle", "interface_w_d_base_style.html", "interface_w_d_base_style" ],
@@ -24,5 +25,6 @@ var annotated_dup =
     [ "WDPeriodic", "interface_w_d_periodic.html", "interface_w_d_periodic" ],
     [ "WDSEPAPayment", "interface_w_d_s_e_p_a_payment.html", "interface_w_d_s_e_p_a_payment" ],
     [ "WDSEPAStyle", "interface_w_d_s_e_p_a_style.html", "interface_w_d_s_e_p_a_style" ],
-    [ "WDStyle", "interface_w_d_style.html", "interface_w_d_style" ]
+    [ "WDStyle", "interface_w_d_style.html", "interface_w_d_style" ],
+    [ "WDSubMerchantInfo", "interface_w_d_sub_merchant_info.html", "interface_w_d_sub_merchant_info" ]
 ];

@@ -118,6 +118,8 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:aeaa695b5c52a0d3a47fb36dd89e7e7bc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_client.html#aeaa695b5c52a0d3a47fb36dd89e7e7bc">makePayment:withStyle:withCompletion:</a></td></tr>
 <tr class="memdesc:aeaa695b5c52a0d3a47fb36dd89e7e7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger payment process.  <a href="#aeaa695b5c52a0d3a47fb36dd89e7e7bc">More...</a><br /></td></tr>
 <tr class="separator:aeaa695b5c52a0d3a47fb36dd89e7e7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505b2cf449bcf016e853eb89194b6d40"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_client.html#a505b2cf449bcf016e853eb89194b6d40">checkPayment:withCompletion:</a></td></tr>
+<tr class="separator:a505b2cf449bcf016e853eb89194b6d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_Reference"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_Reference')"><img src="closed.png" alt="-"/>&#160;Public Instance Methods inherited from <a class="el" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a></td></tr>
 <tr class="memitem://apple_ref/occ/instm/NSObject/classForCoder inherit pub_methods_Reference"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/Class">Class</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html#//apple_ref/occ/instm/NSObject/classForCoder">classForCoder</a></td></tr>
 <tr class="separator://apple_ref/occ/instm/NSObject/classForCoder inherit pub_methods_Reference"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +158,32 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Payment processing client. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a505b2cf449bcf016e853eb89194b6d40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) checkPayment: </td>
+          <td></td>
+          <td class="paramtype">(nonnull <a class="el" href="interface_w_d_payment.html">WDPayment</a> *)&#160;</td>
+          <td class="paramname"><em>payment</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withCompletion:</td>
+          <td></td>
+          <td class="paramtype">(nonnull <a class="el" href="group__ios__sdk.html#ga614786b3a976c977abed60a78173f4d0">WDCompletionBlock</a>)&#160;</td>
+          <td class="paramname"><em>completionBlock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a90f725025b736f1f1df6f6898e922c4f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">payment</td><td>defines payment process </td></tr>
-    <tr><td class="paramname">style</td><td>not used at the moment </td></tr>
+    <tr><td class="paramname">style</td><td>can be defined by <a class="el" href="interface_w_d_base_style.html" title="Base class for formulars. ">WDBaseStyle</a>, <a class="el" href="interface_w_d_card_style.html" title="Style class for WDCardPayment method. ">WDCardStyle</a>, <a class="el" href="interface_w_d_s_e_p_a_style.html" title="Style class for WDSEPAPayment method. ">WDSEPAStyle</a> </td></tr>
     <tr><td class="paramname">completionBlock</td><td>will be called at the very end of payment flow. It provides payment response or a descriptive error with more details in the payment response </td></tr>
   </table>
   </dd>

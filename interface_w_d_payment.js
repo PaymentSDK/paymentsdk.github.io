@@ -15,5 +15,6 @@ var interface_w_d_payment =
     [ "requestSignature", "interface_w_d_payment.html#a5d04534a60dca1eed3b8e5c9053f26b3", null ],
     [ "requestTimestamp", "interface_w_d_payment.html#a319a4784182059fbbcb8f9e500b97f2a", null ],
     [ "shipping", "interface_w_d_payment.html#ac64d4e2479c99a1f885112ce14ab3549", null ],
+    [ "signature", "interface_w_d_payment.html#ac86c5ddb29aa1e6ea8415ddc0af87fb8", null ],
     [ "transactionType", "interface_w_d_payment.html#adf536b1169ac44ae16098542cdd56874", null ]
 ];

@@ -1,6 +1,7 @@
 var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment =
 [
     [ "WirecardSepaPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a3112593571c2207492cdf87ae6e33c89", null ],
+    [ "WirecardSepaPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#aeb9450b6b1626d3d2a5466342e3baa37", null ],
     [ "getCreditorId", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#ae28af53d2a3ed1b0b43034b5397a021e", null ],
     [ "getDueDate", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a0759dfa6ca5e635ac96bcdf816de2349", null ],
     [ "getMandateId", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_sepa_payment.html#a78ee6ad09e2137cd242825a8a024a7ce", null ],

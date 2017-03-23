@@ -35,10 +35,10 @@ var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style =
     [ "payButtonDisabledTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#ac4f98010e52797703448ff870bc8f496", null ],
     [ "payButtonText", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a9194720aeffc46f0485eb5737b9e71ff", null ],
     [ "payButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aab3efc6eff3b587b7751a1c4f7152719", null ],
-    [ "paypalTitle", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a1dabc066b3e30b0d377824cea76a1b4d", null ],
     [ "scanButtonText", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a04d6cc2fab048df416b4b0761831b8ae", null ],
     [ "scanButtonTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#aa583362b92c0e3795db4fc34dd6ba741", null ],
     [ "supportedCardBrands", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a3c8e7a970598be376e1e07fa482758da", null ],
     [ "toolbarResourceId", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a5a9f1ee08e3081e3df7eb58283d3fed5", null ],
-    [ "toolbarTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a6a62a46737df0a04ed1870f16913feb9", null ]
+    [ "toolbarTextColor", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#a6a62a46737df0a04ed1870f16913feb9", null ],
+    [ "webViewTitle", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_payment_page_style.html#ae9debd8a3cdb80884bf3a6d654e4a315", null ]
 ];

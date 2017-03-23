@@ -1,0 +1,4 @@
+<map id="de.wirecard.paymentsdk.models.WebViewable" name="de.wirecard.paymentsdk.models.WebViewable">
+<area shape="rect" id="node2" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_alipay_payment.html" title="Defines AliPay payment method. " alt="" coords="270,5,486,44"/>
+<area shape="rect" id="node3" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_pay_pal_payment.html" title="Defines PayPal payment method. " alt="" coords="270,68,486,107"/>
+</map>

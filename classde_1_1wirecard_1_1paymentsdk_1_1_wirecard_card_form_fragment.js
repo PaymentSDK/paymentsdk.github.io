@@ -15,6 +15,7 @@ var classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment =
     [ "INPUT_UNSPECIFIED", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2027ef435d191a2901d49cd4d1f514f5", null ],
     [ "KEY_CARD_BRAND", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a9f515aa69db6f005bd7352aa8930156f", null ],
     [ "KEY_EXP_DATE", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a00d7062c6645a9a4b8e22143441c5470", null ],
+    [ "KEY_HIDE_CARD_ICON", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a7b6849b8e4a6e5a495278f0e25aaeffd", null ],
     [ "KEY_HINT_COLOR", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a2e1919ed80ab05935647ae50ff48926b", null ],
     [ "KEY_LOCALE", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#a4f72cff05b643487e4348b412ad62ccf", null ],
     [ "KEY_PAYMENT", "classde_1_1wirecard_1_1paymentsdk_1_1_wirecard_card_form_fragment.html#aacef5c76d7ed347106f600cfb67ed30e", null ],

@@ -67,16 +67,16 @@ $(document).ready(function(){initNavTree('p_2_2_signature.html','');});
 <div class="textblock"><h1><a class="anchor" id="sec_authentication"></a>
 Authentication by Signature</h1>
 <p>As payment information is exchanged between the merchant's system, the consumer's application, and Wirecard´s Payment Processing Gateway, it is important that the data exchange safeguards against man-in-the-middle attacks.</p>
-<p>Mobile payment endpoint uses a digital SHA-256 signature for all message exchanges. This digital signature is a mathematical scheme for demonstrating the authenticity of a digital message or document. A valid digital signature let a recipient believe that the message was created by a known sender, and that it was not altered, while transmitting.</p>
+<p>Mobile payment endpoint uses a digital signature for all message exchanges. This digital signature is a mathematical scheme for demonstrating the authenticity of a digital message or document. A valid digital signature let a recipient believe that the message was created by a known sender, and that it was not altered, while transmitting.</p>
 <h1><a class="anchor" id="sec_secret_key"></a>
 Secret Key Exchange</h1>
 <p>To ensure the authenticity of the request and response messages, it is required that a Secret Key is shared with the merchant.</p>
-<p>The Secret Key is used in generation of the request_signature fields.</p>
+<p>The Secret Key is used in Signature generation.</p>
 <p>It is important that the Secret Key is never shared with anyone and is protected within the merchant server (only used in server side code for generating the request signature or validating the response signature). Never store your secret key inside your application nor on the phone.</p>
 <p>The Secret Key will be communicated at the time of Merchant Account setup. Please contact your support representative if you did not receive a Secret Key or require Secret Key regeneration.</p>
-<h1><a class="anchor" id="sec_request_signature"></a>
-Request Signature</h1>
-<p>Merchant needs to create a digital signature on his own server as it is the only place where the Secret is stored. The clientâs server also provides the Merchant Account ID to the mobile app client. To calculate the signature, following conditions need to be met:</p>
+<h1><a class="anchor" id="sec_signature_v1"></a>
+Signature v1</h1>
+<p>Merchant needs to create a digital signature on his own server as it is the only place where the Secret is stored. The client's server also provides the Merchant Account ID to the mobile app client. To calculate the signature, following conditions need to be met:</p>
 <ul>
 <li>Fields need to be concatenated,</li>
 <li>leading and trailing space removed,</li>
@@ -99,14 +99,45 @@ Request Signature</h1>
 <p>SHA-256 signature </p><blockquote class="doxtable">
 <p>4510af4db06fd3a3c9952d5beb56be1e7bfaf73ff7842f691c1c0e7269da5e44 </p>
 </blockquote>
-<h1><a class="anchor" id="sec_signature_generation"></a>
-Signature Generation Code Samples</h1>
+<h1><a class="anchor" id="sec_signature_generation_v1"></a>
+Signature v1 Generation Code Samples</h1>
 <ul>
 <li>PHP <div class="fragment"><div class="line">$request_signature = hash(<span class="stringliteral">&#39;sha256&#39;</span>, trim($request_time_stamp . $request_id . $merchant_account_id . $transaction_type . $requested_amount . $request_amount_currency . $secret_key));</div></div><!-- fragment --></li>
 <li>C#/ASP.NET <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">string</span> GetSHA256(<span class="keywordtype">string</span> text) {</div><div class="line">       byte[] hashValue;</div><div class="line">       byte[] message = Encoding.UTF8.GetBytes(text);</div><div class="line">       SHA256Managed hashString = <span class="keyword">new</span> SHA256Managed();</div><div class="line">       <span class="keywordtype">string</span> hex = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"></div><div class="line">       hashValue = hashString.ComputeHash(message);</div><div class="line">       <span class="keywordflow">foreach</span>( byte x <span class="keywordflow">in</span> hashValue) {</div><div class="line">             hex += String.Format(<span class="stringliteral">&quot;{0:x2}&quot;</span>, x);</div><div class="line">       }</div><div class="line">       <span class="keywordflow">return</span> hex.Trim();</div><div class="line">}</div></div><!-- fragment --></li>
 <li>JAVA <div class="fragment"><div class="line"><span class="keyword">private</span> <span class="keyword">static</span> String tosha256(String... fields) {</div><div class="line">    StringBuffer sb = null;</div><div class="line">    <span class="keywordflow">try</span> {</div><div class="line">        MessageDigest md = MessageDigest.getInstance(<span class="stringliteral">&quot;SHA-256&quot;</span>);</div><div class="line">        sb = <span class="keyword">new</span> StringBuffer();</div><div class="line">        <span class="keywordflow">for</span> (String field : fields) {</div><div class="line">            sb.append(field.trim());</div><div class="line">        }</div><div class="line">        md.update(sb.toString().getBytes(<span class="stringliteral">&quot;utf-8&quot;</span>));</div><div class="line">        byte[] mdbytes = md.digest();</div><div class="line">        <span class="keywordflow">return</span> DatatypeConverter.printHexBinary(mdbytes);</div><div class="line">    } <span class="keywordflow">catch</span> (NoSuchAlgorithmException e) {</div><div class="line">        sb = null;</div><div class="line">    } <span class="keywordflow">catch</span> (UnsupportedEncodingException e) {</div><div class="line">        sb = null;</div><div class="line">    }</div><div class="line">    <span class="keywordflow">return</span> sb == null ? null : sb.toString();</div><div class="line">}</div></div><!-- fragment --></li>
-<li>GROOVY <div class="fragment"><div class="line"><span class="keyword">import</span> java.security.MessageDigest;</div><div class="line">...</div><div class="line"></div><div class="line">def messageDigest = MessageDigest.getInstance(<span class="stringliteral">&quot;SHA256&quot;</span>);</div><div class="line">def secret_key = <span class="stringliteral">&#39;XXXXXXXXXXXXXXXXXXXXXX&#39;</span>;</div><div class="line"></div><div class="line">def stringToHash = time_stamp + request_id + merchant_account_id + transaction_type + requested_amount + requested_amount_currency + secret_key;</div><div class="line"></div><div class="line">messageDigest.update( stringToHash.trim().getBytes() );</div><div class="line">def shaHex = <span class="keyword">new</span> BigInteger(1, messageDigest.digest()).toString(16);</div></div><!-- fragment --> </li>
+<li>GROOVY <div class="fragment"><div class="line"><span class="keyword">import</span> java.security.MessageDigest;</div><div class="line">...</div><div class="line"></div><div class="line">def messageDigest = MessageDigest.getInstance(<span class="stringliteral">&quot;SHA256&quot;</span>);</div><div class="line">def secret_key = <span class="stringliteral">&#39;XXXXXXXXXXXXXXXXXXXXXX&#39;</span>;</div><div class="line"></div><div class="line">def stringToHash = time_stamp + request_id + merchant_account_id + transaction_type + requested_amount + requested_amount_currency + secret_key;</div><div class="line"></div><div class="line">messageDigest.update( stringToHash.trim().getBytes() );</div><div class="line">def shaHex = <span class="keyword">new</span> BigInteger(1, messageDigest.digest()).toString(16);</div></div><!-- fragment --></li>
 </ul>
+<h1><a class="anchor" id="sec_signature_v2"></a>
+Signature v2</h1>
+<p>Merchant needs to create a digital signature on his own server as it is the only place where the Secret is stored. Signature v2 consists from 2 parts: signature payload and calculated value, both Base64 URL safe encoded and separated with a period.</p>
+<p>Example of Signature v2: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;SFMyNTYKcmVxdWVzdF90aW1lX3N0YW1wPTIwMTYtMDctMjdUMTQ6MzM6NDkrMDI6MDAKbWVyY2hhbnRfYWNjb3VudF9pZD05ODczYWM2NS02ZjI4LTRiNzUtYWU1NS05ZDU0OWNmNTcwZTM.2VTPD7hAiCW-NdDaUqN7pjwizuwHvirVEs1HdGU-iz0</div></div><!-- fragment --><h1><a class="anchor" id="sec_signature_v2_payload"></a>
+Signature v2 Payload</h1>
+<p>The signature payload contains algorithm name that is used to calculate signature and fields in NVP format delimited with the new line (‘\n’), as following: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;algorithm\n</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;field1=value1\n</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;field2=value2\n</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;…</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;fieldX=valueX</div></div><!-- fragment --><p>Supported algorithms: </p><table class="doxtable">
+<tr>
+<th align="left">Algorithm</th><th align="left">Description  </th></tr>
+<tr>
+<td align="left">HS256 </td><td align="left">HMAC with SHA-256 </td></tr>
+</table>
+<p>Supported fields: </p><table class="doxtable">
+<tr>
+<th align="left">Name </th><th align="left">Details  </th></tr>
+<tr>
+<td align="left"><b>request_time_stamp</b> </td><td align="left">in ISO 8601 format with timezone, e.g. 2016-07-27T14:33:49+02:00 </td></tr>
+<tr>
+<td align="left"><b>merchant_account_id</b></td><td align="left">e.g. 9873ac65-6f28-4b75-ae55-9d549cf570e3 </td></tr>
+<tr>
+<td align="left"><b>request_id</b> </td><td align="left">e.g. 0c06f2b9-f47e-41d1-9eec-9c9352f0247f </td></tr>
+<tr>
+<td align="left">transaction_type </td><td align="left">e.g. debit </td></tr>
+<tr>
+<td align="left">requested_amount </td><td align="left">should follow ISO 4217, e.g. 1.01 </td></tr>
+<tr>
+<td align="left">requested_amount_currency </td><td align="left">should follow ISO 4217, e.g. EUR </td></tr>
+</table>
+<p>Example of payload before base64 encoding: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;HS256</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;request_time_stamp=2017-03-23T09:14:51Z</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;merchant_account_id=33f6d473-3036-4ca5-acb5-8c64dac862d1</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;request_id=A7B51ED4-9EB0-48D1-82AA-2145A7792C6B</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;transaction_type=authorization</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;requested_amount=1.01</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;requested_amount_currency=EUR</div></div><!-- fragment --><p>Algorithm name and fields in bold are mandatory to calculate and validate signature, so they need to be always included in the signature payload. Presence of all other fields can vary based on different endpoint needs. Algorithm name has to be at the first position of payload, but all other fields can be specified in any order.</p>
+<p>Example of signature base64 encoded payload and value generated with secret key <b>9e0130f6-2e1e-4185-b0d5-dc69079c75cc</b>: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;SFMyNTYKcmVxdWVzdF90aW1lX3N0YW1wPTIwMTctMDMtMjNUMDk6MTQ6NTFaCm1lcmNoYW50X2FjY291bnRfaWQ9MzNmNmQ0NzMtMzAzNi00Y2E1LWFjYjUtOGM2NGRhYzg2MmQxCnJlcXVlc3RfaWQ9QTdCNTFFRDQtOUVCMC00OEQxLTgyQUEtMjE0NUE3NzkyQzZCCnRyYW5zYWN0aW9uX3R5cGU9YXV0aG9yaXphdGlvbgpyZXF1ZXN0ZWRfYW1vdW50PTEuMDEKcmVxdWVzdGVkX2Ftb3VudF9jdXJyZW5jeT1FVVI=.HZKtk+UfuA9IV6082jR+OLuZUZnlpSKW6lNFgZX2BEk=</div></div><!-- fragment --><h1><a class="anchor" id="sec_signature_v2_validation"></a>
+Signature v2 Validation</h1>
+<p>Signature value is calculated from payload using the merchant secret key and specified algorithm and then it is compared to provided value. Signature is also checked for expiration using timestamp included in payload. For expiration period is used the same value as for payment page (default 30 minutes). </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

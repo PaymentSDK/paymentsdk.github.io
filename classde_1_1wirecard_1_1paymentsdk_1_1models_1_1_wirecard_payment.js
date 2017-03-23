@@ -1,6 +1,7 @@
 var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment =
 [
     [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a61c40751cae0cf860e76507614375d4a", null ],
+    [ "WirecardPayment", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a205d8f9700669d4f885535111a1254b9", null ],
     [ "getAccountHolder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a2f63feac8f92d4e5dc97bfb621e91c55", null ],
     [ "getAmount", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#acc79aa039ed2048de408aeb4e2cddde1", null ],
     [ "getCurrency", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a6304998715518470411455aa77e08ca1", null ],
@@ -15,6 +16,7 @@ var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment =
     [ "getRequestSignature", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a653dcd73b2afc178628ba14f48b97665", null ],
     [ "getRequestTimeStamp", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ae510fd28b99c64de1fcf49b570772442", null ],
     [ "getShippingAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#af02526bec25c50794239a7fb921ad0f9", null ],
+    [ "getSignature", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a5b65b422bda1fe647ae6df204e0b7c8d", null ],
     [ "getTransactionType", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a34f8b9a359851e7a656f4b51e21a8c15", null ],
     [ "setAccountHolder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#adbd22bb80722247ab0df5e875e3584f4", null ],
     [ "setAmount", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ae02343567f6cbcb71e0f88d4b9dde539", null ],
@@ -30,6 +32,7 @@ var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment =
     [ "setRequestSignature", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#af0e24b5f66c5f1ba400250d4bf8e660c", null ],
     [ "setRequestTimeStamp", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#aa1a43aabbf4134b0a23a7e9d37df2884", null ],
     [ "setShippingAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad2ae3bff134c055a6e21ffe8763e76df", null ],
+    [ "setSignature", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#ad9b0fafcbd3e14faf3aea68b34220fed", null ],
     [ "setTransactionType", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a6fcf10527a9a433ecabc548c71b1d21f", null ],
     [ "accountHolder", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#abd50119e632c52b5373b8baaa293a214", null ],
     [ "amount", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#abaf5f210620d706554908e74dc1b2183", null ],
@@ -45,5 +48,6 @@ var classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment =
     [ "requestSignature", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a40186224dae3efa8289ef67b3c70bbeb", null ],
     [ "requestTimeStamp", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a587d6320d7e8d6a14752ef529f014777", null ],
     [ "shippingAddress", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#aad5234655bd06f89d44930d3df665be4", null ],
+    [ "signature", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a470f09c3bf43ff00f270b478cc3d3478", null ],
     [ "transactionType", "classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_wirecard_payment.html#a726ce0ca5935b65f4c31e231fc1736ec", null ]
 ];

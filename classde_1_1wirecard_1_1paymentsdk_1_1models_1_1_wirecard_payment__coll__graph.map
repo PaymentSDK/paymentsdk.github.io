@@ -1,6 +1,6 @@
 <map id="de.wirecard.paymentsdk.models.WirecardPayment" name="de.wirecard.paymentsdk.models.WirecardPayment">
-<area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,80,1089,118"/>
+<area shape="rect" id="node4" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_customer_data.html" title="Customer data to describe account holder or shipping. " alt="" coords="872,81,1089,119"/>
 <area shape="rect" id="node5" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_address.html" title="Address data. " alt="" coords="369,82,585,121"/>
-<area shape="rect" id="node8" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="609,194,832,233"/>
-<area shape="rect" id="node9" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html" title="Order data. " alt="" coords="369,260,585,298"/>
+<area shape="rect" id="node8" href="$enumde_1_1wirecard_1_1paymentsdk_1_1_wirecard_transaction_type.html" title="List of transaction types. " alt="" coords="609,195,832,234"/>
+<area shape="rect" id="node9" href="$classde_1_1wirecard_1_1paymentsdk_1_1models_1_1_order.html" title="Order data. " alt="" coords="369,261,585,299"/>
 </map>
